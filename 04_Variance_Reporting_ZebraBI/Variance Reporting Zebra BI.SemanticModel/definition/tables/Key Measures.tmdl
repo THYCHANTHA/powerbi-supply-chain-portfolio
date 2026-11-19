@@ -1,0 +1,156 @@
+/// All report measures. AC = actual, PY = previous year, PL = plan.
+table 'Key Measures'
+	lineageTag: 12981647-fbac-5a74-98f2-3c7c45500ecd
+
+	/// AC: sales after discount.
+	measure 'Net Sales' = SUM('Order Lines'[Net Sales])
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 7e49524d-34ac-5a3c-89bf-2cb66e3b1120
+
+	/// PY: same dates one year earlier. The date table ends Sep 2017, so 2017 compares Jan-Sep with Jan-Sep.
+	measure 'Net Sales PY' = CALCULATE([Net Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 4069b6a6-28a5-5fbb-bbee-d26e51edcdf9
+
+	/// PL: illustrative plan (see Plan table).
+	measure 'Net Sales PL' = SUM('Plan'[Net Sales Plan])
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: d1f97bf6-8495-5f09-a460-48678a019770
+
+	measure 'Net Sales vs PY' = ```
+			VAR PY = [Net Sales PY]
+			RETURN IF(NOT ISBLANK(PY), [Net Sales] - PY)
+			```
+		formatString: +\$#,0;-\$#,0;\$0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 84008fbe-5a7b-5926-be06-d293f14c00d1
+
+	measure 'Net Sales vs PY %' = ```
+			VAR PY = [Net Sales PY]
+			RETURN IF(NOT ISBLANK(PY), DIVIDE([Net Sales] - PY, PY))
+			```
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 32e25751-3c78-52a4-aeb2-ebe2efac6d0c
+
+	measure 'Net Sales vs PL' = ```
+			VAR PL = [Net Sales PL]
+			RETURN IF(NOT ISBLANK(PL), [Net Sales] - PL)
+			```
+		formatString: +\$#,0;-\$#,0;\$0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 8680e670-35d2-537b-9c22-3e322b434077
+
+	measure 'Net Sales vs PL %' = ```
+			VAR PL = [Net Sales PL]
+			RETURN IF(NOT ISBLANK(PL), DIVIDE([Net Sales] - PL, PL))
+			```
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: f14d5f89-dd40-5cbc-9686-eff3021bffc4
+
+	measure Profit = SUM('Order Lines'[Profit])
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: f9f86ceb-1a2f-5528-b89a-eb3eaa878f6d
+
+	measure 'Profit PY' = CALCULATE([Profit], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 8c1f5760-d4d9-53b5-8888-029256e2723d
+
+	measure 'Profit PL' = SUM('Plan'[Profit Plan])
+		formatString: \$#,0
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: 9408ec94-1487-5f9a-bd36-a3e86c6c055d
+
+	measure 'Profit vs PL %' = ```
+			VAR PL = [Profit PL]
+			RETURN IF(NOT ISBLANK(PL), DIVIDE([Profit] - PL, ABS(PL)))
+			```
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Sales vs PY and Plan
+		lineageTag: be4d7e26-d9db-50a7-b7a9-b3d15680a277
+
+	measure Orders = DISTINCTCOUNT('Order Lines'[Order Id])
+		formatString: #,0
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 9e5a5f69-91cc-506e-ae4c-b8dcc58a3415
+
+	/// Orders that were not cancelled.
+	measure 'Shipped Orders' = CALCULATE([Orders], 'Order Lines'[Is Cancelled] = 0)
+		formatString: #,0
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 6d3c85fb-7abe-5d3d-a3b2-6f0b7464fe4d
+
+	measure 'Late Orders' = CALCULATE([Orders], 'Order Lines'[Is Late] = 1)
+		formatString: #,0
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 6f103171-25d5-58a5-85dc-a51b8f3d1c05
+
+	/// Share of shipped orders with actual shipping days > scheduled days. Lower is better.
+	measure 'Late Delivery %' = DIVIDE([Late Orders], [Shipped Orders])
+		formatString: 0.0%
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 33dce5a0-9e84-567d-84c3-bb38757543ce
+
+	measure 'Late Delivery % PY' = CALCULATE([Late Delivery %], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: 0.0%
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 2fd5c997-f526-5e69-9627-781ca2fcd2d3
+
+	measure 'On-Time Orders' = CALCULATE([Orders], 'Order Lines'[Is Late] = 0, 'Order Lines'[Is Cancelled] = 0)
+		formatString: #,0
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: c3d88b59-007b-519e-9a9a-ba88b617c83f
+
+	/// Share of shipped orders that shipped within the promised days. Higher is better.
+	measure 'On-Time Delivery %' = DIVIDE([On-Time Orders] + 0, [Shipped Orders])
+		formatString: 0.0%
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: d2dce2cb-62c4-5d2c-a686-6bedbd508494
+
+	measure 'On-Time Delivery % PY' = CALCULATE([On-Time Delivery %], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: 0.0%
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 6fb1083e-fa93-56a6-b567-a717dccdad5d
+
+	/// AC for delivery: average days from order to shipping.
+	measure 'Avg Actual Ship Days' = CALCULATE(AVERAGE('Order Lines'[Actual Ship Days]), 'Order Lines'[Is Cancelled] = 0)
+		formatString: 0.00
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 7664f9f2-e8f3-57c9-87c4-459bba647376
+
+	/// PL for delivery: the shipping days promised to the customer (real data, not a built plan).
+	measure 'Avg Promised Ship Days' = CALCULATE(AVERAGE('Order Lines'[Scheduled Ship Days]), 'Order Lines'[Is Cancelled] = 0)
+		formatString: 0.00
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: 0404b2d1-98bf-54c4-99cf-95338046c6d0
+
+	/// Days late (+) or early (-) against the promise. Lower is better.
+	measure 'Ship Days vs Promise' = [Avg Actual Ship Days] - [Avg Promised Ship Days]
+		formatString: +0.00;-0.00;0.00
+		displayFolder: 2. Delivery vs Promise
+		lineageTag: a64ffdd7-4429-55da-a636-31c06441cd99
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 3da96426-0961-59b1-a584-176037ff7f98
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition 'Key Measures' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

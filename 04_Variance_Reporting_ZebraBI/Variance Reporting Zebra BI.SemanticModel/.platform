@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Variance Reporting Zebra BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "888b9845-e1c0-504d-8e9c-f0048e159ea7"
+  }
+}

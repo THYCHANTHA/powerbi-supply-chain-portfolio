@@ -1,0 +1,20 @@
+relationship a0af0236-4530-5141-aa6a-93cf46a3b4bd
+	fromColumn: 'Order Lines'.'Order Date'
+	toColumn: Date.Date
+
+relationship 0109849a-5f9a-53db-a57c-3e2d975a4584
+	fromColumn: 'Order Lines'.'Product Id'
+	toColumn: Product.'Product Id'
+
+relationship f4bd08b5-619b-5161-b321-5cba92567910
+	fromColumn: 'Order Lines'.'Shipping Mode'
+	toColumn: 'Shipping Mode'.'Shipping Mode'
+
+relationship a8ada2fa-cc85-5e98-9007-de95d54effbe
+	fromColumn: Plan.'Plan Date'
+	toColumn: Date.Date
+
+relationship 862de026-9a87-53c9-94f7-ee40917dd2de
+	fromColumn: Plan.'Product Id'
+	toColumn: Product.'Product Id'
+

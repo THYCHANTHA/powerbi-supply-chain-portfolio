@@ -1,0 +1,63 @@
+/// Illustrative 2017 plan (Jan-Sep): 2016 actual for the same month and product x (1 + department growth target). Built by scripts/prepare_data.py. Not a real company budget.
+table Plan
+	lineageTag: 14ac10d6-b33d-518b-95ab-7c683b5cba79
+
+	column 'Plan Date'
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		lineageTag: dc6dc4bd-1616-5b41-8a5a-079fc0317aa5
+		summarizeBy: none
+		sourceColumn: Plan Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Product Id'
+		dataType: int64
+		isHidden
+		lineageTag: 4b2d6039-7143-50a3-a971-2bd9cedf9a39
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Growth Target'
+		dataType: double
+		formatString: 0%
+		lineageTag: 421eda1f-ea37-5b1b-98f0-896eb2e73ce7
+		summarizeBy: none
+		sourceColumn: Growth Target
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Sales Plan'
+		dataType: double
+		isHidden
+		lineageTag: 206a5ac9-bd44-528e-aa37-5b6a9ec28c7e
+		summarizeBy: none
+		sourceColumn: Net Sales Plan
+
+		annotation SummarizationSetBy = User
+
+	column 'Profit Plan'
+		dataType: double
+		isHidden
+		lineageTag: fb8a6607-10bf-5028-925c-16279f7fbd8e
+		summarizeBy: none
+		sourceColumn: Profit Plan
+
+		annotation SummarizationSetBy = User
+
+	partition Plan = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_plan.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Plan Date", type date}, {"Product Id", Int64.Type}, {"Growth Target", type number}, {"Net Sales Plan", type number}, {"Profit Plan", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

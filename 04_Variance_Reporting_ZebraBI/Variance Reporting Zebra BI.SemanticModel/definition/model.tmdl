@@ -1,0 +1,19 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DataFolder", "Order Lines", "Plan", "Key Measures", "Product", "Shipping Mode", "Date"]
+
+ref table 'Order Lines'
+ref table Plan
+ref table 'Key Measures'
+ref table Product
+ref table 'Shipping Mode'
+ref table Date
+

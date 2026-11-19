@@ -1,0 +1,40 @@
+table 'Shipping Mode'
+	lineageTag: f94aea64-10fd-5c4f-9441-1f726cb4dd95
+
+	column 'Shipping Mode'
+		dataType: string
+		lineageTag: 95d3915c-7726-5a10-933f-42e84328fbf8
+		summarizeBy: none
+		sourceColumn: Shipping Mode
+		sortByColumn: 'Mode Sort'
+
+		annotation SummarizationSetBy = User
+
+	column 'Mode Sort'
+		dataType: int64
+		isHidden
+		lineageTag: 9b7244b1-17cc-5e7f-b1a2-f2217bee9d80
+		summarizeBy: none
+		sourceColumn: Mode Sort
+
+		annotation SummarizationSetBy = User
+
+	column 'Planned Ship Days'
+		dataType: int64
+		lineageTag: d3f6bdaf-a890-544e-9e16-0bd222bd575c
+		summarizeBy: none
+		sourceColumn: Planned Ship Days
+
+		annotation SummarizationSetBy = User
+
+	partition 'Shipping Mode' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_shipping_mode.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Shipping Mode", type text}, {"Mode Sort", Int64.Type}, {"Planned Ship Days", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

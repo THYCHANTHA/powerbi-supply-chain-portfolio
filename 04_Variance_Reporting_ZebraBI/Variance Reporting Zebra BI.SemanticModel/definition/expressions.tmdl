@@ -1,0 +1,6 @@
+/// Folder that holds the cleaned CSV files. Change it if you move the project.
+expression DataFolder = "D:\Data Anlysis Remote Work\Portfolio\04_Variance_Reporting_ZebraBI\data\clean\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 52d67e4b-f03d-5be1-9262-eff200f476cb
+
+	annotation PBI_ResultType = Text
+

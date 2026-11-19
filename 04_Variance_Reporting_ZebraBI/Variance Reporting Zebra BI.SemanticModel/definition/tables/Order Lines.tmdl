@@ -1,0 +1,107 @@
+/// One row per order line (DataCo, Jan 2015 - Sep 2017).
+table 'Order Lines'
+	lineageTag: 15713181-0570-55f7-ba96-a2e310fec099
+
+	column 'Order Id'
+		dataType: int64
+		formatString: 0
+		lineageTag: bbbfed6e-bb13-5c4e-8c7f-bbcf91a1d3a2
+		summarizeBy: none
+		sourceColumn: Order Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Order Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: f58da11f-efe3-5c02-a9e9-7419271414ee
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Product Id'
+		dataType: int64
+		isHidden
+		lineageTag: fbda3f4a-b108-55a6-bcce-9a3ef4a28864
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Shipping Mode'
+		dataType: string
+		isHidden
+		lineageTag: cad2df88-ab41-5b44-aa41-2df53c41e88f
+		summarizeBy: none
+		sourceColumn: Shipping Mode
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Late'
+		dataType: int64
+		isHidden
+		lineageTag: 54a194ac-ee2f-50ee-8ee3-cb258901ab2b
+		summarizeBy: none
+		sourceColumn: Is Late
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Cancelled'
+		dataType: int64
+		isHidden
+		lineageTag: 91eb3360-9f7a-5dc3-9535-4da019c1420c
+		summarizeBy: none
+		sourceColumn: Is Cancelled
+
+		annotation SummarizationSetBy = User
+
+	column 'Actual Ship Days'
+		dataType: int64
+		isHidden
+		lineageTag: 906a5e96-2f75-5cf2-9f27-f9e0e974e5ad
+		summarizeBy: none
+		sourceColumn: Actual Ship Days
+
+		annotation SummarizationSetBy = User
+
+	column 'Scheduled Ship Days'
+		dataType: int64
+		isHidden
+		lineageTag: ecad9001-9a2b-5e83-a379-3906616352a4
+		summarizeBy: none
+		sourceColumn: Scheduled Ship Days
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Sales'
+		dataType: double
+		isHidden
+		lineageTag: 526ed029-1fee-5ce1-a0d3-633296658dcf
+		summarizeBy: none
+		sourceColumn: Net Sales
+
+		annotation SummarizationSetBy = User
+
+	column Profit
+		dataType: double
+		isHidden
+		lineageTag: 67587a99-738d-5d4e-abc5-f0fc3c415aff
+		summarizeBy: none
+		sourceColumn: Profit
+
+		annotation SummarizationSetBy = User
+
+	partition 'Order Lines' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_order_lines.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Order Id", Int64.Type}, {"Order Date", type date}, {"Product Id", Int64.Type}, {"Shipping Mode", type text}, {"Is Late", Int64.Type}, {"Is Cancelled", Int64.Type}, {"Actual Ship Days", Int64.Type}, {"Scheduled Ship Days", Int64.Type}, {"Net Sales", type number}, {"Profit", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

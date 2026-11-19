@@ -375,7 +375,9 @@ def _visual_json(v: Visual, page: str, idx: int) -> dict:
 
 
 def write_report(rep_dir: Path, project: str, display_name: str, sm_folder_name: str,
-                 pages: list[Page], theme_path: Path = TOOLS_DIR / "PortfolioTheme.json") -> None:
+                 pages: list[Page], theme_path: Path = TOOLS_DIR / "PortfolioTheme.json",
+                 public_custom_visuals: list[str] | None = None) -> None:
+    """public_custom_visuals: AppSource visual GUIDs used in the report (Desktop downloads them on open)."""
     if rep_dir.exists():
         shutil.rmtree(rep_dir)
     d = rep_dir / "definition"
@@ -404,6 +406,7 @@ def write_report(rep_dir: Path, project: str, display_name: str, sm_folder_name:
         "objects": {"outspacePane": [{"properties": props(expanded=False)}]},
         "resourcePackages": [{"name": "RegisteredResources", "type": "RegisteredResources",
                               "items": [{"name": theme_name, "path": theme_name, "type": "CustomTheme"}]}],
+        **({"publicCustomVisuals": public_custom_visuals} if public_custom_visuals else {}),
         "settings": {"useStylableVisualContainerHeader": True, "allowChangeFilterTypes": True,
                      "useEnhancedTooltips": True, "defaultDrillFilterOtherVisuals": True},
     }, indent=2), encoding="utf-8")

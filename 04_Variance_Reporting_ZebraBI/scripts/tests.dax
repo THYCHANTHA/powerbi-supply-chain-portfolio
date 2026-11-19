@@ -1,0 +1,19 @@
+// 2017 totals (pandas: AC 8,628,694  PY 8,240,804  PL 8,621,538  vs PY +4.7%  vs PL +0.1%; late AC 56.9% PY 57.6%)
+EVALUATE CALCULATETABLE(ROW(
+ "AC", [Net Sales], "PY", [Net Sales PY], "PL", [Net Sales PL], "vs PY %", [Net Sales vs PY %], "vs PL %", [Net Sales vs PL %],
+ "Profit", [Profit], "Profit PY", [Profit PY], "Profit PL", [Profit PL],
+ "Late %", [Late Delivery %], "Late % PY", [Late Delivery % PY]), 'Date'[Year] = 2017)
+---
+// By department (pandas vs PL: Apparel -5.1, Fan Shop -2.5, Fitness +69.9, Footwear +3.6, Golf -3.6, Outdoors +90.9)
+EVALUATE CALCULATETABLE(SUMMARIZECOLUMNS('Product'[Department],
+ "AC", [Net Sales], "PY", [Net Sales PY], "PL", [Net Sales PL], "vs PY %", [Net Sales vs PY %], "vs PL %", [Net Sales vs PL %]), 'Date'[Year] = 2017)
+---
+// By shipping mode (pandas: First 2.00/1, Same Day 0.53/0, Second 3.98/2, Standard 3.98/4; late AC 100/52.3/79.5/39.3, PY 100/45.4/80.1/40.5)
+EVALUATE CALCULATETABLE(SUMMARIZECOLUMNS('Shipping Mode'[Shipping Mode],
+ "Actual", [Avg Actual Ship Days], "Promised", [Avg Promised Ship Days], "vs Promise", [Ship Days vs Promise],
+ "Late %", [Late Delivery %], "Late % PY", [Late Delivery % PY],
+ "On-Time %", [On-Time Delivery %], "On-Time % PY", [On-Time Delivery % PY]), 'Date'[Year] = 2017)
+---
+// By month 2017
+EVALUATE CALCULATETABLE(SUMMARIZECOLUMNS('Date'[Month Number], 'Date'[Month],
+ "AC", [Net Sales], "PY", [Net Sales PY], "PL", [Net Sales PL]), 'Date'[Year] = 2017)
