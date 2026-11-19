@@ -1,0 +1,95 @@
+table Week
+	lineageTag: 121aca94-a7c5-515f-b22d-1c2402796b49
+
+	column 'Week Start'
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		lineageTag: 55c54842-88ad-5f58-80f3-b70ad8bd0a81
+		summarizeBy: none
+		sourceColumn: Week Start
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 345b3af3-429d-592d-bad0-43edad04b11f
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column 'ISO Week'
+		dataType: int64
+		lineageTag: cb01a0d2-51e0-566e-8e55-0f855b136e1f
+		summarizeBy: none
+		sourceColumn: ISO Week
+
+		annotation SummarizationSetBy = User
+
+	column 'Month Number'
+		dataType: int64
+		isHidden
+		lineageTag: be68dc28-2512-52bc-9e80-b7eb8d1847fb
+		summarizeBy: none
+		sourceColumn: Month Number
+
+		annotation SummarizationSetBy = User
+
+	column Month
+		dataType: string
+		lineageTag: 9f52f469-ac39-5fa9-9ce3-d2292252e713
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: a0dc1a93-0b68-555e-b70f-e04ff5da7e0d
+		summarizeBy: none
+		sourceColumn: Year Month
+		sortByColumn: 'Year Month Key'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Month Key'
+		dataType: int64
+		isHidden
+		lineageTag: f618380f-6c8d-5925-b0c4-e6021b75dce2
+		summarizeBy: none
+		sourceColumn: Year Month Key
+
+		annotation SummarizationSetBy = User
+
+	column Period
+		dataType: string
+		lineageTag: 43dc96a2-375b-578a-88f1-c211ad0ff086
+		summarizeBy: none
+		sourceColumn: Period
+
+		annotation SummarizationSetBy = User
+
+	column 'In Forecast View'
+		dataType: string
+		lineageTag: 93d2b116-3130-50bb-a619-92b88d673f07
+		summarizeBy: none
+		sourceColumn: In Forecast View
+
+		annotation SummarizationSetBy = User
+
+	partition Week = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_week.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Week Start", type date}, {"Year", Int64.Type}, {"ISO Week", Int64.Type}, {"Month Number", Int64.Type}, {"Month", type text}, {"Year Month", type text}, {"Year Month Key", Int64.Type}, {"Period", type text}, {"In Forecast View", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

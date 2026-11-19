@@ -1,0 +1,128 @@
+/// All report measures live here.
+table 'Key Measures'
+	lineageTag: 9818e34f-1cff-528c-b963-691ee8988fba
+
+	/// Value of goods purchased (commodity cost).
+	measure 'Total Spend' = SUM('Shipment Lines'[Line Value])
+		formatString: \$#,0
+		displayFolder: 1. Spend
+		lineageTag: 8d0a96dd-f25f-591f-b49e-914fc99df5ae
+
+	measure 'Purchase Orders' = DISTINCTCOUNT('Shipment Lines'[PO Number])
+		formatString: #,0
+		displayFolder: 1. Spend
+		lineageTag: 2f81ef5d-aaa0-5441-8dd1-a78229788f1d
+
+	measure 'Shipment Lines' = COUNTROWS('Shipment Lines')
+		formatString: #,0
+		displayFolder: 1. Spend
+		lineageTag: 4a774034-4f96-5c5a-84ef-5e38352b7f0f
+
+	/// Direct suppliers only (excludes Regional Distribution Centre).
+	measure 'Active Suppliers' = CALCULATE(DISTINCTCOUNT('Shipment Lines'[Vendor]), Vendor[Supplier Type] = "Direct supplier")
+		formatString: #,0
+		displayFolder: 1. Spend
+		lineageTag: 2d0ce19c-750d-512d-bc05-86e5af1b3c1d
+
+	measure 'Spend Share %' = DIVIDE([Total Spend], CALCULATE([Total Spend], ALLSELECTED(Vendor)))
+		formatString: 0.0%
+		displayFolder: 1. Spend
+		lineageTag: 6610d246-bfd1-5f7b-a430-ca04ec676c9b
+
+	/// Share of direct-supplier spend that goes to the five largest suppliers (concentration risk).
+	measure 'Top 5 Supplier Share %' =
+			VAR t = ADDCOLUMNS(CALCULATETABLE(VALUES(Vendor[Supplier]), Vendor[Supplier Type] = "Direct supplier"), "@s", [Total Spend])
+			RETURN DIVIDE(SUMX(TOPN(5, t, [@s]), [@s]), SUMX(t, [@s]))
+		formatString: 0.0%
+		displayFolder: 1. Spend
+		lineageTag: da32811b-5819-5804-bc0c-168a3a62ba47
+
+	/// Running share of spend by supplier, largest first (Pareto).
+	measure 'Cumulative Spend %' =
+			VAR cur = [Total Spend]
+			VAR t = ADDCOLUMNS(ALLSELECTED(Vendor[Supplier]), "@s", [Total Spend])
+			RETURN IF(NOT ISBLANK(cur), DIVIDE(SUMX(FILTER(t, [@s] >= cur), [@s]), SUMX(t, [@s])))
+		formatString: 0%
+		displayFolder: 1. Spend
+		lineageTag: 78d4d17f-a630-56d7-9c22-b8f519c772d1
+
+	/// Share of lines delivered on or before the scheduled date.
+	measure 'On-Time Delivery %' = DIVIDE(CALCULATE(COUNTROWS('Shipment Lines'), 'Shipment Lines'[Is Late] = 0), COUNTROWS('Shipment Lines'))
+		formatString: 0.0%
+		displayFolder: 2. Delivery
+		lineageTag: 2fed0b63-d5ba-5368-b251-4991dbb32ace
+
+	measure 'Late Shipments' = CALCULATE(COUNTROWS('Shipment Lines'), 'Shipment Lines'[Is Late] = 1)
+		formatString: #,0
+		displayFolder: 2. Delivery
+		lineageTag: e80bec5e-d9d4-503e-9775-d54add0469f1
+
+	/// Average days late, for late lines only.
+	measure 'Avg Days Late' = CALCULATE(AVERAGE('Shipment Lines'[Days Late]), 'Shipment Lines'[Is Late] = 1)
+		formatString: 0.0
+		displayFolder: 2. Delivery
+		lineageTag: 99d9c45d-101d-5187-85f6-d4c13c45c041
+
+	/// Days from purchase order to delivery (only lines where the PO date was recorded).
+	measure 'Avg PO to Delivery Days' = AVERAGE('Shipment Lines'[PO to Delivery Days])
+		formatString: 0
+		displayFolder: 2. Delivery
+		lineageTag: 43b859dd-0d9b-5f84-b738-dac65f1b2117
+
+	measure 'Freight Cost' = SUM('Shipment Lines'[Freight USD])
+		formatString: \$#,0
+		displayFolder: 3. Freight
+		lineageTag: 4c0e449c-5cf3-5fea-b13a-aa179de862b6
+
+	/// Freight as a share of goods value, on lines where freight was charged separately.
+	measure 'Freight % of Value' = DIVIDE(SUM('Shipment Lines'[Freight USD]), SUM('Shipment Lines'[Value With Freight]))
+		formatString: 0.0%
+		displayFolder: 3. Freight
+		lineageTag: dd8e9245-684c-5373-a6d4-16df2425e7c5
+
+	measure 'Freight per Kg' = DIVIDE(SUM('Shipment Lines'[Freight For Rate]), SUM('Shipment Lines'[Weight For Rate]))
+		formatString: \$#,0.00
+		displayFolder: 3. Freight
+		lineageTag: 0af8e33d-559a-529f-9a99-3dced1eb53be
+
+	measure 'Insurance Cost' = SUM('Shipment Lines'[Insurance USD])
+		formatString: \$#,0
+		displayFolder: 3. Freight
+		lineageTag: 91983234-06a2-5022-b9b3-e840b1fb2b87
+
+	measure 'Air Share %' = DIVIDE(CALCULATE(COUNTROWS('Shipment Lines'), 'Shipment Lines'[Shipment Mode] IN {"Air", "Air Charter"}), COUNTROWS('Shipment Lines'))
+		formatString: 0.0%
+		displayFolder: 3. Freight
+		lineageTag: 6d6f1186-8688-5779-83b8-9991039080d0
+
+	/// Amount paid above the same-year average price for the same item.
+	measure 'Paid Above Benchmark' = SUMX(FILTER('Shipment Lines', 'Shipment Lines'[Price Variance] > 0), 'Shipment Lines'[Price Variance])
+		formatString: \$#,0
+		displayFolder: 4. Price
+		lineageTag: eb7a98a2-bb5a-5f97-a129-d5f9d297c4dc
+
+	/// Positive = paid more than the same-year average price for the same items.
+	measure 'Price vs Benchmark %' = DIVIDE(SUM('Shipment Lines'[Line Value]), SUM('Shipment Lines'[Benchmark Value])) - 1
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 4. Price
+		lineageTag: bf5b1b5f-e3a9-5e4d-b0f5-a9768af29790
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: ee28cae5-2061-5ac4-a596-167d2a77b8d2
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition 'Key Measures' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+

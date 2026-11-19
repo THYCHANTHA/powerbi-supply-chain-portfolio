@@ -1,0 +1,63 @@
+/// Forecasts per model: Test = last 13 weeks, Future = next 8.
+table Forecast
+	lineageTag: e68a3803-7e04-5b28-a893-43c433c84725
+
+	column 'Week Start'
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		lineageTag: 37909263-c1c3-540e-8008-b17995ae5225
+		summarizeBy: none
+		sourceColumn: Week Start
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column StockCode
+		dataType: string
+		isHidden
+		lineageTag: 5426f8ec-c435-55af-91de-ed278b6d6f31
+		summarizeBy: none
+		sourceColumn: StockCode
+
+		annotation SummarizationSetBy = User
+
+	column Model
+		dataType: string
+		isHidden
+		lineageTag: 8c8e1870-f2a8-5013-acdf-5899c3ca164a
+		summarizeBy: none
+		sourceColumn: Model
+
+		annotation SummarizationSetBy = User
+
+	column 'Forecast Units'
+		dataType: double
+		isHidden
+		lineageTag: 5b83b658-78f7-5c95-9e37-0460808cd9cc
+		summarizeBy: none
+		sourceColumn: Forecast Units
+
+		annotation SummarizationSetBy = User
+
+	column Set
+		dataType: string
+		lineageTag: 1904f396-4fd0-5db2-a2dc-90e8db6185c6
+		summarizeBy: none
+		sourceColumn: Set
+
+		annotation SummarizationSetBy = User
+
+	partition Forecast = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_forecast.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Week Start", type date}, {"StockCode", type text}, {"Model", type text}, {"Forecast Units", type number}, {"Set", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

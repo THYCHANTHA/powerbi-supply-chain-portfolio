@@ -1,0 +1,3151 @@
+Week Start,StockCode,Model,Forecast Units,Set
+2011-09-05,85123A,Naive (last week),396.0,Test
+2011-09-12,85123A,Naive (last week),396.0,Test
+2011-09-19,85123A,Naive (last week),396.0,Test
+2011-09-26,85123A,Naive (last week),396.0,Test
+2011-10-03,85123A,Naive (last week),396.0,Test
+2011-10-10,85123A,Naive (last week),396.0,Test
+2011-10-17,85123A,Naive (last week),396.0,Test
+2011-10-24,85123A,Naive (last week),396.0,Test
+2011-10-31,85123A,Naive (last week),396.0,Test
+2011-11-07,85123A,Naive (last week),396.0,Test
+2011-11-14,85123A,Naive (last week),396.0,Test
+2011-11-21,85123A,Naive (last week),396.0,Test
+2011-11-28,85123A,Naive (last week),396.0,Test
+2011-09-05,47566,Naive (last week),207.0,Test
+2011-09-12,47566,Naive (last week),207.0,Test
+2011-09-19,47566,Naive (last week),207.0,Test
+2011-09-26,47566,Naive (last week),207.0,Test
+2011-10-03,47566,Naive (last week),207.0,Test
+2011-10-10,47566,Naive (last week),207.0,Test
+2011-10-17,47566,Naive (last week),207.0,Test
+2011-10-24,47566,Naive (last week),207.0,Test
+2011-10-31,47566,Naive (last week),207.0,Test
+2011-11-07,47566,Naive (last week),207.0,Test
+2011-11-14,47566,Naive (last week),207.0,Test
+2011-11-21,47566,Naive (last week),207.0,Test
+2011-11-28,47566,Naive (last week),207.0,Test
+2011-09-05,85099B,Naive (last week),717.0,Test
+2011-09-12,85099B,Naive (last week),717.0,Test
+2011-09-19,85099B,Naive (last week),717.0,Test
+2011-09-26,85099B,Naive (last week),717.0,Test
+2011-10-03,85099B,Naive (last week),717.0,Test
+2011-10-10,85099B,Naive (last week),717.0,Test
+2011-10-17,85099B,Naive (last week),717.0,Test
+2011-10-24,85099B,Naive (last week),717.0,Test
+2011-10-31,85099B,Naive (last week),717.0,Test
+2011-11-07,85099B,Naive (last week),717.0,Test
+2011-11-14,85099B,Naive (last week),717.0,Test
+2011-11-21,85099B,Naive (last week),717.0,Test
+2011-11-28,85099B,Naive (last week),717.0,Test
+2011-09-05,84879,Naive (last week),216.0,Test
+2011-09-12,84879,Naive (last week),216.0,Test
+2011-09-19,84879,Naive (last week),216.0,Test
+2011-09-26,84879,Naive (last week),216.0,Test
+2011-10-03,84879,Naive (last week),216.0,Test
+2011-10-10,84879,Naive (last week),216.0,Test
+2011-10-17,84879,Naive (last week),216.0,Test
+2011-10-24,84879,Naive (last week),216.0,Test
+2011-10-31,84879,Naive (last week),216.0,Test
+2011-11-07,84879,Naive (last week),216.0,Test
+2011-11-14,84879,Naive (last week),216.0,Test
+2011-11-21,84879,Naive (last week),216.0,Test
+2011-11-28,84879,Naive (last week),216.0,Test
+2011-09-05,79321,Naive (last week),210.0,Test
+2011-09-12,79321,Naive (last week),210.0,Test
+2011-09-19,79321,Naive (last week),210.0,Test
+2011-09-26,79321,Naive (last week),210.0,Test
+2011-10-03,79321,Naive (last week),210.0,Test
+2011-10-10,79321,Naive (last week),210.0,Test
+2011-10-17,79321,Naive (last week),210.0,Test
+2011-10-24,79321,Naive (last week),210.0,Test
+2011-10-31,79321,Naive (last week),210.0,Test
+2011-11-07,79321,Naive (last week),210.0,Test
+2011-11-14,79321,Naive (last week),210.0,Test
+2011-11-21,79321,Naive (last week),210.0,Test
+2011-11-28,79321,Naive (last week),210.0,Test
+2011-09-05,22197,Naive (last week),956.0,Test
+2011-09-12,22197,Naive (last week),956.0,Test
+2011-09-19,22197,Naive (last week),956.0,Test
+2011-09-26,22197,Naive (last week),956.0,Test
+2011-10-03,22197,Naive (last week),956.0,Test
+2011-10-10,22197,Naive (last week),956.0,Test
+2011-10-17,22197,Naive (last week),956.0,Test
+2011-10-24,22197,Naive (last week),956.0,Test
+2011-10-31,22197,Naive (last week),956.0,Test
+2011-11-07,22197,Naive (last week),956.0,Test
+2011-11-14,22197,Naive (last week),956.0,Test
+2011-11-21,22197,Naive (last week),956.0,Test
+2011-11-28,22197,Naive (last week),956.0,Test
+2011-09-05,22386,Naive (last week),248.0,Test
+2011-09-12,22386,Naive (last week),248.0,Test
+2011-09-19,22386,Naive (last week),248.0,Test
+2011-09-26,22386,Naive (last week),248.0,Test
+2011-10-03,22386,Naive (last week),248.0,Test
+2011-10-10,22386,Naive (last week),248.0,Test
+2011-10-17,22386,Naive (last week),248.0,Test
+2011-10-24,22386,Naive (last week),248.0,Test
+2011-10-31,22386,Naive (last week),248.0,Test
+2011-11-07,22386,Naive (last week),248.0,Test
+2011-11-14,22386,Naive (last week),248.0,Test
+2011-11-21,22386,Naive (last week),248.0,Test
+2011-11-28,22386,Naive (last week),248.0,Test
+2011-09-05,20725,Naive (last week),202.0,Test
+2011-09-12,20725,Naive (last week),202.0,Test
+2011-09-19,20725,Naive (last week),202.0,Test
+2011-09-26,20725,Naive (last week),202.0,Test
+2011-10-03,20725,Naive (last week),202.0,Test
+2011-10-10,20725,Naive (last week),202.0,Test
+2011-10-17,20725,Naive (last week),202.0,Test
+2011-10-24,20725,Naive (last week),202.0,Test
+2011-10-31,20725,Naive (last week),202.0,Test
+2011-11-07,20725,Naive (last week),202.0,Test
+2011-11-14,20725,Naive (last week),202.0,Test
+2011-11-21,20725,Naive (last week),202.0,Test
+2011-11-28,20725,Naive (last week),202.0,Test
+2011-09-05,21137,Naive (last week),176.0,Test
+2011-09-12,21137,Naive (last week),176.0,Test
+2011-09-19,21137,Naive (last week),176.0,Test
+2011-09-26,21137,Naive (last week),176.0,Test
+2011-10-03,21137,Naive (last week),176.0,Test
+2011-10-10,21137,Naive (last week),176.0,Test
+2011-10-17,21137,Naive (last week),176.0,Test
+2011-10-24,21137,Naive (last week),176.0,Test
+2011-10-31,21137,Naive (last week),176.0,Test
+2011-11-07,21137,Naive (last week),176.0,Test
+2011-11-14,21137,Naive (last week),176.0,Test
+2011-11-21,21137,Naive (last week),176.0,Test
+2011-11-28,21137,Naive (last week),176.0,Test
+2011-09-05,85099F,Naive (last week),278.0,Test
+2011-09-12,85099F,Naive (last week),278.0,Test
+2011-09-19,85099F,Naive (last week),278.0,Test
+2011-09-26,85099F,Naive (last week),278.0,Test
+2011-10-03,85099F,Naive (last week),278.0,Test
+2011-10-10,85099F,Naive (last week),278.0,Test
+2011-10-17,85099F,Naive (last week),278.0,Test
+2011-10-24,85099F,Naive (last week),278.0,Test
+2011-10-31,85099F,Naive (last week),278.0,Test
+2011-11-07,85099F,Naive (last week),278.0,Test
+2011-11-14,85099F,Naive (last week),278.0,Test
+2011-11-21,85099F,Naive (last week),278.0,Test
+2011-11-28,85099F,Naive (last week),278.0,Test
+2011-09-05,22178,Naive (last week),493.0,Test
+2011-09-12,22178,Naive (last week),493.0,Test
+2011-09-19,22178,Naive (last week),493.0,Test
+2011-09-26,22178,Naive (last week),493.0,Test
+2011-10-03,22178,Naive (last week),493.0,Test
+2011-10-10,22178,Naive (last week),493.0,Test
+2011-10-17,22178,Naive (last week),493.0,Test
+2011-10-24,22178,Naive (last week),493.0,Test
+2011-10-31,22178,Naive (last week),493.0,Test
+2011-11-07,22178,Naive (last week),493.0,Test
+2011-11-14,22178,Naive (last week),493.0,Test
+2011-11-21,22178,Naive (last week),493.0,Test
+2011-11-28,22178,Naive (last week),493.0,Test
+2011-09-05,22112,Naive (last week),60.0,Test
+2011-09-12,22112,Naive (last week),60.0,Test
+2011-09-19,22112,Naive (last week),60.0,Test
+2011-09-26,22112,Naive (last week),60.0,Test
+2011-10-03,22112,Naive (last week),60.0,Test
+2011-10-10,22112,Naive (last week),60.0,Test
+2011-10-17,22112,Naive (last week),60.0,Test
+2011-10-24,22112,Naive (last week),60.0,Test
+2011-10-31,22112,Naive (last week),60.0,Test
+2011-11-07,22112,Naive (last week),60.0,Test
+2011-11-14,22112,Naive (last week),60.0,Test
+2011-11-21,22112,Naive (last week),60.0,Test
+2011-11-28,22112,Naive (last week),60.0,Test
+2011-09-05,21931,Naive (last week),312.0,Test
+2011-09-12,21931,Naive (last week),312.0,Test
+2011-09-19,21931,Naive (last week),312.0,Test
+2011-09-26,21931,Naive (last week),312.0,Test
+2011-10-03,21931,Naive (last week),312.0,Test
+2011-10-10,21931,Naive (last week),312.0,Test
+2011-10-17,21931,Naive (last week),312.0,Test
+2011-10-24,21931,Naive (last week),312.0,Test
+2011-10-31,21931,Naive (last week),312.0,Test
+2011-11-07,21931,Naive (last week),312.0,Test
+2011-11-14,21931,Naive (last week),312.0,Test
+2011-11-21,21931,Naive (last week),312.0,Test
+2011-11-28,21931,Naive (last week),312.0,Test
+2011-09-05,21623,Naive (last week),4.0,Test
+2011-09-12,21623,Naive (last week),4.0,Test
+2011-09-19,21623,Naive (last week),4.0,Test
+2011-09-26,21623,Naive (last week),4.0,Test
+2011-10-03,21623,Naive (last week),4.0,Test
+2011-10-10,21623,Naive (last week),4.0,Test
+2011-10-17,21623,Naive (last week),4.0,Test
+2011-10-24,21623,Naive (last week),4.0,Test
+2011-10-31,21623,Naive (last week),4.0,Test
+2011-11-07,21623,Naive (last week),4.0,Test
+2011-11-14,21623,Naive (last week),4.0,Test
+2011-11-21,21623,Naive (last week),4.0,Test
+2011-11-28,21623,Naive (last week),4.0,Test
+2011-09-05,22355,Naive (last week),261.0,Test
+2011-09-12,22355,Naive (last week),261.0,Test
+2011-09-19,22355,Naive (last week),261.0,Test
+2011-09-26,22355,Naive (last week),261.0,Test
+2011-10-03,22355,Naive (last week),261.0,Test
+2011-10-10,22355,Naive (last week),261.0,Test
+2011-10-17,22355,Naive (last week),261.0,Test
+2011-10-24,22355,Naive (last week),261.0,Test
+2011-10-31,22355,Naive (last week),261.0,Test
+2011-11-07,22355,Naive (last week),261.0,Test
+2011-11-14,22355,Naive (last week),261.0,Test
+2011-11-21,22355,Naive (last week),261.0,Test
+2011-11-28,22355,Naive (last week),261.0,Test
+2011-09-05,22411,Naive (last week),155.0,Test
+2011-09-12,22411,Naive (last week),155.0,Test
+2011-09-19,22411,Naive (last week),155.0,Test
+2011-09-26,22411,Naive (last week),155.0,Test
+2011-10-03,22411,Naive (last week),155.0,Test
+2011-10-10,22411,Naive (last week),155.0,Test
+2011-10-17,22411,Naive (last week),155.0,Test
+2011-10-24,22411,Naive (last week),155.0,Test
+2011-10-31,22411,Naive (last week),155.0,Test
+2011-11-07,22411,Naive (last week),155.0,Test
+2011-11-14,22411,Naive (last week),155.0,Test
+2011-11-21,22411,Naive (last week),155.0,Test
+2011-11-28,22411,Naive (last week),155.0,Test
+2011-09-05,85099C,Naive (last week),264.0,Test
+2011-09-12,85099C,Naive (last week),264.0,Test
+2011-09-19,85099C,Naive (last week),264.0,Test
+2011-09-26,85099C,Naive (last week),264.0,Test
+2011-10-03,85099C,Naive (last week),264.0,Test
+2011-10-10,85099C,Naive (last week),264.0,Test
+2011-10-17,85099C,Naive (last week),264.0,Test
+2011-10-24,85099C,Naive (last week),264.0,Test
+2011-10-31,85099C,Naive (last week),264.0,Test
+2011-11-07,85099C,Naive (last week),264.0,Test
+2011-11-14,85099C,Naive (last week),264.0,Test
+2011-11-21,85099C,Naive (last week),264.0,Test
+2011-11-28,85099C,Naive (last week),264.0,Test
+2011-09-05,20685,Naive (last week),45.0,Test
+2011-09-12,20685,Naive (last week),45.0,Test
+2011-09-19,20685,Naive (last week),45.0,Test
+2011-09-26,20685,Naive (last week),45.0,Test
+2011-10-03,20685,Naive (last week),45.0,Test
+2011-10-10,20685,Naive (last week),45.0,Test
+2011-10-17,20685,Naive (last week),45.0,Test
+2011-10-24,20685,Naive (last week),45.0,Test
+2011-10-31,20685,Naive (last week),45.0,Test
+2011-11-07,20685,Naive (last week),45.0,Test
+2011-11-14,20685,Naive (last week),45.0,Test
+2011-11-21,20685,Naive (last week),45.0,Test
+2011-11-28,20685,Naive (last week),45.0,Test
+2011-09-05,22189,Naive (last week),382.0,Test
+2011-09-12,22189,Naive (last week),382.0,Test
+2011-09-19,22189,Naive (last week),382.0,Test
+2011-09-26,22189,Naive (last week),382.0,Test
+2011-10-03,22189,Naive (last week),382.0,Test
+2011-10-10,22189,Naive (last week),382.0,Test
+2011-10-17,22189,Naive (last week),382.0,Test
+2011-10-24,22189,Naive (last week),382.0,Test
+2011-10-31,22189,Naive (last week),382.0,Test
+2011-11-07,22189,Naive (last week),382.0,Test
+2011-11-14,22189,Naive (last week),382.0,Test
+2011-11-21,22189,Naive (last week),382.0,Test
+2011-11-28,22189,Naive (last week),382.0,Test
+2011-09-05,84946,Naive (last week),184.0,Test
+2011-09-12,84946,Naive (last week),184.0,Test
+2011-09-19,84946,Naive (last week),184.0,Test
+2011-09-26,84946,Naive (last week),184.0,Test
+2011-10-03,84946,Naive (last week),184.0,Test
+2011-10-10,84946,Naive (last week),184.0,Test
+2011-10-17,84946,Naive (last week),184.0,Test
+2011-10-24,84946,Naive (last week),184.0,Test
+2011-10-31,84946,Naive (last week),184.0,Test
+2011-11-07,84946,Naive (last week),184.0,Test
+2011-11-14,84946,Naive (last week),184.0,Test
+2011-11-21,84946,Naive (last week),184.0,Test
+2011-11-28,84946,Naive (last week),184.0,Test
+2011-09-05,48138,Naive (last week),21.0,Test
+2011-09-12,48138,Naive (last week),21.0,Test
+2011-09-19,48138,Naive (last week),21.0,Test
+2011-09-26,48138,Naive (last week),21.0,Test
+2011-10-03,48138,Naive (last week),21.0,Test
+2011-10-10,48138,Naive (last week),21.0,Test
+2011-10-17,48138,Naive (last week),21.0,Test
+2011-10-24,48138,Naive (last week),21.0,Test
+2011-10-31,48138,Naive (last week),21.0,Test
+2011-11-07,48138,Naive (last week),21.0,Test
+2011-11-14,48138,Naive (last week),21.0,Test
+2011-11-21,48138,Naive (last week),21.0,Test
+2011-11-28,48138,Naive (last week),21.0,Test
+2011-09-05,21915,Naive (last week),1621.0,Test
+2011-09-12,21915,Naive (last week),1621.0,Test
+2011-09-19,21915,Naive (last week),1621.0,Test
+2011-09-26,21915,Naive (last week),1621.0,Test
+2011-10-03,21915,Naive (last week),1621.0,Test
+2011-10-10,21915,Naive (last week),1621.0,Test
+2011-10-17,21915,Naive (last week),1621.0,Test
+2011-10-24,21915,Naive (last week),1621.0,Test
+2011-10-31,21915,Naive (last week),1621.0,Test
+2011-11-07,21915,Naive (last week),1621.0,Test
+2011-11-14,21915,Naive (last week),1621.0,Test
+2011-11-21,21915,Naive (last week),1621.0,Test
+2011-11-28,21915,Naive (last week),1621.0,Test
+2011-09-05,21621,Naive (last week),40.0,Test
+2011-09-12,21621,Naive (last week),40.0,Test
+2011-09-19,21621,Naive (last week),40.0,Test
+2011-09-26,21621,Naive (last week),40.0,Test
+2011-10-03,21621,Naive (last week),40.0,Test
+2011-10-10,21621,Naive (last week),40.0,Test
+2011-10-17,21621,Naive (last week),40.0,Test
+2011-10-24,21621,Naive (last week),40.0,Test
+2011-10-31,21621,Naive (last week),40.0,Test
+2011-11-07,21621,Naive (last week),40.0,Test
+2011-11-14,21621,Naive (last week),40.0,Test
+2011-11-21,21621,Naive (last week),40.0,Test
+2011-11-28,21621,Naive (last week),40.0,Test
+2011-09-05,48187,Naive (last week),43.0,Test
+2011-09-12,48187,Naive (last week),43.0,Test
+2011-09-19,48187,Naive (last week),43.0,Test
+2011-09-26,48187,Naive (last week),43.0,Test
+2011-10-03,48187,Naive (last week),43.0,Test
+2011-10-10,48187,Naive (last week),43.0,Test
+2011-10-17,48187,Naive (last week),43.0,Test
+2011-10-24,48187,Naive (last week),43.0,Test
+2011-10-31,48187,Naive (last week),43.0,Test
+2011-11-07,48187,Naive (last week),43.0,Test
+2011-11-14,48187,Naive (last week),43.0,Test
+2011-11-21,48187,Naive (last week),43.0,Test
+2011-11-28,48187,Naive (last week),43.0,Test
+2011-09-05,22326,Naive (last week),139.0,Test
+2011-09-12,22326,Naive (last week),139.0,Test
+2011-09-19,22326,Naive (last week),139.0,Test
+2011-09-26,22326,Naive (last week),139.0,Test
+2011-10-03,22326,Naive (last week),139.0,Test
+2011-10-10,22326,Naive (last week),139.0,Test
+2011-10-17,22326,Naive (last week),139.0,Test
+2011-10-24,22326,Naive (last week),139.0,Test
+2011-10-31,22326,Naive (last week),139.0,Test
+2011-11-07,22326,Naive (last week),139.0,Test
+2011-11-14,22326,Naive (last week),139.0,Test
+2011-11-21,22326,Naive (last week),139.0,Test
+2011-11-28,22326,Naive (last week),139.0,Test
+2011-09-05,21175,Naive (last week),16.0,Test
+2011-09-12,21175,Naive (last week),16.0,Test
+2011-09-19,21175,Naive (last week),16.0,Test
+2011-09-26,21175,Naive (last week),16.0,Test
+2011-10-03,21175,Naive (last week),16.0,Test
+2011-10-10,21175,Naive (last week),16.0,Test
+2011-10-17,21175,Naive (last week),16.0,Test
+2011-10-24,21175,Naive (last week),16.0,Test
+2011-10-31,21175,Naive (last week),16.0,Test
+2011-11-07,21175,Naive (last week),16.0,Test
+2011-11-14,21175,Naive (last week),16.0,Test
+2011-11-21,21175,Naive (last week),16.0,Test
+2011-11-28,21175,Naive (last week),16.0,Test
+2011-09-05,22111,Naive (last week),43.0,Test
+2011-09-12,22111,Naive (last week),43.0,Test
+2011-09-19,22111,Naive (last week),43.0,Test
+2011-09-26,22111,Naive (last week),43.0,Test
+2011-10-03,22111,Naive (last week),43.0,Test
+2011-10-10,22111,Naive (last week),43.0,Test
+2011-10-17,22111,Naive (last week),43.0,Test
+2011-10-24,22111,Naive (last week),43.0,Test
+2011-10-31,22111,Naive (last week),43.0,Test
+2011-11-07,22111,Naive (last week),43.0,Test
+2011-11-14,22111,Naive (last week),43.0,Test
+2011-11-21,22111,Naive (last week),43.0,Test
+2011-11-28,22111,Naive (last week),43.0,Test
+2011-09-05,22138,Naive (last week),17.0,Test
+2011-09-12,22138,Naive (last week),17.0,Test
+2011-09-19,22138,Naive (last week),17.0,Test
+2011-09-26,22138,Naive (last week),17.0,Test
+2011-10-03,22138,Naive (last week),17.0,Test
+2011-10-10,22138,Naive (last week),17.0,Test
+2011-10-17,22138,Naive (last week),17.0,Test
+2011-10-24,22138,Naive (last week),17.0,Test
+2011-10-31,22138,Naive (last week),17.0,Test
+2011-11-07,22138,Naive (last week),17.0,Test
+2011-11-14,22138,Naive (last week),17.0,Test
+2011-11-21,22138,Naive (last week),17.0,Test
+2011-11-28,22138,Naive (last week),17.0,Test
+2011-09-05,15056N,Naive (last week),26.0,Test
+2011-09-12,15056N,Naive (last week),26.0,Test
+2011-09-19,15056N,Naive (last week),26.0,Test
+2011-09-26,15056N,Naive (last week),26.0,Test
+2011-10-03,15056N,Naive (last week),26.0,Test
+2011-10-10,15056N,Naive (last week),26.0,Test
+2011-10-17,15056N,Naive (last week),26.0,Test
+2011-10-24,15056N,Naive (last week),26.0,Test
+2011-10-31,15056N,Naive (last week),26.0,Test
+2011-11-07,15056N,Naive (last week),26.0,Test
+2011-11-14,15056N,Naive (last week),26.0,Test
+2011-11-21,15056N,Naive (last week),26.0,Test
+2011-11-28,15056N,Naive (last week),26.0,Test
+2011-09-05,21929,Naive (last week),217.0,Test
+2011-09-12,21929,Naive (last week),217.0,Test
+2011-09-19,21929,Naive (last week),217.0,Test
+2011-09-26,21929,Naive (last week),217.0,Test
+2011-10-03,21929,Naive (last week),217.0,Test
+2011-10-10,21929,Naive (last week),217.0,Test
+2011-10-17,21929,Naive (last week),217.0,Test
+2011-10-24,21929,Naive (last week),217.0,Test
+2011-10-31,21929,Naive (last week),217.0,Test
+2011-11-07,21929,Naive (last week),217.0,Test
+2011-11-14,21929,Naive (last week),217.0,Test
+2011-11-21,21929,Naive (last week),217.0,Test
+2011-11-28,21929,Naive (last week),217.0,Test
+2011-09-05,85123A,Seasonal naive,914.0,Test
+2011-09-12,85123A,Seasonal naive,1030.0,Test
+2011-09-19,85123A,Seasonal naive,1088.0,Test
+2011-09-26,85123A,Seasonal naive,914.0,Test
+2011-10-03,85123A,Seasonal naive,1005.0,Test
+2011-10-10,85123A,Seasonal naive,1001.0,Test
+2011-10-17,85123A,Seasonal naive,798.0,Test
+2011-10-24,85123A,Seasonal naive,1147.0,Test
+2011-10-31,85123A,Seasonal naive,1366.0,Test
+2011-11-07,85123A,Seasonal naive,1626.0,Test
+2011-11-14,85123A,Seasonal naive,891.0,Test
+2011-11-21,85123A,Seasonal naive,2059.0,Test
+2011-11-28,85123A,Seasonal naive,2670.0,Test
+2011-09-05,47566,Seasonal naive,6.0,Test
+2011-09-12,47566,Seasonal naive,0.0,Test
+2011-09-19,47566,Seasonal naive,99.0,Test
+2011-09-26,47566,Seasonal naive,916.0,Test
+2011-10-03,47566,Seasonal naive,262.0,Test
+2011-10-10,47566,Seasonal naive,333.0,Test
+2011-10-17,47566,Seasonal naive,167.0,Test
+2011-10-24,47566,Seasonal naive,155.0,Test
+2011-10-31,47566,Seasonal naive,58.0,Test
+2011-11-07,47566,Seasonal naive,98.0,Test
+2011-11-14,47566,Seasonal naive,286.0,Test
+2011-11-21,47566,Seasonal naive,67.0,Test
+2011-11-28,47566,Seasonal naive,88.0,Test
+2011-09-05,85099B,Seasonal naive,1303.0,Test
+2011-09-12,85099B,Seasonal naive,1118.0,Test
+2011-09-19,85099B,Seasonal naive,1515.0,Test
+2011-09-26,85099B,Seasonal naive,1708.0,Test
+2011-10-03,85099B,Seasonal naive,1015.0,Test
+2011-10-10,85099B,Seasonal naive,1866.0,Test
+2011-10-17,85099B,Seasonal naive,783.0,Test
+2011-10-24,85099B,Seasonal naive,515.0,Test
+2011-10-31,85099B,Seasonal naive,793.0,Test
+2011-11-07,85099B,Seasonal naive,2127.0,Test
+2011-11-14,85099B,Seasonal naive,1215.0,Test
+2011-11-21,85099B,Seasonal naive,1223.0,Test
+2011-11-28,85099B,Seasonal naive,2459.0,Test
+2011-09-05,84879,Seasonal naive,387.0,Test
+2011-09-12,84879,Seasonal naive,619.0,Test
+2011-09-19,84879,Seasonal naive,1792.0,Test
+2011-09-26,84879,Seasonal naive,773.0,Test
+2011-10-03,84879,Seasonal naive,753.0,Test
+2011-10-10,84879,Seasonal naive,2277.0,Test
+2011-10-17,84879,Seasonal naive,1736.0,Test
+2011-10-24,84879,Seasonal naive,1039.0,Test
+2011-10-31,84879,Seasonal naive,992.0,Test
+2011-11-07,84879,Seasonal naive,5584.0,Test
+2011-11-14,84879,Seasonal naive,1263.0,Test
+2011-11-21,84879,Seasonal naive,787.0,Test
+2011-11-28,84879,Seasonal naive,2096.0,Test
+2011-09-05,79321,Seasonal naive,68.0,Test
+2011-09-12,79321,Seasonal naive,38.0,Test
+2011-09-19,79321,Seasonal naive,180.0,Test
+2011-09-26,79321,Seasonal naive,239.0,Test
+2011-10-03,79321,Seasonal naive,542.0,Test
+2011-10-10,79321,Seasonal naive,152.0,Test
+2011-10-17,79321,Seasonal naive,228.0,Test
+2011-10-24,79321,Seasonal naive,175.0,Test
+2011-10-31,79321,Seasonal naive,119.0,Test
+2011-11-07,79321,Seasonal naive,517.0,Test
+2011-11-14,79321,Seasonal naive,304.0,Test
+2011-11-21,79321,Seasonal naive,343.0,Test
+2011-11-28,79321,Seasonal naive,1452.0,Test
+2011-09-05,22197,Seasonal naive,270.0,Test
+2011-09-12,22197,Seasonal naive,534.0,Test
+2011-09-19,22197,Seasonal naive,1709.0,Test
+2011-09-26,22197,Seasonal naive,284.0,Test
+2011-10-03,22197,Seasonal naive,919.0,Test
+2011-10-10,22197,Seasonal naive,345.0,Test
+2011-10-17,22197,Seasonal naive,1239.0,Test
+2011-10-24,22197,Seasonal naive,2582.0,Test
+2011-10-31,22197,Seasonal naive,926.0,Test
+2011-11-07,22197,Seasonal naive,4115.0,Test
+2011-11-14,22197,Seasonal naive,1746.0,Test
+2011-11-21,22197,Seasonal naive,2207.0,Test
+2011-11-28,22197,Seasonal naive,1176.0,Test
+2011-09-05,22386,Seasonal naive,616.0,Test
+2011-09-12,22386,Seasonal naive,305.0,Test
+2011-09-19,22386,Seasonal naive,352.0,Test
+2011-09-26,22386,Seasonal naive,518.0,Test
+2011-10-03,22386,Seasonal naive,258.0,Test
+2011-10-10,22386,Seasonal naive,917.0,Test
+2011-10-17,22386,Seasonal naive,144.0,Test
+2011-10-24,22386,Seasonal naive,137.0,Test
+2011-10-31,22386,Seasonal naive,347.0,Test
+2011-11-07,22386,Seasonal naive,659.0,Test
+2011-11-14,22386,Seasonal naive,699.0,Test
+2011-11-21,22386,Seasonal naive,273.0,Test
+2011-11-28,22386,Seasonal naive,370.0,Test
+2011-09-05,20725,Seasonal naive,483.0,Test
+2011-09-12,20725,Seasonal naive,304.0,Test
+2011-09-19,20725,Seasonal naive,605.0,Test
+2011-09-26,20725,Seasonal naive,358.0,Test
+2011-10-03,20725,Seasonal naive,250.0,Test
+2011-10-10,20725,Seasonal naive,524.0,Test
+2011-10-17,20725,Seasonal naive,141.0,Test
+2011-10-24,20725,Seasonal naive,276.0,Test
+2011-10-31,20725,Seasonal naive,530.0,Test
+2011-11-07,20725,Seasonal naive,264.0,Test
+2011-11-14,20725,Seasonal naive,669.0,Test
+2011-11-21,20725,Seasonal naive,327.0,Test
+2011-11-28,20725,Seasonal naive,511.0,Test
+2011-09-05,21137,Seasonal naive,128.0,Test
+2011-09-12,21137,Seasonal naive,28.0,Test
+2011-09-19,21137,Seasonal naive,173.0,Test
+2011-09-26,21137,Seasonal naive,40.0,Test
+2011-10-03,21137,Seasonal naive,638.0,Test
+2011-10-10,21137,Seasonal naive,401.0,Test
+2011-10-17,21137,Seasonal naive,310.0,Test
+2011-10-24,21137,Seasonal naive,182.0,Test
+2011-10-31,21137,Seasonal naive,13.0,Test
+2011-11-07,21137,Seasonal naive,928.0,Test
+2011-11-14,21137,Seasonal naive,191.0,Test
+2011-11-21,21137,Seasonal naive,190.0,Test
+2011-11-28,21137,Seasonal naive,1302.0,Test
+2011-09-05,85099F,Seasonal naive,563.0,Test
+2011-09-12,85099F,Seasonal naive,218.0,Test
+2011-09-19,85099F,Seasonal naive,374.0,Test
+2011-09-26,85099F,Seasonal naive,132.0,Test
+2011-10-03,85099F,Seasonal naive,451.0,Test
+2011-10-10,85099F,Seasonal naive,602.0,Test
+2011-10-17,85099F,Seasonal naive,184.0,Test
+2011-10-24,85099F,Seasonal naive,165.0,Test
+2011-10-31,85099F,Seasonal naive,209.0,Test
+2011-11-07,85099F,Seasonal naive,1185.0,Test
+2011-11-14,85099F,Seasonal naive,333.0,Test
+2011-11-21,85099F,Seasonal naive,175.0,Test
+2011-11-28,85099F,Seasonal naive,199.0,Test
+2011-09-05,22178,Seasonal naive,240.0,Test
+2011-09-12,22178,Seasonal naive,83.0,Test
+2011-09-19,22178,Seasonal naive,452.0,Test
+2011-09-26,22178,Seasonal naive,620.0,Test
+2011-10-03,22178,Seasonal naive,541.0,Test
+2011-10-10,22178,Seasonal naive,479.0,Test
+2011-10-17,22178,Seasonal naive,285.0,Test
+2011-10-24,22178,Seasonal naive,435.0,Test
+2011-10-31,22178,Seasonal naive,1110.0,Test
+2011-11-07,22178,Seasonal naive,1033.0,Test
+2011-11-14,22178,Seasonal naive,454.0,Test
+2011-11-21,22178,Seasonal naive,1521.0,Test
+2011-11-28,22178,Seasonal naive,349.0,Test
+2011-09-05,22112,Seasonal naive,89.0,Test
+2011-09-12,22112,Seasonal naive,48.0,Test
+2011-09-19,22112,Seasonal naive,213.0,Test
+2011-09-26,22112,Seasonal naive,279.0,Test
+2011-10-03,22112,Seasonal naive,137.0,Test
+2011-10-10,22112,Seasonal naive,164.0,Test
+2011-10-17,22112,Seasonal naive,249.0,Test
+2011-10-24,22112,Seasonal naive,203.0,Test
+2011-10-31,22112,Seasonal naive,230.0,Test
+2011-11-07,22112,Seasonal naive,291.0,Test
+2011-11-14,22112,Seasonal naive,484.0,Test
+2011-11-21,22112,Seasonal naive,421.0,Test
+2011-11-28,22112,Seasonal naive,593.0,Test
+2011-09-05,21931,Seasonal naive,557.0,Test
+2011-09-12,21931,Seasonal naive,253.0,Test
+2011-09-19,21931,Seasonal naive,349.0,Test
+2011-09-26,21931,Seasonal naive,519.0,Test
+2011-10-03,21931,Seasonal naive,130.0,Test
+2011-10-10,21931,Seasonal naive,235.0,Test
+2011-10-17,21931,Seasonal naive,171.0,Test
+2011-10-24,21931,Seasonal naive,190.0,Test
+2011-10-31,21931,Seasonal naive,168.0,Test
+2011-11-07,21931,Seasonal naive,654.0,Test
+2011-11-14,21931,Seasonal naive,393.0,Test
+2011-11-21,21931,Seasonal naive,427.0,Test
+2011-11-28,21931,Seasonal naive,390.0,Test
+2011-09-05,21623,Seasonal naive,6.0,Test
+2011-09-12,21623,Seasonal naive,74.0,Test
+2011-09-19,21623,Seasonal naive,11.0,Test
+2011-09-26,21623,Seasonal naive,55.0,Test
+2011-10-03,21623,Seasonal naive,24.0,Test
+2011-10-10,21623,Seasonal naive,417.0,Test
+2011-10-17,21623,Seasonal naive,105.0,Test
+2011-10-24,21623,Seasonal naive,12.0,Test
+2011-10-31,21623,Seasonal naive,188.0,Test
+2011-11-07,21623,Seasonal naive,485.0,Test
+2011-11-14,21623,Seasonal naive,31.0,Test
+2011-11-21,21623,Seasonal naive,9.0,Test
+2011-11-28,21623,Seasonal naive,60.0,Test
+2011-09-05,22355,Seasonal naive,426.0,Test
+2011-09-12,22355,Seasonal naive,108.0,Test
+2011-09-19,22355,Seasonal naive,227.0,Test
+2011-09-26,22355,Seasonal naive,453.0,Test
+2011-10-03,22355,Seasonal naive,343.0,Test
+2011-10-10,22355,Seasonal naive,493.0,Test
+2011-10-17,22355,Seasonal naive,214.0,Test
+2011-10-24,22355,Seasonal naive,448.0,Test
+2011-10-31,22355,Seasonal naive,308.0,Test
+2011-11-07,22355,Seasonal naive,448.0,Test
+2011-11-14,22355,Seasonal naive,464.0,Test
+2011-11-21,22355,Seasonal naive,801.0,Test
+2011-11-28,22355,Seasonal naive,920.0,Test
+2011-09-05,22411,Seasonal naive,509.0,Test
+2011-09-12,22411,Seasonal naive,241.0,Test
+2011-09-19,22411,Seasonal naive,452.0,Test
+2011-09-26,22411,Seasonal naive,369.0,Test
+2011-10-03,22411,Seasonal naive,196.0,Test
+2011-10-10,22411,Seasonal naive,629.0,Test
+2011-10-17,22411,Seasonal naive,365.0,Test
+2011-10-24,22411,Seasonal naive,182.0,Test
+2011-10-31,22411,Seasonal naive,366.0,Test
+2011-11-07,22411,Seasonal naive,688.0,Test
+2011-11-14,22411,Seasonal naive,507.0,Test
+2011-11-21,22411,Seasonal naive,266.0,Test
+2011-11-28,22411,Seasonal naive,427.0,Test
+2011-09-05,85099C,Seasonal naive,434.0,Test
+2011-09-12,85099C,Seasonal naive,430.0,Test
+2011-09-19,85099C,Seasonal naive,456.0,Test
+2011-09-26,85099C,Seasonal naive,413.0,Test
+2011-10-03,85099C,Seasonal naive,464.0,Test
+2011-10-10,85099C,Seasonal naive,656.0,Test
+2011-10-17,85099C,Seasonal naive,482.0,Test
+2011-10-24,85099C,Seasonal naive,243.0,Test
+2011-10-31,85099C,Seasonal naive,181.0,Test
+2011-11-07,85099C,Seasonal naive,676.0,Test
+2011-11-14,85099C,Seasonal naive,469.0,Test
+2011-11-21,85099C,Seasonal naive,216.0,Test
+2011-11-28,85099C,Seasonal naive,504.0,Test
+2011-09-05,20685,Seasonal naive,88.0,Test
+2011-09-12,20685,Seasonal naive,108.0,Test
+2011-09-19,20685,Seasonal naive,65.0,Test
+2011-09-26,20685,Seasonal naive,106.0,Test
+2011-10-03,20685,Seasonal naive,78.0,Test
+2011-10-10,20685,Seasonal naive,147.0,Test
+2011-10-17,20685,Seasonal naive,31.0,Test
+2011-10-24,20685,Seasonal naive,81.0,Test
+2011-10-31,20685,Seasonal naive,83.0,Test
+2011-11-07,20685,Seasonal naive,119.0,Test
+2011-11-14,20685,Seasonal naive,213.0,Test
+2011-11-21,20685,Seasonal naive,107.0,Test
+2011-11-28,20685,Seasonal naive,218.0,Test
+2011-09-05,22189,Seasonal naive,88.0,Test
+2011-09-12,22189,Seasonal naive,101.0,Test
+2011-09-19,22189,Seasonal naive,48.0,Test
+2011-09-26,22189,Seasonal naive,195.0,Test
+2011-10-03,22189,Seasonal naive,138.0,Test
+2011-10-10,22189,Seasonal naive,796.0,Test
+2011-10-17,22189,Seasonal naive,61.0,Test
+2011-10-24,22189,Seasonal naive,123.0,Test
+2011-10-31,22189,Seasonal naive,99.0,Test
+2011-11-07,22189,Seasonal naive,726.0,Test
+2011-11-14,22189,Seasonal naive,121.0,Test
+2011-11-21,22189,Seasonal naive,79.0,Test
+2011-11-28,22189,Seasonal naive,213.0,Test
+2011-09-05,84946,Seasonal naive,469.0,Test
+2011-09-12,84946,Seasonal naive,252.0,Test
+2011-09-19,84946,Seasonal naive,414.0,Test
+2011-09-26,84946,Seasonal naive,444.0,Test
+2011-10-03,84946,Seasonal naive,584.0,Test
+2011-10-10,84946,Seasonal naive,265.0,Test
+2011-10-17,84946,Seasonal naive,378.0,Test
+2011-10-24,84946,Seasonal naive,421.0,Test
+2011-10-31,84946,Seasonal naive,553.0,Test
+2011-11-07,84946,Seasonal naive,1321.0,Test
+2011-11-14,84946,Seasonal naive,807.0,Test
+2011-11-21,84946,Seasonal naive,1036.0,Test
+2011-11-28,84946,Seasonal naive,1153.0,Test
+2011-09-05,48138,Seasonal naive,37.0,Test
+2011-09-12,48138,Seasonal naive,41.0,Test
+2011-09-19,48138,Seasonal naive,83.0,Test
+2011-09-26,48138,Seasonal naive,60.0,Test
+2011-10-03,48138,Seasonal naive,75.0,Test
+2011-10-10,48138,Seasonal naive,113.0,Test
+2011-10-17,48138,Seasonal naive,75.0,Test
+2011-10-24,48138,Seasonal naive,44.0,Test
+2011-10-31,48138,Seasonal naive,96.0,Test
+2011-11-07,48138,Seasonal naive,316.0,Test
+2011-11-14,48138,Seasonal naive,105.0,Test
+2011-11-21,48138,Seasonal naive,89.0,Test
+2011-11-28,48138,Seasonal naive,130.0,Test
+2011-09-05,21915,Seasonal naive,398.0,Test
+2011-09-12,21915,Seasonal naive,103.0,Test
+2011-09-19,21915,Seasonal naive,476.0,Test
+2011-09-26,21915,Seasonal naive,490.0,Test
+2011-10-03,21915,Seasonal naive,1246.0,Test
+2011-10-10,21915,Seasonal naive,545.0,Test
+2011-10-17,21915,Seasonal naive,3.0,Test
+2011-10-24,21915,Seasonal naive,3.0,Test
+2011-10-31,21915,Seasonal naive,1979.0,Test
+2011-11-07,21915,Seasonal naive,3.0,Test
+2011-11-14,21915,Seasonal naive,336.0,Test
+2011-11-21,21915,Seasonal naive,552.0,Test
+2011-11-28,21915,Seasonal naive,3432.0,Test
+2011-09-05,21621,Seasonal naive,59.0,Test
+2011-09-12,21621,Seasonal naive,29.0,Test
+2011-09-19,21621,Seasonal naive,71.0,Test
+2011-09-26,21621,Seasonal naive,454.0,Test
+2011-10-03,21621,Seasonal naive,16.0,Test
+2011-10-10,21621,Seasonal naive,44.0,Test
+2011-10-17,21621,Seasonal naive,22.0,Test
+2011-10-24,21621,Seasonal naive,14.0,Test
+2011-10-31,21621,Seasonal naive,50.0,Test
+2011-11-07,21621,Seasonal naive,32.0,Test
+2011-11-14,21621,Seasonal naive,44.0,Test
+2011-11-21,21621,Seasonal naive,55.0,Test
+2011-11-28,21621,Seasonal naive,20.0,Test
+2011-09-05,48187,Seasonal naive,0.0,Test
+2011-09-12,48187,Seasonal naive,0.0,Test
+2011-09-19,48187,Seasonal naive,2.0,Test
+2011-09-26,48187,Seasonal naive,0.0,Test
+2011-10-03,48187,Seasonal naive,0.0,Test
+2011-10-10,48187,Seasonal naive,0.0,Test
+2011-10-17,48187,Seasonal naive,0.0,Test
+2011-10-24,48187,Seasonal naive,79.0,Test
+2011-10-31,48187,Seasonal naive,54.0,Test
+2011-11-07,48187,Seasonal naive,132.0,Test
+2011-11-14,48187,Seasonal naive,88.0,Test
+2011-11-21,48187,Seasonal naive,53.0,Test
+2011-11-28,48187,Seasonal naive,113.0,Test
+2011-09-05,22326,Seasonal naive,0.0,Test
+2011-09-12,22326,Seasonal naive,1.0,Test
+2011-09-19,22326,Seasonal naive,0.0,Test
+2011-09-26,22326,Seasonal naive,0.0,Test
+2011-10-03,22326,Seasonal naive,207.0,Test
+2011-10-10,22326,Seasonal naive,326.0,Test
+2011-10-17,22326,Seasonal naive,32.0,Test
+2011-10-24,22326,Seasonal naive,250.0,Test
+2011-10-31,22326,Seasonal naive,347.0,Test
+2011-11-07,22326,Seasonal naive,140.0,Test
+2011-11-14,22326,Seasonal naive,147.0,Test
+2011-11-21,22326,Seasonal naive,202.0,Test
+2011-11-28,22326,Seasonal naive,596.0,Test
+2011-09-05,21175,Seasonal naive,60.0,Test
+2011-09-12,21175,Seasonal naive,156.0,Test
+2011-09-19,21175,Seasonal naive,187.0,Test
+2011-09-26,21175,Seasonal naive,156.0,Test
+2011-10-03,21175,Seasonal naive,142.0,Test
+2011-10-10,21175,Seasonal naive,221.0,Test
+2011-10-17,21175,Seasonal naive,126.0,Test
+2011-10-24,21175,Seasonal naive,126.0,Test
+2011-10-31,21175,Seasonal naive,246.0,Test
+2011-11-07,21175,Seasonal naive,194.0,Test
+2011-11-14,21175,Seasonal naive,157.0,Test
+2011-11-21,21175,Seasonal naive,200.0,Test
+2011-11-28,21175,Seasonal naive,121.0,Test
+2011-09-05,22111,Seasonal naive,89.0,Test
+2011-09-12,22111,Seasonal naive,42.0,Test
+2011-09-19,22111,Seasonal naive,95.0,Test
+2011-09-26,22111,Seasonal naive,139.0,Test
+2011-10-03,22111,Seasonal naive,186.0,Test
+2011-10-10,22111,Seasonal naive,141.0,Test
+2011-10-17,22111,Seasonal naive,263.0,Test
+2011-10-24,22111,Seasonal naive,153.0,Test
+2011-10-31,22111,Seasonal naive,205.0,Test
+2011-11-07,22111,Seasonal naive,173.0,Test
+2011-11-14,22111,Seasonal naive,418.0,Test
+2011-11-21,22111,Seasonal naive,447.0,Test
+2011-11-28,22111,Seasonal naive,622.0,Test
+2011-09-05,22138,Seasonal naive,63.0,Test
+2011-09-12,22138,Seasonal naive,9.0,Test
+2011-09-19,22138,Seasonal naive,68.0,Test
+2011-09-26,22138,Seasonal naive,145.0,Test
+2011-10-03,22138,Seasonal naive,109.0,Test
+2011-10-10,22138,Seasonal naive,177.0,Test
+2011-10-17,22138,Seasonal naive,72.0,Test
+2011-10-24,22138,Seasonal naive,15.0,Test
+2011-10-31,22138,Seasonal naive,4.0,Test
+2011-11-07,22138,Seasonal naive,0.0,Test
+2011-11-14,22138,Seasonal naive,0.0,Test
+2011-11-21,22138,Seasonal naive,0.0,Test
+2011-11-28,22138,Seasonal naive,2.0,Test
+2011-09-05,15056N,Seasonal naive,149.0,Test
+2011-09-12,15056N,Seasonal naive,127.0,Test
+2011-09-19,15056N,Seasonal naive,51.0,Test
+2011-09-26,15056N,Seasonal naive,29.0,Test
+2011-10-03,15056N,Seasonal naive,97.0,Test
+2011-10-10,15056N,Seasonal naive,54.0,Test
+2011-10-17,15056N,Seasonal naive,319.0,Test
+2011-10-24,15056N,Seasonal naive,20.0,Test
+2011-10-31,15056N,Seasonal naive,173.0,Test
+2011-11-07,15056N,Seasonal naive,94.0,Test
+2011-11-14,15056N,Seasonal naive,45.0,Test
+2011-11-21,15056N,Seasonal naive,90.0,Test
+2011-11-28,15056N,Seasonal naive,222.0,Test
+2011-09-05,21929,Seasonal naive,352.0,Test
+2011-09-12,21929,Seasonal naive,173.0,Test
+2011-09-19,21929,Seasonal naive,73.0,Test
+2011-09-26,21929,Seasonal naive,339.0,Test
+2011-10-03,21929,Seasonal naive,290.0,Test
+2011-10-10,21929,Seasonal naive,406.0,Test
+2011-10-17,21929,Seasonal naive,177.0,Test
+2011-10-24,21929,Seasonal naive,132.0,Test
+2011-10-31,21929,Seasonal naive,266.0,Test
+2011-11-07,21929,Seasonal naive,180.0,Test
+2011-11-14,21929,Seasonal naive,233.0,Test
+2011-11-21,21929,Seasonal naive,109.0,Test
+2011-11-28,21929,Seasonal naive,453.0,Test
+2011-09-05,85123A,Moving average (8 weeks),635.9,Test
+2011-09-12,85123A,Moving average (8 weeks),635.9,Test
+2011-09-19,85123A,Moving average (8 weeks),635.9,Test
+2011-09-26,85123A,Moving average (8 weeks),635.9,Test
+2011-10-03,85123A,Moving average (8 weeks),635.9,Test
+2011-10-10,85123A,Moving average (8 weeks),635.9,Test
+2011-10-17,85123A,Moving average (8 weeks),635.9,Test
+2011-10-24,85123A,Moving average (8 weeks),635.9,Test
+2011-10-31,85123A,Moving average (8 weeks),635.9,Test
+2011-11-07,85123A,Moving average (8 weeks),635.9,Test
+2011-11-14,85123A,Moving average (8 weeks),635.9,Test
+2011-11-21,85123A,Moving average (8 weeks),635.9,Test
+2011-11-28,85123A,Moving average (8 weeks),635.9,Test
+2011-09-05,47566,Moving average (8 weeks),455.2,Test
+2011-09-12,47566,Moving average (8 weeks),455.2,Test
+2011-09-19,47566,Moving average (8 weeks),455.2,Test
+2011-09-26,47566,Moving average (8 weeks),455.2,Test
+2011-10-03,47566,Moving average (8 weeks),455.2,Test
+2011-10-10,47566,Moving average (8 weeks),455.2,Test
+2011-10-17,47566,Moving average (8 weeks),455.2,Test
+2011-10-24,47566,Moving average (8 weeks),455.2,Test
+2011-10-31,47566,Moving average (8 weeks),455.2,Test
+2011-11-07,47566,Moving average (8 weeks),455.2,Test
+2011-11-14,47566,Moving average (8 weeks),455.2,Test
+2011-11-21,47566,Moving average (8 weeks),455.2,Test
+2011-11-28,47566,Moving average (8 weeks),455.2,Test
+2011-09-05,85099B,Moving average (8 weeks),964.6,Test
+2011-09-12,85099B,Moving average (8 weeks),964.6,Test
+2011-09-19,85099B,Moving average (8 weeks),964.6,Test
+2011-09-26,85099B,Moving average (8 weeks),964.6,Test
+2011-10-03,85099B,Moving average (8 weeks),964.6,Test
+2011-10-10,85099B,Moving average (8 weeks),964.6,Test
+2011-10-17,85099B,Moving average (8 weeks),964.6,Test
+2011-10-24,85099B,Moving average (8 weeks),964.6,Test
+2011-10-31,85099B,Moving average (8 weeks),964.6,Test
+2011-11-07,85099B,Moving average (8 weeks),964.6,Test
+2011-11-14,85099B,Moving average (8 weeks),964.6,Test
+2011-11-21,85099B,Moving average (8 weeks),964.6,Test
+2011-11-28,85099B,Moving average (8 weeks),964.6,Test
+2011-09-05,84879,Moving average (8 weeks),1014.2,Test
+2011-09-12,84879,Moving average (8 weeks),1014.2,Test
+2011-09-19,84879,Moving average (8 weeks),1014.2,Test
+2011-09-26,84879,Moving average (8 weeks),1014.2,Test
+2011-10-03,84879,Moving average (8 weeks),1014.2,Test
+2011-10-10,84879,Moving average (8 weeks),1014.2,Test
+2011-10-17,84879,Moving average (8 weeks),1014.2,Test
+2011-10-24,84879,Moving average (8 weeks),1014.2,Test
+2011-10-31,84879,Moving average (8 weeks),1014.2,Test
+2011-11-07,84879,Moving average (8 weeks),1014.2,Test
+2011-11-14,84879,Moving average (8 weeks),1014.2,Test
+2011-11-21,84879,Moving average (8 weeks),1014.2,Test
+2011-11-28,84879,Moving average (8 weeks),1014.2,Test
+2011-09-05,79321,Moving average (8 weeks),177.6,Test
+2011-09-12,79321,Moving average (8 weeks),177.6,Test
+2011-09-19,79321,Moving average (8 weeks),177.6,Test
+2011-09-26,79321,Moving average (8 weeks),177.6,Test
+2011-10-03,79321,Moving average (8 weeks),177.6,Test
+2011-10-10,79321,Moving average (8 weeks),177.6,Test
+2011-10-17,79321,Moving average (8 weeks),177.6,Test
+2011-10-24,79321,Moving average (8 weeks),177.6,Test
+2011-10-31,79321,Moving average (8 weeks),177.6,Test
+2011-11-07,79321,Moving average (8 weeks),177.6,Test
+2011-11-14,79321,Moving average (8 weeks),177.6,Test
+2011-11-21,79321,Moving average (8 weeks),177.6,Test
+2011-11-28,79321,Moving average (8 weeks),177.6,Test
+2011-09-05,22197,Moving average (8 weeks),928.4,Test
+2011-09-12,22197,Moving average (8 weeks),928.4,Test
+2011-09-19,22197,Moving average (8 weeks),928.4,Test
+2011-09-26,22197,Moving average (8 weeks),928.4,Test
+2011-10-03,22197,Moving average (8 weeks),928.4,Test
+2011-10-10,22197,Moving average (8 weeks),928.4,Test
+2011-10-17,22197,Moving average (8 weeks),928.4,Test
+2011-10-24,22197,Moving average (8 weeks),928.4,Test
+2011-10-31,22197,Moving average (8 weeks),928.4,Test
+2011-11-07,22197,Moving average (8 weeks),928.4,Test
+2011-11-14,22197,Moving average (8 weeks),928.4,Test
+2011-11-21,22197,Moving average (8 weeks),928.4,Test
+2011-11-28,22197,Moving average (8 weeks),928.4,Test
+2011-09-05,22386,Moving average (8 weeks),426.4,Test
+2011-09-12,22386,Moving average (8 weeks),426.4,Test
+2011-09-19,22386,Moving average (8 weeks),426.4,Test
+2011-09-26,22386,Moving average (8 weeks),426.4,Test
+2011-10-03,22386,Moving average (8 weeks),426.4,Test
+2011-10-10,22386,Moving average (8 weeks),426.4,Test
+2011-10-17,22386,Moving average (8 weeks),426.4,Test
+2011-10-24,22386,Moving average (8 weeks),426.4,Test
+2011-10-31,22386,Moving average (8 weeks),426.4,Test
+2011-11-07,22386,Moving average (8 weeks),426.4,Test
+2011-11-14,22386,Moving average (8 weeks),426.4,Test
+2011-11-21,22386,Moving average (8 weeks),426.4,Test
+2011-11-28,22386,Moving average (8 weeks),426.4,Test
+2011-09-05,20725,Moving average (8 weeks),439.2,Test
+2011-09-12,20725,Moving average (8 weeks),439.2,Test
+2011-09-19,20725,Moving average (8 weeks),439.2,Test
+2011-09-26,20725,Moving average (8 weeks),439.2,Test
+2011-10-03,20725,Moving average (8 weeks),439.2,Test
+2011-10-10,20725,Moving average (8 weeks),439.2,Test
+2011-10-17,20725,Moving average (8 weeks),439.2,Test
+2011-10-24,20725,Moving average (8 weeks),439.2,Test
+2011-10-31,20725,Moving average (8 weeks),439.2,Test
+2011-11-07,20725,Moving average (8 weeks),439.2,Test
+2011-11-14,20725,Moving average (8 weeks),439.2,Test
+2011-11-21,20725,Moving average (8 weeks),439.2,Test
+2011-11-28,20725,Moving average (8 weeks),439.2,Test
+2011-09-05,21137,Moving average (8 weeks),125.6,Test
+2011-09-12,21137,Moving average (8 weeks),125.6,Test
+2011-09-19,21137,Moving average (8 weeks),125.6,Test
+2011-09-26,21137,Moving average (8 weeks),125.6,Test
+2011-10-03,21137,Moving average (8 weeks),125.6,Test
+2011-10-10,21137,Moving average (8 weeks),125.6,Test
+2011-10-17,21137,Moving average (8 weeks),125.6,Test
+2011-10-24,21137,Moving average (8 weeks),125.6,Test
+2011-10-31,21137,Moving average (8 weeks),125.6,Test
+2011-11-07,21137,Moving average (8 weeks),125.6,Test
+2011-11-14,21137,Moving average (8 weeks),125.6,Test
+2011-11-21,21137,Moving average (8 weeks),125.6,Test
+2011-11-28,21137,Moving average (8 weeks),125.6,Test
+2011-09-05,85099F,Moving average (8 weeks),368.5,Test
+2011-09-12,85099F,Moving average (8 weeks),368.5,Test
+2011-09-19,85099F,Moving average (8 weeks),368.5,Test
+2011-09-26,85099F,Moving average (8 weeks),368.5,Test
+2011-10-03,85099F,Moving average (8 weeks),368.5,Test
+2011-10-10,85099F,Moving average (8 weeks),368.5,Test
+2011-10-17,85099F,Moving average (8 weeks),368.5,Test
+2011-10-24,85099F,Moving average (8 weeks),368.5,Test
+2011-10-31,85099F,Moving average (8 weeks),368.5,Test
+2011-11-07,85099F,Moving average (8 weeks),368.5,Test
+2011-11-14,85099F,Moving average (8 weeks),368.5,Test
+2011-11-21,85099F,Moving average (8 weeks),368.5,Test
+2011-11-28,85099F,Moving average (8 weeks),368.5,Test
+2011-09-05,22178,Moving average (8 weeks),415.1,Test
+2011-09-12,22178,Moving average (8 weeks),415.1,Test
+2011-09-19,22178,Moving average (8 weeks),415.1,Test
+2011-09-26,22178,Moving average (8 weeks),415.1,Test
+2011-10-03,22178,Moving average (8 weeks),415.1,Test
+2011-10-10,22178,Moving average (8 weeks),415.1,Test
+2011-10-17,22178,Moving average (8 weeks),415.1,Test
+2011-10-24,22178,Moving average (8 weeks),415.1,Test
+2011-10-31,22178,Moving average (8 weeks),415.1,Test
+2011-11-07,22178,Moving average (8 weeks),415.1,Test
+2011-11-14,22178,Moving average (8 weeks),415.1,Test
+2011-11-21,22178,Moving average (8 weeks),415.1,Test
+2011-11-28,22178,Moving average (8 weeks),415.1,Test
+2011-09-05,22112,Moving average (8 weeks),60.0,Test
+2011-09-12,22112,Moving average (8 weeks),60.0,Test
+2011-09-19,22112,Moving average (8 weeks),60.0,Test
+2011-09-26,22112,Moving average (8 weeks),60.0,Test
+2011-10-03,22112,Moving average (8 weeks),60.0,Test
+2011-10-10,22112,Moving average (8 weeks),60.0,Test
+2011-10-17,22112,Moving average (8 weeks),60.0,Test
+2011-10-24,22112,Moving average (8 weeks),60.0,Test
+2011-10-31,22112,Moving average (8 weeks),60.0,Test
+2011-11-07,22112,Moving average (8 weeks),60.0,Test
+2011-11-14,22112,Moving average (8 weeks),60.0,Test
+2011-11-21,22112,Moving average (8 weeks),60.0,Test
+2011-11-28,22112,Moving average (8 weeks),60.0,Test
+2011-09-05,21931,Moving average (8 weeks),298.4,Test
+2011-09-12,21931,Moving average (8 weeks),298.4,Test
+2011-09-19,21931,Moving average (8 weeks),298.4,Test
+2011-09-26,21931,Moving average (8 weeks),298.4,Test
+2011-10-03,21931,Moving average (8 weeks),298.4,Test
+2011-10-10,21931,Moving average (8 weeks),298.4,Test
+2011-10-17,21931,Moving average (8 weeks),298.4,Test
+2011-10-24,21931,Moving average (8 weeks),298.4,Test
+2011-10-31,21931,Moving average (8 weeks),298.4,Test
+2011-11-07,21931,Moving average (8 weeks),298.4,Test
+2011-11-14,21931,Moving average (8 weeks),298.4,Test
+2011-11-21,21931,Moving average (8 weeks),298.4,Test
+2011-11-28,21931,Moving average (8 weeks),298.4,Test
+2011-09-05,21623,Moving average (8 weeks),5.1,Test
+2011-09-12,21623,Moving average (8 weeks),5.1,Test
+2011-09-19,21623,Moving average (8 weeks),5.1,Test
+2011-09-26,21623,Moving average (8 weeks),5.1,Test
+2011-10-03,21623,Moving average (8 weeks),5.1,Test
+2011-10-10,21623,Moving average (8 weeks),5.1,Test
+2011-10-17,21623,Moving average (8 weeks),5.1,Test
+2011-10-24,21623,Moving average (8 weeks),5.1,Test
+2011-10-31,21623,Moving average (8 weeks),5.1,Test
+2011-11-07,21623,Moving average (8 weeks),5.1,Test
+2011-11-14,21623,Moving average (8 weeks),5.1,Test
+2011-11-21,21623,Moving average (8 weeks),5.1,Test
+2011-11-28,21623,Moving average (8 weeks),5.1,Test
+2011-09-05,22355,Moving average (8 weeks),302.0,Test
+2011-09-12,22355,Moving average (8 weeks),302.0,Test
+2011-09-19,22355,Moving average (8 weeks),302.0,Test
+2011-09-26,22355,Moving average (8 weeks),302.0,Test
+2011-10-03,22355,Moving average (8 weeks),302.0,Test
+2011-10-10,22355,Moving average (8 weeks),302.0,Test
+2011-10-17,22355,Moving average (8 weeks),302.0,Test
+2011-10-24,22355,Moving average (8 weeks),302.0,Test
+2011-10-31,22355,Moving average (8 weeks),302.0,Test
+2011-11-07,22355,Moving average (8 weeks),302.0,Test
+2011-11-14,22355,Moving average (8 weeks),302.0,Test
+2011-11-21,22355,Moving average (8 weeks),302.0,Test
+2011-11-28,22355,Moving average (8 weeks),302.0,Test
+2011-09-05,22411,Moving average (8 weeks),250.6,Test
+2011-09-12,22411,Moving average (8 weeks),250.6,Test
+2011-09-19,22411,Moving average (8 weeks),250.6,Test
+2011-09-26,22411,Moving average (8 weeks),250.6,Test
+2011-10-03,22411,Moving average (8 weeks),250.6,Test
+2011-10-10,22411,Moving average (8 weeks),250.6,Test
+2011-10-17,22411,Moving average (8 weeks),250.6,Test
+2011-10-24,22411,Moving average (8 weeks),250.6,Test
+2011-10-31,22411,Moving average (8 weeks),250.6,Test
+2011-11-07,22411,Moving average (8 weeks),250.6,Test
+2011-11-14,22411,Moving average (8 weeks),250.6,Test
+2011-11-21,22411,Moving average (8 weeks),250.6,Test
+2011-11-28,22411,Moving average (8 weeks),250.6,Test
+2011-09-05,85099C,Moving average (8 weeks),215.2,Test
+2011-09-12,85099C,Moving average (8 weeks),215.2,Test
+2011-09-19,85099C,Moving average (8 weeks),215.2,Test
+2011-09-26,85099C,Moving average (8 weeks),215.2,Test
+2011-10-03,85099C,Moving average (8 weeks),215.2,Test
+2011-10-10,85099C,Moving average (8 weeks),215.2,Test
+2011-10-17,85099C,Moving average (8 weeks),215.2,Test
+2011-10-24,85099C,Moving average (8 weeks),215.2,Test
+2011-10-31,85099C,Moving average (8 weeks),215.2,Test
+2011-11-07,85099C,Moving average (8 weeks),215.2,Test
+2011-11-14,85099C,Moving average (8 weeks),215.2,Test
+2011-11-21,85099C,Moving average (8 weeks),215.2,Test
+2011-11-28,85099C,Moving average (8 weeks),215.2,Test
+2011-09-05,20685,Moving average (8 weeks),48.4,Test
+2011-09-12,20685,Moving average (8 weeks),48.4,Test
+2011-09-19,20685,Moving average (8 weeks),48.4,Test
+2011-09-26,20685,Moving average (8 weeks),48.4,Test
+2011-10-03,20685,Moving average (8 weeks),48.4,Test
+2011-10-10,20685,Moving average (8 weeks),48.4,Test
+2011-10-17,20685,Moving average (8 weeks),48.4,Test
+2011-10-24,20685,Moving average (8 weeks),48.4,Test
+2011-10-31,20685,Moving average (8 weeks),48.4,Test
+2011-11-07,20685,Moving average (8 weeks),48.4,Test
+2011-11-14,20685,Moving average (8 weeks),48.4,Test
+2011-11-21,20685,Moving average (8 weeks),48.4,Test
+2011-11-28,20685,Moving average (8 weeks),48.4,Test
+2011-09-05,22189,Moving average (8 weeks),142.2,Test
+2011-09-12,22189,Moving average (8 weeks),142.2,Test
+2011-09-19,22189,Moving average (8 weeks),142.2,Test
+2011-09-26,22189,Moving average (8 weeks),142.2,Test
+2011-10-03,22189,Moving average (8 weeks),142.2,Test
+2011-10-10,22189,Moving average (8 weeks),142.2,Test
+2011-10-17,22189,Moving average (8 weeks),142.2,Test
+2011-10-24,22189,Moving average (8 weeks),142.2,Test
+2011-10-31,22189,Moving average (8 weeks),142.2,Test
+2011-11-07,22189,Moving average (8 weeks),142.2,Test
+2011-11-14,22189,Moving average (8 weeks),142.2,Test
+2011-11-21,22189,Moving average (8 weeks),142.2,Test
+2011-11-28,22189,Moving average (8 weeks),142.2,Test
+2011-09-05,84946,Moving average (8 weeks),312.8,Test
+2011-09-12,84946,Moving average (8 weeks),312.8,Test
+2011-09-19,84946,Moving average (8 weeks),312.8,Test
+2011-09-26,84946,Moving average (8 weeks),312.8,Test
+2011-10-03,84946,Moving average (8 weeks),312.8,Test
+2011-10-10,84946,Moving average (8 weeks),312.8,Test
+2011-10-17,84946,Moving average (8 weeks),312.8,Test
+2011-10-24,84946,Moving average (8 weeks),312.8,Test
+2011-10-31,84946,Moving average (8 weeks),312.8,Test
+2011-11-07,84946,Moving average (8 weeks),312.8,Test
+2011-11-14,84946,Moving average (8 weeks),312.8,Test
+2011-11-21,84946,Moving average (8 weeks),312.8,Test
+2011-11-28,84946,Moving average (8 weeks),312.8,Test
+2011-09-05,48138,Moving average (8 weeks),31.9,Test
+2011-09-12,48138,Moving average (8 weeks),31.9,Test
+2011-09-19,48138,Moving average (8 weeks),31.9,Test
+2011-09-26,48138,Moving average (8 weeks),31.9,Test
+2011-10-03,48138,Moving average (8 weeks),31.9,Test
+2011-10-10,48138,Moving average (8 weeks),31.9,Test
+2011-10-17,48138,Moving average (8 weeks),31.9,Test
+2011-10-24,48138,Moving average (8 weeks),31.9,Test
+2011-10-31,48138,Moving average (8 weeks),31.9,Test
+2011-11-07,48138,Moving average (8 weeks),31.9,Test
+2011-11-14,48138,Moving average (8 weeks),31.9,Test
+2011-11-21,48138,Moving average (8 weeks),31.9,Test
+2011-11-28,48138,Moving average (8 weeks),31.9,Test
+2011-09-05,21915,Moving average (8 weeks),519.1,Test
+2011-09-12,21915,Moving average (8 weeks),519.1,Test
+2011-09-19,21915,Moving average (8 weeks),519.1,Test
+2011-09-26,21915,Moving average (8 weeks),519.1,Test
+2011-10-03,21915,Moving average (8 weeks),519.1,Test
+2011-10-10,21915,Moving average (8 weeks),519.1,Test
+2011-10-17,21915,Moving average (8 weeks),519.1,Test
+2011-10-24,21915,Moving average (8 weeks),519.1,Test
+2011-10-31,21915,Moving average (8 weeks),519.1,Test
+2011-11-07,21915,Moving average (8 weeks),519.1,Test
+2011-11-14,21915,Moving average (8 weeks),519.1,Test
+2011-11-21,21915,Moving average (8 weeks),519.1,Test
+2011-11-28,21915,Moving average (8 weeks),519.1,Test
+2011-09-05,21621,Moving average (8 weeks),38.5,Test
+2011-09-12,21621,Moving average (8 weeks),38.5,Test
+2011-09-19,21621,Moving average (8 weeks),38.5,Test
+2011-09-26,21621,Moving average (8 weeks),38.5,Test
+2011-10-03,21621,Moving average (8 weeks),38.5,Test
+2011-10-10,21621,Moving average (8 weeks),38.5,Test
+2011-10-17,21621,Moving average (8 weeks),38.5,Test
+2011-10-24,21621,Moving average (8 weeks),38.5,Test
+2011-10-31,21621,Moving average (8 weeks),38.5,Test
+2011-11-07,21621,Moving average (8 weeks),38.5,Test
+2011-11-14,21621,Moving average (8 weeks),38.5,Test
+2011-11-21,21621,Moving average (8 weeks),38.5,Test
+2011-11-28,21621,Moving average (8 weeks),38.5,Test
+2011-09-05,48187,Moving average (8 weeks),38.6,Test
+2011-09-12,48187,Moving average (8 weeks),38.6,Test
+2011-09-19,48187,Moving average (8 weeks),38.6,Test
+2011-09-26,48187,Moving average (8 weeks),38.6,Test
+2011-10-03,48187,Moving average (8 weeks),38.6,Test
+2011-10-10,48187,Moving average (8 weeks),38.6,Test
+2011-10-17,48187,Moving average (8 weeks),38.6,Test
+2011-10-24,48187,Moving average (8 weeks),38.6,Test
+2011-10-31,48187,Moving average (8 weeks),38.6,Test
+2011-11-07,48187,Moving average (8 weeks),38.6,Test
+2011-11-14,48187,Moving average (8 weeks),38.6,Test
+2011-11-21,48187,Moving average (8 weeks),38.6,Test
+2011-11-28,48187,Moving average (8 weeks),38.6,Test
+2011-09-05,22326,Moving average (8 weeks),184.9,Test
+2011-09-12,22326,Moving average (8 weeks),184.9,Test
+2011-09-19,22326,Moving average (8 weeks),184.9,Test
+2011-09-26,22326,Moving average (8 weeks),184.9,Test
+2011-10-03,22326,Moving average (8 weeks),184.9,Test
+2011-10-10,22326,Moving average (8 weeks),184.9,Test
+2011-10-17,22326,Moving average (8 weeks),184.9,Test
+2011-10-24,22326,Moving average (8 weeks),184.9,Test
+2011-10-31,22326,Moving average (8 weeks),184.9,Test
+2011-11-07,22326,Moving average (8 weeks),184.9,Test
+2011-11-14,22326,Moving average (8 weeks),184.9,Test
+2011-11-21,22326,Moving average (8 weeks),184.9,Test
+2011-11-28,22326,Moving average (8 weeks),184.9,Test
+2011-09-05,21175,Moving average (8 weeks),143.1,Test
+2011-09-12,21175,Moving average (8 weeks),143.1,Test
+2011-09-19,21175,Moving average (8 weeks),143.1,Test
+2011-09-26,21175,Moving average (8 weeks),143.1,Test
+2011-10-03,21175,Moving average (8 weeks),143.1,Test
+2011-10-10,21175,Moving average (8 weeks),143.1,Test
+2011-10-17,21175,Moving average (8 weeks),143.1,Test
+2011-10-24,21175,Moving average (8 weeks),143.1,Test
+2011-10-31,21175,Moving average (8 weeks),143.1,Test
+2011-11-07,21175,Moving average (8 weeks),143.1,Test
+2011-11-14,21175,Moving average (8 weeks),143.1,Test
+2011-11-21,21175,Moving average (8 weeks),143.1,Test
+2011-11-28,21175,Moving average (8 weeks),143.1,Test
+2011-09-05,22111,Moving average (8 weeks),37.8,Test
+2011-09-12,22111,Moving average (8 weeks),37.8,Test
+2011-09-19,22111,Moving average (8 weeks),37.8,Test
+2011-09-26,22111,Moving average (8 weeks),37.8,Test
+2011-10-03,22111,Moving average (8 weeks),37.8,Test
+2011-10-10,22111,Moving average (8 weeks),37.8,Test
+2011-10-17,22111,Moving average (8 weeks),37.8,Test
+2011-10-24,22111,Moving average (8 weeks),37.8,Test
+2011-10-31,22111,Moving average (8 weeks),37.8,Test
+2011-11-07,22111,Moving average (8 weeks),37.8,Test
+2011-11-14,22111,Moving average (8 weeks),37.8,Test
+2011-11-21,22111,Moving average (8 weeks),37.8,Test
+2011-11-28,22111,Moving average (8 weeks),37.8,Test
+2011-09-05,22138,Moving average (8 weeks),50.9,Test
+2011-09-12,22138,Moving average (8 weeks),50.9,Test
+2011-09-19,22138,Moving average (8 weeks),50.9,Test
+2011-09-26,22138,Moving average (8 weeks),50.9,Test
+2011-10-03,22138,Moving average (8 weeks),50.9,Test
+2011-10-10,22138,Moving average (8 weeks),50.9,Test
+2011-10-17,22138,Moving average (8 weeks),50.9,Test
+2011-10-24,22138,Moving average (8 weeks),50.9,Test
+2011-10-31,22138,Moving average (8 weeks),50.9,Test
+2011-11-07,22138,Moving average (8 weeks),50.9,Test
+2011-11-14,22138,Moving average (8 weeks),50.9,Test
+2011-11-21,22138,Moving average (8 weeks),50.9,Test
+2011-11-28,22138,Moving average (8 weeks),50.9,Test
+2011-09-05,15056N,Moving average (8 weeks),114.8,Test
+2011-09-12,15056N,Moving average (8 weeks),114.8,Test
+2011-09-19,15056N,Moving average (8 weeks),114.8,Test
+2011-09-26,15056N,Moving average (8 weeks),114.8,Test
+2011-10-03,15056N,Moving average (8 weeks),114.8,Test
+2011-10-10,15056N,Moving average (8 weeks),114.8,Test
+2011-10-17,15056N,Moving average (8 weeks),114.8,Test
+2011-10-24,15056N,Moving average (8 weeks),114.8,Test
+2011-10-31,15056N,Moving average (8 weeks),114.8,Test
+2011-11-07,15056N,Moving average (8 weeks),114.8,Test
+2011-11-14,15056N,Moving average (8 weeks),114.8,Test
+2011-11-21,15056N,Moving average (8 weeks),114.8,Test
+2011-11-28,15056N,Moving average (8 weeks),114.8,Test
+2011-09-05,21929,Moving average (8 weeks),244.4,Test
+2011-09-12,21929,Moving average (8 weeks),244.4,Test
+2011-09-19,21929,Moving average (8 weeks),244.4,Test
+2011-09-26,21929,Moving average (8 weeks),244.4,Test
+2011-10-03,21929,Moving average (8 weeks),244.4,Test
+2011-10-10,21929,Moving average (8 weeks),244.4,Test
+2011-10-17,21929,Moving average (8 weeks),244.4,Test
+2011-10-24,21929,Moving average (8 weeks),244.4,Test
+2011-10-31,21929,Moving average (8 weeks),244.4,Test
+2011-11-07,21929,Moving average (8 weeks),244.4,Test
+2011-11-14,21929,Moving average (8 weeks),244.4,Test
+2011-11-21,21929,Moving average (8 weeks),244.4,Test
+2011-11-28,21929,Moving average (8 weeks),244.4,Test
+2011-09-05,85123A,Exponential smoothing,522.1,Test
+2011-09-12,85123A,Exponential smoothing,522.1,Test
+2011-09-19,85123A,Exponential smoothing,522.1,Test
+2011-09-26,85123A,Exponential smoothing,522.1,Test
+2011-10-03,85123A,Exponential smoothing,522.1,Test
+2011-10-10,85123A,Exponential smoothing,522.1,Test
+2011-10-17,85123A,Exponential smoothing,522.1,Test
+2011-10-24,85123A,Exponential smoothing,522.1,Test
+2011-10-31,85123A,Exponential smoothing,522.1,Test
+2011-11-07,85123A,Exponential smoothing,522.1,Test
+2011-11-14,85123A,Exponential smoothing,522.1,Test
+2011-11-21,85123A,Exponential smoothing,522.1,Test
+2011-11-28,85123A,Exponential smoothing,522.1,Test
+2011-09-05,47566,Exponential smoothing,365.8,Test
+2011-09-12,47566,Exponential smoothing,357.0,Test
+2011-09-19,47566,Exponential smoothing,350.0,Test
+2011-09-26,47566,Exponential smoothing,344.4,Test
+2011-10-03,47566,Exponential smoothing,340.0,Test
+2011-10-10,47566,Exponential smoothing,336.4,Test
+2011-10-17,47566,Exponential smoothing,333.5,Test
+2011-10-24,47566,Exponential smoothing,331.2,Test
+2011-10-31,47566,Exponential smoothing,329.4,Test
+2011-11-07,47566,Exponential smoothing,327.9,Test
+2011-11-14,47566,Exponential smoothing,326.7,Test
+2011-11-21,47566,Exponential smoothing,325.8,Test
+2011-11-28,47566,Exponential smoothing,325.1,Test
+2011-09-05,85099B,Exponential smoothing,954.9,Test
+2011-09-12,85099B,Exponential smoothing,954.9,Test
+2011-09-19,85099B,Exponential smoothing,954.9,Test
+2011-09-26,85099B,Exponential smoothing,954.9,Test
+2011-10-03,85099B,Exponential smoothing,954.9,Test
+2011-10-10,85099B,Exponential smoothing,954.9,Test
+2011-10-17,85099B,Exponential smoothing,954.9,Test
+2011-10-24,85099B,Exponential smoothing,954.9,Test
+2011-10-31,85099B,Exponential smoothing,954.9,Test
+2011-11-07,85099B,Exponential smoothing,954.9,Test
+2011-11-14,85099B,Exponential smoothing,954.9,Test
+2011-11-21,85099B,Exponential smoothing,954.9,Test
+2011-11-28,85099B,Exponential smoothing,954.9,Test
+2011-09-05,84879,Exponential smoothing,809.7,Test
+2011-09-12,84879,Exponential smoothing,809.7,Test
+2011-09-19,84879,Exponential smoothing,809.7,Test
+2011-09-26,84879,Exponential smoothing,809.7,Test
+2011-10-03,84879,Exponential smoothing,809.7,Test
+2011-10-10,84879,Exponential smoothing,809.7,Test
+2011-10-17,84879,Exponential smoothing,809.7,Test
+2011-10-24,84879,Exponential smoothing,809.7,Test
+2011-10-31,84879,Exponential smoothing,809.7,Test
+2011-11-07,84879,Exponential smoothing,809.7,Test
+2011-11-14,84879,Exponential smoothing,809.7,Test
+2011-11-21,84879,Exponential smoothing,809.7,Test
+2011-11-28,84879,Exponential smoothing,809.7,Test
+2011-09-05,79321,Exponential smoothing,157.6,Test
+2011-09-12,79321,Exponential smoothing,157.6,Test
+2011-09-19,79321,Exponential smoothing,157.6,Test
+2011-09-26,79321,Exponential smoothing,157.6,Test
+2011-10-03,79321,Exponential smoothing,157.6,Test
+2011-10-10,79321,Exponential smoothing,157.6,Test
+2011-10-17,79321,Exponential smoothing,157.6,Test
+2011-10-24,79321,Exponential smoothing,157.6,Test
+2011-10-31,79321,Exponential smoothing,157.6,Test
+2011-11-07,79321,Exponential smoothing,157.6,Test
+2011-11-14,79321,Exponential smoothing,157.6,Test
+2011-11-21,79321,Exponential smoothing,157.6,Test
+2011-11-28,79321,Exponential smoothing,157.6,Test
+2011-09-05,22197,Exponential smoothing,935.5,Test
+2011-09-12,22197,Exponential smoothing,935.5,Test
+2011-09-19,22197,Exponential smoothing,935.5,Test
+2011-09-26,22197,Exponential smoothing,935.5,Test
+2011-10-03,22197,Exponential smoothing,935.5,Test
+2011-10-10,22197,Exponential smoothing,935.5,Test
+2011-10-17,22197,Exponential smoothing,935.5,Test
+2011-10-24,22197,Exponential smoothing,935.5,Test
+2011-10-31,22197,Exponential smoothing,935.5,Test
+2011-11-07,22197,Exponential smoothing,935.5,Test
+2011-11-14,22197,Exponential smoothing,935.5,Test
+2011-11-21,22197,Exponential smoothing,935.5,Test
+2011-11-28,22197,Exponential smoothing,935.5,Test
+2011-09-05,22386,Exponential smoothing,437.6,Test
+2011-09-12,22386,Exponential smoothing,437.6,Test
+2011-09-19,22386,Exponential smoothing,437.6,Test
+2011-09-26,22386,Exponential smoothing,437.6,Test
+2011-10-03,22386,Exponential smoothing,437.6,Test
+2011-10-10,22386,Exponential smoothing,437.6,Test
+2011-10-17,22386,Exponential smoothing,437.6,Test
+2011-10-24,22386,Exponential smoothing,437.6,Test
+2011-10-31,22386,Exponential smoothing,437.6,Test
+2011-11-07,22386,Exponential smoothing,437.6,Test
+2011-11-14,22386,Exponential smoothing,437.6,Test
+2011-11-21,22386,Exponential smoothing,437.6,Test
+2011-11-28,22386,Exponential smoothing,437.6,Test
+2011-09-05,20725,Exponential smoothing,423.3,Test
+2011-09-12,20725,Exponential smoothing,422.6,Test
+2011-09-19,20725,Exponential smoothing,422.1,Test
+2011-09-26,20725,Exponential smoothing,421.7,Test
+2011-10-03,20725,Exponential smoothing,421.4,Test
+2011-10-10,20725,Exponential smoothing,421.2,Test
+2011-10-17,20725,Exponential smoothing,421.0,Test
+2011-10-24,20725,Exponential smoothing,420.8,Test
+2011-10-31,20725,Exponential smoothing,420.7,Test
+2011-11-07,20725,Exponential smoothing,420.6,Test
+2011-11-14,20725,Exponential smoothing,420.5,Test
+2011-11-21,20725,Exponential smoothing,420.4,Test
+2011-11-28,20725,Exponential smoothing,420.4,Test
+2011-09-05,21137,Exponential smoothing,142.1,Test
+2011-09-12,21137,Exponential smoothing,142.1,Test
+2011-09-19,21137,Exponential smoothing,142.1,Test
+2011-09-26,21137,Exponential smoothing,142.1,Test
+2011-10-03,21137,Exponential smoothing,142.1,Test
+2011-10-10,21137,Exponential smoothing,142.1,Test
+2011-10-17,21137,Exponential smoothing,142.1,Test
+2011-10-24,21137,Exponential smoothing,142.1,Test
+2011-10-31,21137,Exponential smoothing,142.1,Test
+2011-11-07,21137,Exponential smoothing,142.1,Test
+2011-11-14,21137,Exponential smoothing,142.1,Test
+2011-11-21,21137,Exponential smoothing,142.1,Test
+2011-11-28,21137,Exponential smoothing,142.1,Test
+2011-09-05,85099F,Exponential smoothing,382.7,Test
+2011-09-12,85099F,Exponential smoothing,382.7,Test
+2011-09-19,85099F,Exponential smoothing,382.7,Test
+2011-09-26,85099F,Exponential smoothing,382.7,Test
+2011-10-03,85099F,Exponential smoothing,382.7,Test
+2011-10-10,85099F,Exponential smoothing,382.7,Test
+2011-10-17,85099F,Exponential smoothing,382.7,Test
+2011-10-24,85099F,Exponential smoothing,382.7,Test
+2011-10-31,85099F,Exponential smoothing,382.7,Test
+2011-11-07,85099F,Exponential smoothing,382.7,Test
+2011-11-14,85099F,Exponential smoothing,382.7,Test
+2011-11-21,85099F,Exponential smoothing,382.7,Test
+2011-11-28,85099F,Exponential smoothing,382.7,Test
+2011-09-05,22178,Exponential smoothing,441.5,Test
+2011-09-12,22178,Exponential smoothing,441.5,Test
+2011-09-19,22178,Exponential smoothing,441.5,Test
+2011-09-26,22178,Exponential smoothing,441.5,Test
+2011-10-03,22178,Exponential smoothing,441.5,Test
+2011-10-10,22178,Exponential smoothing,441.5,Test
+2011-10-17,22178,Exponential smoothing,441.5,Test
+2011-10-24,22178,Exponential smoothing,441.5,Test
+2011-10-31,22178,Exponential smoothing,441.5,Test
+2011-11-07,22178,Exponential smoothing,441.5,Test
+2011-11-14,22178,Exponential smoothing,441.5,Test
+2011-11-21,22178,Exponential smoothing,441.5,Test
+2011-11-28,22178,Exponential smoothing,441.5,Test
+2011-09-05,22112,Exponential smoothing,66.0,Test
+2011-09-12,22112,Exponential smoothing,66.0,Test
+2011-09-19,22112,Exponential smoothing,66.0,Test
+2011-09-26,22112,Exponential smoothing,66.0,Test
+2011-10-03,22112,Exponential smoothing,66.0,Test
+2011-10-10,22112,Exponential smoothing,66.0,Test
+2011-10-17,22112,Exponential smoothing,66.0,Test
+2011-10-24,22112,Exponential smoothing,66.0,Test
+2011-10-31,22112,Exponential smoothing,66.0,Test
+2011-11-07,22112,Exponential smoothing,66.0,Test
+2011-11-14,22112,Exponential smoothing,66.0,Test
+2011-11-21,22112,Exponential smoothing,66.0,Test
+2011-11-28,22112,Exponential smoothing,66.0,Test
+2011-09-05,21931,Exponential smoothing,286.8,Test
+2011-09-12,21931,Exponential smoothing,286.8,Test
+2011-09-19,21931,Exponential smoothing,286.8,Test
+2011-09-26,21931,Exponential smoothing,286.8,Test
+2011-10-03,21931,Exponential smoothing,286.8,Test
+2011-10-10,21931,Exponential smoothing,286.8,Test
+2011-10-17,21931,Exponential smoothing,286.8,Test
+2011-10-24,21931,Exponential smoothing,286.8,Test
+2011-10-31,21931,Exponential smoothing,286.8,Test
+2011-11-07,21931,Exponential smoothing,286.8,Test
+2011-11-14,21931,Exponential smoothing,286.8,Test
+2011-11-21,21931,Exponential smoothing,286.8,Test
+2011-11-28,21931,Exponential smoothing,286.8,Test
+2011-09-05,21623,Exponential smoothing,26.6,Test
+2011-09-12,21623,Exponential smoothing,26.6,Test
+2011-09-19,21623,Exponential smoothing,26.6,Test
+2011-09-26,21623,Exponential smoothing,26.6,Test
+2011-10-03,21623,Exponential smoothing,26.6,Test
+2011-10-10,21623,Exponential smoothing,26.6,Test
+2011-10-17,21623,Exponential smoothing,26.6,Test
+2011-10-24,21623,Exponential smoothing,26.6,Test
+2011-10-31,21623,Exponential smoothing,26.6,Test
+2011-11-07,21623,Exponential smoothing,26.6,Test
+2011-11-14,21623,Exponential smoothing,26.6,Test
+2011-11-21,21623,Exponential smoothing,26.6,Test
+2011-11-28,21623,Exponential smoothing,26.6,Test
+2011-09-05,22355,Exponential smoothing,307.6,Test
+2011-09-12,22355,Exponential smoothing,307.6,Test
+2011-09-19,22355,Exponential smoothing,307.6,Test
+2011-09-26,22355,Exponential smoothing,307.6,Test
+2011-10-03,22355,Exponential smoothing,307.6,Test
+2011-10-10,22355,Exponential smoothing,307.6,Test
+2011-10-17,22355,Exponential smoothing,307.6,Test
+2011-10-24,22355,Exponential smoothing,307.6,Test
+2011-10-31,22355,Exponential smoothing,307.6,Test
+2011-11-07,22355,Exponential smoothing,307.6,Test
+2011-11-14,22355,Exponential smoothing,307.6,Test
+2011-11-21,22355,Exponential smoothing,307.6,Test
+2011-11-28,22355,Exponential smoothing,307.6,Test
+2011-09-05,22411,Exponential smoothing,251.8,Test
+2011-09-12,22411,Exponential smoothing,251.8,Test
+2011-09-19,22411,Exponential smoothing,251.8,Test
+2011-09-26,22411,Exponential smoothing,251.8,Test
+2011-10-03,22411,Exponential smoothing,251.8,Test
+2011-10-10,22411,Exponential smoothing,251.8,Test
+2011-10-17,22411,Exponential smoothing,251.8,Test
+2011-10-24,22411,Exponential smoothing,251.8,Test
+2011-10-31,22411,Exponential smoothing,251.8,Test
+2011-11-07,22411,Exponential smoothing,251.8,Test
+2011-11-14,22411,Exponential smoothing,251.8,Test
+2011-11-21,22411,Exponential smoothing,251.8,Test
+2011-11-28,22411,Exponential smoothing,251.8,Test
+2011-09-05,85099C,Exponential smoothing,233.8,Test
+2011-09-12,85099C,Exponential smoothing,233.8,Test
+2011-09-19,85099C,Exponential smoothing,233.8,Test
+2011-09-26,85099C,Exponential smoothing,233.8,Test
+2011-10-03,85099C,Exponential smoothing,233.8,Test
+2011-10-10,85099C,Exponential smoothing,233.8,Test
+2011-10-17,85099C,Exponential smoothing,233.8,Test
+2011-10-24,85099C,Exponential smoothing,233.8,Test
+2011-10-31,85099C,Exponential smoothing,233.8,Test
+2011-11-07,85099C,Exponential smoothing,233.8,Test
+2011-11-14,85099C,Exponential smoothing,233.8,Test
+2011-11-21,85099C,Exponential smoothing,233.8,Test
+2011-11-28,85099C,Exponential smoothing,233.8,Test
+2011-09-05,20685,Exponential smoothing,83.7,Test
+2011-09-12,20685,Exponential smoothing,83.7,Test
+2011-09-19,20685,Exponential smoothing,83.7,Test
+2011-09-26,20685,Exponential smoothing,83.7,Test
+2011-10-03,20685,Exponential smoothing,83.7,Test
+2011-10-10,20685,Exponential smoothing,83.7,Test
+2011-10-17,20685,Exponential smoothing,83.7,Test
+2011-10-24,20685,Exponential smoothing,83.7,Test
+2011-10-31,20685,Exponential smoothing,83.7,Test
+2011-11-07,20685,Exponential smoothing,83.7,Test
+2011-11-14,20685,Exponential smoothing,83.7,Test
+2011-11-21,20685,Exponential smoothing,83.7,Test
+2011-11-28,20685,Exponential smoothing,83.7,Test
+2011-09-05,22189,Exponential smoothing,138.3,Test
+2011-09-12,22189,Exponential smoothing,138.3,Test
+2011-09-19,22189,Exponential smoothing,138.3,Test
+2011-09-26,22189,Exponential smoothing,138.3,Test
+2011-10-03,22189,Exponential smoothing,138.3,Test
+2011-10-10,22189,Exponential smoothing,138.3,Test
+2011-10-17,22189,Exponential smoothing,138.3,Test
+2011-10-24,22189,Exponential smoothing,138.3,Test
+2011-10-31,22189,Exponential smoothing,138.3,Test
+2011-11-07,22189,Exponential smoothing,138.3,Test
+2011-11-14,22189,Exponential smoothing,138.3,Test
+2011-11-21,22189,Exponential smoothing,138.3,Test
+2011-11-28,22189,Exponential smoothing,138.3,Test
+2011-09-05,84946,Exponential smoothing,262.4,Test
+2011-09-12,84946,Exponential smoothing,262.4,Test
+2011-09-19,84946,Exponential smoothing,262.4,Test
+2011-09-26,84946,Exponential smoothing,262.4,Test
+2011-10-03,84946,Exponential smoothing,262.4,Test
+2011-10-10,84946,Exponential smoothing,262.4,Test
+2011-10-17,84946,Exponential smoothing,262.4,Test
+2011-10-24,84946,Exponential smoothing,262.4,Test
+2011-10-31,84946,Exponential smoothing,262.4,Test
+2011-11-07,84946,Exponential smoothing,262.4,Test
+2011-11-14,84946,Exponential smoothing,262.4,Test
+2011-11-21,84946,Exponential smoothing,262.4,Test
+2011-11-28,84946,Exponential smoothing,262.4,Test
+2011-09-05,48138,Exponential smoothing,38.0,Test
+2011-09-12,48138,Exponential smoothing,38.0,Test
+2011-09-19,48138,Exponential smoothing,38.0,Test
+2011-09-26,48138,Exponential smoothing,38.0,Test
+2011-10-03,48138,Exponential smoothing,38.0,Test
+2011-10-10,48138,Exponential smoothing,38.0,Test
+2011-10-17,48138,Exponential smoothing,38.0,Test
+2011-10-24,48138,Exponential smoothing,38.0,Test
+2011-10-31,48138,Exponential smoothing,38.0,Test
+2011-11-07,48138,Exponential smoothing,38.0,Test
+2011-11-14,48138,Exponential smoothing,38.0,Test
+2011-11-21,48138,Exponential smoothing,38.0,Test
+2011-11-28,48138,Exponential smoothing,38.0,Test
+2011-09-05,21915,Exponential smoothing,443.8,Test
+2011-09-12,21915,Exponential smoothing,443.8,Test
+2011-09-19,21915,Exponential smoothing,443.8,Test
+2011-09-26,21915,Exponential smoothing,443.8,Test
+2011-10-03,21915,Exponential smoothing,443.8,Test
+2011-10-10,21915,Exponential smoothing,443.8,Test
+2011-10-17,21915,Exponential smoothing,443.8,Test
+2011-10-24,21915,Exponential smoothing,443.8,Test
+2011-10-31,21915,Exponential smoothing,443.8,Test
+2011-11-07,21915,Exponential smoothing,443.8,Test
+2011-11-14,21915,Exponential smoothing,443.8,Test
+2011-11-21,21915,Exponential smoothing,443.8,Test
+2011-11-28,21915,Exponential smoothing,443.8,Test
+2011-09-05,21621,Exponential smoothing,45.9,Test
+2011-09-12,21621,Exponential smoothing,45.9,Test
+2011-09-19,21621,Exponential smoothing,45.9,Test
+2011-09-26,21621,Exponential smoothing,45.9,Test
+2011-10-03,21621,Exponential smoothing,45.9,Test
+2011-10-10,21621,Exponential smoothing,45.9,Test
+2011-10-17,21621,Exponential smoothing,45.9,Test
+2011-10-24,21621,Exponential smoothing,45.9,Test
+2011-10-31,21621,Exponential smoothing,45.9,Test
+2011-11-07,21621,Exponential smoothing,45.9,Test
+2011-11-14,21621,Exponential smoothing,45.9,Test
+2011-11-21,21621,Exponential smoothing,45.9,Test
+2011-11-28,21621,Exponential smoothing,45.9,Test
+2011-09-05,48187,Exponential smoothing,75.4,Test
+2011-09-12,48187,Exponential smoothing,75.4,Test
+2011-09-19,48187,Exponential smoothing,75.4,Test
+2011-09-26,48187,Exponential smoothing,75.4,Test
+2011-10-03,48187,Exponential smoothing,75.4,Test
+2011-10-10,48187,Exponential smoothing,75.4,Test
+2011-10-17,48187,Exponential smoothing,75.4,Test
+2011-10-24,48187,Exponential smoothing,75.4,Test
+2011-10-31,48187,Exponential smoothing,75.4,Test
+2011-11-07,48187,Exponential smoothing,75.4,Test
+2011-11-14,48187,Exponential smoothing,75.4,Test
+2011-11-21,48187,Exponential smoothing,75.4,Test
+2011-11-28,48187,Exponential smoothing,75.4,Test
+2011-09-05,22326,Exponential smoothing,190.2,Test
+2011-09-12,22326,Exponential smoothing,190.2,Test
+2011-09-19,22326,Exponential smoothing,190.2,Test
+2011-09-26,22326,Exponential smoothing,190.2,Test
+2011-10-03,22326,Exponential smoothing,190.2,Test
+2011-10-10,22326,Exponential smoothing,190.2,Test
+2011-10-17,22326,Exponential smoothing,190.2,Test
+2011-10-24,22326,Exponential smoothing,190.2,Test
+2011-10-31,22326,Exponential smoothing,190.2,Test
+2011-11-07,22326,Exponential smoothing,190.2,Test
+2011-11-14,22326,Exponential smoothing,190.2,Test
+2011-11-21,22326,Exponential smoothing,190.2,Test
+2011-11-28,22326,Exponential smoothing,190.2,Test
+2011-09-05,21175,Exponential smoothing,144.8,Test
+2011-09-12,21175,Exponential smoothing,144.8,Test
+2011-09-19,21175,Exponential smoothing,144.8,Test
+2011-09-26,21175,Exponential smoothing,144.8,Test
+2011-10-03,21175,Exponential smoothing,144.8,Test
+2011-10-10,21175,Exponential smoothing,144.8,Test
+2011-10-17,21175,Exponential smoothing,144.8,Test
+2011-10-24,21175,Exponential smoothing,144.8,Test
+2011-10-31,21175,Exponential smoothing,144.8,Test
+2011-11-07,21175,Exponential smoothing,144.8,Test
+2011-11-14,21175,Exponential smoothing,144.8,Test
+2011-11-21,21175,Exponential smoothing,144.8,Test
+2011-11-28,21175,Exponential smoothing,144.8,Test
+2011-09-05,22111,Exponential smoothing,45.3,Test
+2011-09-12,22111,Exponential smoothing,45.3,Test
+2011-09-19,22111,Exponential smoothing,45.3,Test
+2011-09-26,22111,Exponential smoothing,45.3,Test
+2011-10-03,22111,Exponential smoothing,45.3,Test
+2011-10-10,22111,Exponential smoothing,45.3,Test
+2011-10-17,22111,Exponential smoothing,45.3,Test
+2011-10-24,22111,Exponential smoothing,45.3,Test
+2011-10-31,22111,Exponential smoothing,45.3,Test
+2011-11-07,22111,Exponential smoothing,45.3,Test
+2011-11-14,22111,Exponential smoothing,45.3,Test
+2011-11-21,22111,Exponential smoothing,45.3,Test
+2011-11-28,22111,Exponential smoothing,45.3,Test
+2011-09-05,22138,Exponential smoothing,45.8,Test
+2011-09-12,22138,Exponential smoothing,45.8,Test
+2011-09-19,22138,Exponential smoothing,45.8,Test
+2011-09-26,22138,Exponential smoothing,45.8,Test
+2011-10-03,22138,Exponential smoothing,45.8,Test
+2011-10-10,22138,Exponential smoothing,45.8,Test
+2011-10-17,22138,Exponential smoothing,45.8,Test
+2011-10-24,22138,Exponential smoothing,45.8,Test
+2011-10-31,22138,Exponential smoothing,45.8,Test
+2011-11-07,22138,Exponential smoothing,45.8,Test
+2011-11-14,22138,Exponential smoothing,45.8,Test
+2011-11-21,22138,Exponential smoothing,45.8,Test
+2011-11-28,22138,Exponential smoothing,45.8,Test
+2011-09-05,15056N,Exponential smoothing,89.4,Test
+2011-09-12,15056N,Exponential smoothing,85.7,Test
+2011-09-19,15056N,Exponential smoothing,82.8,Test
+2011-09-26,15056N,Exponential smoothing,80.4,Test
+2011-10-03,15056N,Exponential smoothing,78.5,Test
+2011-10-10,15056N,Exponential smoothing,77.0,Test
+2011-10-17,15056N,Exponential smoothing,75.8,Test
+2011-10-24,15056N,Exponential smoothing,74.8,Test
+2011-10-31,15056N,Exponential smoothing,74.0,Test
+2011-11-07,15056N,Exponential smoothing,73.4,Test
+2011-11-14,15056N,Exponential smoothing,72.9,Test
+2011-11-21,15056N,Exponential smoothing,72.5,Test
+2011-11-28,15056N,Exponential smoothing,72.2,Test
+2011-09-05,21929,Exponential smoothing,222.3,Test
+2011-09-12,21929,Exponential smoothing,222.3,Test
+2011-09-19,21929,Exponential smoothing,222.3,Test
+2011-09-26,21929,Exponential smoothing,222.3,Test
+2011-10-03,21929,Exponential smoothing,222.3,Test
+2011-10-10,21929,Exponential smoothing,222.3,Test
+2011-10-17,21929,Exponential smoothing,222.3,Test
+2011-10-24,21929,Exponential smoothing,222.3,Test
+2011-10-31,21929,Exponential smoothing,222.3,Test
+2011-11-07,21929,Exponential smoothing,222.3,Test
+2011-11-14,21929,Exponential smoothing,222.3,Test
+2011-11-21,21929,Exponential smoothing,222.3,Test
+2011-11-28,21929,Exponential smoothing,222.3,Test
+2011-09-05,85123A,Gradient boosting,309.6,Test
+2011-09-12,85123A,Gradient boosting,395.2,Test
+2011-09-19,85123A,Gradient boosting,395.2,Test
+2011-09-26,85123A,Gradient boosting,422.4,Test
+2011-10-03,85123A,Gradient boosting,332.5,Test
+2011-10-10,85123A,Gradient boosting,221.4,Test
+2011-10-17,85123A,Gradient boosting,445.6,Test
+2011-10-24,85123A,Gradient boosting,429.8,Test
+2011-10-31,85123A,Gradient boosting,642.0,Test
+2011-11-07,85123A,Gradient boosting,534.5,Test
+2011-11-14,85123A,Gradient boosting,675.8,Test
+2011-11-21,85123A,Gradient boosting,926.7,Test
+2011-11-28,85123A,Gradient boosting,570.9,Test
+2011-09-05,47566,Gradient boosting,304.0,Test
+2011-09-12,47566,Gradient boosting,338.4,Test
+2011-09-19,47566,Gradient boosting,223.9,Test
+2011-09-26,47566,Gradient boosting,787.8,Test
+2011-10-03,47566,Gradient boosting,215.4,Test
+2011-10-10,47566,Gradient boosting,257.9,Test
+2011-10-17,47566,Gradient boosting,434.9,Test
+2011-10-24,47566,Gradient boosting,372.6,Test
+2011-10-31,47566,Gradient boosting,364.5,Test
+2011-11-07,47566,Gradient boosting,294.7,Test
+2011-11-14,47566,Gradient boosting,341.2,Test
+2011-11-21,47566,Gradient boosting,335.3,Test
+2011-11-28,47566,Gradient boosting,281.0,Test
+2011-09-05,85099B,Gradient boosting,742.5,Test
+2011-09-12,85099B,Gradient boosting,608.1,Test
+2011-09-19,85099B,Gradient boosting,781.6,Test
+2011-09-26,85099B,Gradient boosting,804.4,Test
+2011-10-03,85099B,Gradient boosting,1742.7,Test
+2011-10-10,85099B,Gradient boosting,908.7,Test
+2011-10-17,85099B,Gradient boosting,746.7,Test
+2011-10-24,85099B,Gradient boosting,968.4,Test
+2011-10-31,85099B,Gradient boosting,614.5,Test
+2011-11-07,85099B,Gradient boosting,799.8,Test
+2011-11-14,85099B,Gradient boosting,1333.2,Test
+2011-11-21,85099B,Gradient boosting,307.3,Test
+2011-11-28,85099B,Gradient boosting,707.2,Test
+2011-09-05,84879,Gradient boosting,247.5,Test
+2011-09-12,84879,Gradient boosting,517.1,Test
+2011-09-19,84879,Gradient boosting,921.4,Test
+2011-09-26,84879,Gradient boosting,417.2,Test
+2011-10-03,84879,Gradient boosting,895.2,Test
+2011-10-10,84879,Gradient boosting,514.3,Test
+2011-10-17,84879,Gradient boosting,725.8,Test
+2011-10-24,84879,Gradient boosting,394.1,Test
+2011-10-31,84879,Gradient boosting,298.5,Test
+2011-11-07,84879,Gradient boosting,341.0,Test
+2011-11-14,84879,Gradient boosting,354.2,Test
+2011-11-21,84879,Gradient boosting,253.8,Test
+2011-11-28,84879,Gradient boosting,688.3,Test
+2011-09-05,79321,Gradient boosting,95.3,Test
+2011-09-12,79321,Gradient boosting,78.9,Test
+2011-09-19,79321,Gradient boosting,93.1,Test
+2011-09-26,79321,Gradient boosting,124.8,Test
+2011-10-03,79321,Gradient boosting,274.1,Test
+2011-10-10,79321,Gradient boosting,70.7,Test
+2011-10-17,79321,Gradient boosting,130.2,Test
+2011-10-24,79321,Gradient boosting,79.4,Test
+2011-10-31,79321,Gradient boosting,103.1,Test
+2011-11-07,79321,Gradient boosting,272.8,Test
+2011-11-14,79321,Gradient boosting,187.2,Test
+2011-11-21,79321,Gradient boosting,293.7,Test
+2011-11-28,79321,Gradient boosting,258.0,Test
+2011-09-05,22197,Gradient boosting,565.8,Test
+2011-09-12,22197,Gradient boosting,441.6,Test
+2011-09-19,22197,Gradient boosting,1475.8,Test
+2011-09-26,22197,Gradient boosting,359.2,Test
+2011-10-03,22197,Gradient boosting,416.3,Test
+2011-10-10,22197,Gradient boosting,303.6,Test
+2011-10-17,22197,Gradient boosting,596.4,Test
+2011-10-24,22197,Gradient boosting,1315.6,Test
+2011-10-31,22197,Gradient boosting,382.1,Test
+2011-11-07,22197,Gradient boosting,1244.9,Test
+2011-11-14,22197,Gradient boosting,1416.1,Test
+2011-11-21,22197,Gradient boosting,1469.7,Test
+2011-11-28,22197,Gradient boosting,647.6,Test
+2011-09-05,22386,Gradient boosting,246.4,Test
+2011-09-12,22386,Gradient boosting,232.0,Test
+2011-09-19,22386,Gradient boosting,237.8,Test
+2011-09-26,22386,Gradient boosting,227.9,Test
+2011-10-03,22386,Gradient boosting,270.0,Test
+2011-10-10,22386,Gradient boosting,288.9,Test
+2011-10-17,22386,Gradient boosting,174.4,Test
+2011-10-24,22386,Gradient boosting,265.4,Test
+2011-10-31,22386,Gradient boosting,242.1,Test
+2011-11-07,22386,Gradient boosting,329.3,Test
+2011-11-14,22386,Gradient boosting,338.2,Test
+2011-11-21,22386,Gradient boosting,231.0,Test
+2011-11-28,22386,Gradient boosting,223.6,Test
+2011-09-05,20725,Gradient boosting,137.5,Test
+2011-09-12,20725,Gradient boosting,146.2,Test
+2011-09-19,20725,Gradient boosting,224.5,Test
+2011-09-26,20725,Gradient boosting,136.0,Test
+2011-10-03,20725,Gradient boosting,114.0,Test
+2011-10-10,20725,Gradient boosting,223.8,Test
+2011-10-17,20725,Gradient boosting,302.4,Test
+2011-10-24,20725,Gradient boosting,353.5,Test
+2011-10-31,20725,Gradient boosting,88.2,Test
+2011-11-07,20725,Gradient boosting,127.9,Test
+2011-11-14,20725,Gradient boosting,180.0,Test
+2011-11-21,20725,Gradient boosting,153.0,Test
+2011-11-28,20725,Gradient boosting,164.7,Test
+2011-09-05,21137,Gradient boosting,196.8,Test
+2011-09-12,21137,Gradient boosting,217.0,Test
+2011-09-19,21137,Gradient boosting,185.9,Test
+2011-09-26,21137,Gradient boosting,337.0,Test
+2011-10-03,21137,Gradient boosting,337.3,Test
+2011-10-10,21137,Gradient boosting,377.9,Test
+2011-10-17,21137,Gradient boosting,214.9,Test
+2011-10-24,21137,Gradient boosting,126.3,Test
+2011-10-31,21137,Gradient boosting,335.3,Test
+2011-11-07,21137,Gradient boosting,336.5,Test
+2011-11-14,21137,Gradient boosting,125.8,Test
+2011-11-21,21137,Gradient boosting,107.3,Test
+2011-11-28,21137,Gradient boosting,319.4,Test
+2011-09-05,85099F,Gradient boosting,199.0,Test
+2011-09-12,85099F,Gradient boosting,138.2,Test
+2011-09-19,85099F,Gradient boosting,243.5,Test
+2011-09-26,85099F,Gradient boosting,74.8,Test
+2011-10-03,85099F,Gradient boosting,180.7,Test
+2011-10-10,85099F,Gradient boosting,231.8,Test
+2011-10-17,85099F,Gradient boosting,90.2,Test
+2011-10-24,85099F,Gradient boosting,284.2,Test
+2011-10-31,85099F,Gradient boosting,265.7,Test
+2011-11-07,85099F,Gradient boosting,257.2,Test
+2011-11-14,85099F,Gradient boosting,391.1,Test
+2011-11-21,85099F,Gradient boosting,219.3,Test
+2011-11-28,85099F,Gradient boosting,229.6,Test
+2011-09-05,22178,Gradient boosting,474.4,Test
+2011-09-12,22178,Gradient boosting,353.5,Test
+2011-09-19,22178,Gradient boosting,331.6,Test
+2011-09-26,22178,Gradient boosting,510.6,Test
+2011-10-03,22178,Gradient boosting,440.0,Test
+2011-10-10,22178,Gradient boosting,339.1,Test
+2011-10-17,22178,Gradient boosting,366.7,Test
+2011-10-24,22178,Gradient boosting,575.3,Test
+2011-10-31,22178,Gradient boosting,860.9,Test
+2011-11-07,22178,Gradient boosting,832.3,Test
+2011-11-14,22178,Gradient boosting,319.4,Test
+2011-11-21,22178,Gradient boosting,770.1,Test
+2011-11-28,22178,Gradient boosting,297.2,Test
+2011-09-05,22112,Gradient boosting,92.5,Test
+2011-09-12,22112,Gradient boosting,102.8,Test
+2011-09-19,22112,Gradient boosting,194.8,Test
+2011-09-26,22112,Gradient boosting,198.0,Test
+2011-10-03,22112,Gradient boosting,92.5,Test
+2011-10-10,22112,Gradient boosting,124.3,Test
+2011-10-17,22112,Gradient boosting,188.8,Test
+2011-10-24,22112,Gradient boosting,235.6,Test
+2011-10-31,22112,Gradient boosting,189.4,Test
+2011-11-07,22112,Gradient boosting,188.3,Test
+2011-11-14,22112,Gradient boosting,167.2,Test
+2011-11-21,22112,Gradient boosting,167.2,Test
+2011-11-28,22112,Gradient boosting,167.2,Test
+2011-09-05,21931,Gradient boosting,176.7,Test
+2011-09-12,21931,Gradient boosting,108.9,Test
+2011-09-19,21931,Gradient boosting,185.4,Test
+2011-09-26,21931,Gradient boosting,157.1,Test
+2011-10-03,21931,Gradient boosting,128.1,Test
+2011-10-10,21931,Gradient boosting,185.1,Test
+2011-10-17,21931,Gradient boosting,166.7,Test
+2011-10-24,21931,Gradient boosting,160.5,Test
+2011-10-31,21931,Gradient boosting,74.1,Test
+2011-11-07,21931,Gradient boosting,179.3,Test
+2011-11-14,21931,Gradient boosting,196.4,Test
+2011-11-21,21931,Gradient boosting,131.6,Test
+2011-11-28,21931,Gradient boosting,95.9,Test
+2011-09-05,21623,Gradient boosting,17.5,Test
+2011-09-12,21623,Gradient boosting,45.0,Test
+2011-09-19,21623,Gradient boosting,62.1,Test
+2011-09-26,21623,Gradient boosting,48.5,Test
+2011-10-03,21623,Gradient boosting,93.2,Test
+2011-10-10,21623,Gradient boosting,103.6,Test
+2011-10-17,21623,Gradient boosting,16.3,Test
+2011-10-24,21623,Gradient boosting,87.4,Test
+2011-10-31,21623,Gradient boosting,115.6,Test
+2011-11-07,21623,Gradient boosting,97.4,Test
+2011-11-14,21623,Gradient boosting,76.7,Test
+2011-11-21,21623,Gradient boosting,26.0,Test
+2011-11-28,21623,Gradient boosting,12.3,Test
+2011-09-05,22355,Gradient boosting,237.3,Test
+2011-09-12,22355,Gradient boosting,186.2,Test
+2011-09-19,22355,Gradient boosting,292.5,Test
+2011-09-26,22355,Gradient boosting,260.3,Test
+2011-10-03,22355,Gradient boosting,262.1,Test
+2011-10-10,22355,Gradient boosting,284.3,Test
+2011-10-17,22355,Gradient boosting,215.1,Test
+2011-10-24,22355,Gradient boosting,265.4,Test
+2011-10-31,22355,Gradient boosting,313.6,Test
+2011-11-07,22355,Gradient boosting,279.6,Test
+2011-11-14,22355,Gradient boosting,374.9,Test
+2011-11-21,22355,Gradient boosting,471.5,Test
+2011-11-28,22355,Gradient boosting,467.2,Test
+2011-09-05,22411,Gradient boosting,242.6,Test
+2011-09-12,22411,Gradient boosting,261.8,Test
+2011-09-19,22411,Gradient boosting,175.8,Test
+2011-09-26,22411,Gradient boosting,215.9,Test
+2011-10-03,22411,Gradient boosting,262.2,Test
+2011-10-10,22411,Gradient boosting,224.4,Test
+2011-10-17,22411,Gradient boosting,156.9,Test
+2011-10-24,22411,Gradient boosting,128.3,Test
+2011-10-31,22411,Gradient boosting,194.7,Test
+2011-11-07,22411,Gradient boosting,137.9,Test
+2011-11-14,22411,Gradient boosting,270.7,Test
+2011-11-21,22411,Gradient boosting,251.4,Test
+2011-11-28,22411,Gradient boosting,242.5,Test
+2011-09-05,85099C,Gradient boosting,153.2,Test
+2011-09-12,85099C,Gradient boosting,148.2,Test
+2011-09-19,85099C,Gradient boosting,175.5,Test
+2011-09-26,85099C,Gradient boosting,147.7,Test
+2011-10-03,85099C,Gradient boosting,250.4,Test
+2011-10-10,85099C,Gradient boosting,156.2,Test
+2011-10-17,85099C,Gradient boosting,255.5,Test
+2011-10-24,85099C,Gradient boosting,141.3,Test
+2011-10-31,85099C,Gradient boosting,103.6,Test
+2011-11-07,85099C,Gradient boosting,308.6,Test
+2011-11-14,85099C,Gradient boosting,199.0,Test
+2011-11-21,85099C,Gradient boosting,209.8,Test
+2011-11-28,85099C,Gradient boosting,191.3,Test
+2011-09-05,20685,Gradient boosting,49.3,Test
+2011-09-12,20685,Gradient boosting,225.7,Test
+2011-09-19,20685,Gradient boosting,36.2,Test
+2011-09-26,20685,Gradient boosting,74.4,Test
+2011-10-03,20685,Gradient boosting,35.6,Test
+2011-10-10,20685,Gradient boosting,21.7,Test
+2011-10-17,20685,Gradient boosting,20.5,Test
+2011-10-24,20685,Gradient boosting,66.7,Test
+2011-10-31,20685,Gradient boosting,44.9,Test
+2011-11-07,20685,Gradient boosting,42.5,Test
+2011-11-14,20685,Gradient boosting,65.5,Test
+2011-11-21,20685,Gradient boosting,110.7,Test
+2011-11-28,20685,Gradient boosting,99.0,Test
+2011-09-05,22189,Gradient boosting,124.9,Test
+2011-09-12,22189,Gradient boosting,244.4,Test
+2011-09-19,22189,Gradient boosting,170.0,Test
+2011-09-26,22189,Gradient boosting,158.7,Test
+2011-10-03,22189,Gradient boosting,170.0,Test
+2011-10-10,22189,Gradient boosting,357.4,Test
+2011-10-17,22189,Gradient boosting,322.1,Test
+2011-10-24,22189,Gradient boosting,166.3,Test
+2011-10-31,22189,Gradient boosting,359.8,Test
+2011-11-07,22189,Gradient boosting,475.0,Test
+2011-11-14,22189,Gradient boosting,197.2,Test
+2011-11-21,22189,Gradient boosting,145.7,Test
+2011-11-28,22189,Gradient boosting,122.3,Test
+2011-09-05,84946,Gradient boosting,229.8,Test
+2011-09-12,84946,Gradient boosting,282.6,Test
+2011-09-19,84946,Gradient boosting,281.3,Test
+2011-09-26,84946,Gradient boosting,302.9,Test
+2011-10-03,84946,Gradient boosting,335.8,Test
+2011-10-10,84946,Gradient boosting,285.0,Test
+2011-10-17,84946,Gradient boosting,239.0,Test
+2011-10-24,84946,Gradient boosting,305.0,Test
+2011-10-31,84946,Gradient boosting,286.1,Test
+2011-11-07,84946,Gradient boosting,509.5,Test
+2011-11-14,84946,Gradient boosting,519.9,Test
+2011-11-21,84946,Gradient boosting,536.2,Test
+2011-11-28,84946,Gradient boosting,536.2,Test
+2011-09-05,48138,Gradient boosting,13.7,Test
+2011-09-12,48138,Gradient boosting,29.0,Test
+2011-09-19,48138,Gradient boosting,64.3,Test
+2011-09-26,48138,Gradient boosting,45.4,Test
+2011-10-03,48138,Gradient boosting,92.6,Test
+2011-10-10,48138,Gradient boosting,29.0,Test
+2011-10-17,48138,Gradient boosting,137.2,Test
+2011-10-24,48138,Gradient boosting,13.1,Test
+2011-10-31,48138,Gradient boosting,46.6,Test
+2011-11-07,48138,Gradient boosting,244.6,Test
+2011-11-14,48138,Gradient boosting,306.4,Test
+2011-11-21,48138,Gradient boosting,44.1,Test
+2011-11-28,48138,Gradient boosting,47.6,Test
+2011-09-05,21915,Gradient boosting,354.7,Test
+2011-09-12,21915,Gradient boosting,257.7,Test
+2011-09-19,21915,Gradient boosting,429.8,Test
+2011-09-26,21915,Gradient boosting,361.9,Test
+2011-10-03,21915,Gradient boosting,656.7,Test
+2011-10-10,21915,Gradient boosting,423.0,Test
+2011-10-17,21915,Gradient boosting,268.5,Test
+2011-10-24,21915,Gradient boosting,778.4,Test
+2011-10-31,21915,Gradient boosting,649.3,Test
+2011-11-07,21915,Gradient boosting,543.8,Test
+2011-11-14,21915,Gradient boosting,241.6,Test
+2011-11-21,21915,Gradient boosting,320.8,Test
+2011-11-28,21915,Gradient boosting,624.9,Test
+2011-09-05,21621,Gradient boosting,21.5,Test
+2011-09-12,21621,Gradient boosting,15.8,Test
+2011-09-19,21621,Gradient boosting,4.1,Test
+2011-09-26,21621,Gradient boosting,20.8,Test
+2011-10-03,21621,Gradient boosting,136.1,Test
+2011-10-10,21621,Gradient boosting,50.9,Test
+2011-10-17,21621,Gradient boosting,52.0,Test
+2011-10-24,21621,Gradient boosting,59.2,Test
+2011-10-31,21621,Gradient boosting,72.6,Test
+2011-11-07,21621,Gradient boosting,26.1,Test
+2011-11-14,21621,Gradient boosting,36.4,Test
+2011-11-21,21621,Gradient boosting,54.7,Test
+2011-11-28,21621,Gradient boosting,29.1,Test
+2011-09-05,48187,Gradient boosting,42.2,Test
+2011-09-12,48187,Gradient boosting,39.9,Test
+2011-09-19,48187,Gradient boosting,55.0,Test
+2011-09-26,48187,Gradient boosting,39.9,Test
+2011-10-03,48187,Gradient boosting,42.2,Test
+2011-10-10,48187,Gradient boosting,42.2,Test
+2011-10-17,48187,Gradient boosting,46.7,Test
+2011-10-24,48187,Gradient boosting,37.5,Test
+2011-10-31,48187,Gradient boosting,20.7,Test
+2011-11-07,48187,Gradient boosting,67.1,Test
+2011-11-14,48187,Gradient boosting,31.4,Test
+2011-11-21,48187,Gradient boosting,20.7,Test
+2011-11-28,48187,Gradient boosting,47.4,Test
+2011-09-05,22326,Gradient boosting,131.2,Test
+2011-09-12,22326,Gradient boosting,109.9,Test
+2011-09-19,22326,Gradient boosting,131.2,Test
+2011-09-26,22326,Gradient boosting,158.1,Test
+2011-10-03,22326,Gradient boosting,94.9,Test
+2011-10-10,22326,Gradient boosting,144.8,Test
+2011-10-17,22326,Gradient boosting,190.7,Test
+2011-10-24,22326,Gradient boosting,101.6,Test
+2011-10-31,22326,Gradient boosting,132.0,Test
+2011-11-07,22326,Gradient boosting,107.2,Test
+2011-11-14,22326,Gradient boosting,97.2,Test
+2011-11-21,22326,Gradient boosting,64.0,Test
+2011-11-28,22326,Gradient boosting,77.6,Test
+2011-09-05,21175,Gradient boosting,178.0,Test
+2011-09-12,21175,Gradient boosting,166.2,Test
+2011-09-19,21175,Gradient boosting,87.4,Test
+2011-09-26,21175,Gradient boosting,101.9,Test
+2011-10-03,21175,Gradient boosting,98.8,Test
+2011-10-10,21175,Gradient boosting,66.6,Test
+2011-10-17,21175,Gradient boosting,111.6,Test
+2011-10-24,21175,Gradient boosting,94.2,Test
+2011-10-31,21175,Gradient boosting,106.2,Test
+2011-11-07,21175,Gradient boosting,109.3,Test
+2011-11-14,21175,Gradient boosting,119.7,Test
+2011-11-21,21175,Gradient boosting,92.2,Test
+2011-11-28,21175,Gradient boosting,77.7,Test
+2011-09-05,22111,Gradient boosting,69.0,Test
+2011-09-12,22111,Gradient boosting,34.1,Test
+2011-09-19,22111,Gradient boosting,64.4,Test
+2011-09-26,22111,Gradient boosting,140.1,Test
+2011-10-03,22111,Gradient boosting,165.5,Test
+2011-10-10,22111,Gradient boosting,55.3,Test
+2011-10-17,22111,Gradient boosting,129.0,Test
+2011-10-24,22111,Gradient boosting,64.1,Test
+2011-10-31,22111,Gradient boosting,121.0,Test
+2011-11-07,22111,Gradient boosting,51.9,Test
+2011-11-14,22111,Gradient boosting,105.1,Test
+2011-11-21,22111,Gradient boosting,105.1,Test
+2011-11-28,22111,Gradient boosting,105.1,Test
+2011-09-05,22138,Gradient boosting,46.7,Test
+2011-09-12,22138,Gradient boosting,34.5,Test
+2011-09-19,22138,Gradient boosting,23.2,Test
+2011-09-26,22138,Gradient boosting,55.9,Test
+2011-10-03,22138,Gradient boosting,43.3,Test
+2011-10-10,22138,Gradient boosting,59.0,Test
+2011-10-17,22138,Gradient boosting,26.5,Test
+2011-10-24,22138,Gradient boosting,69.2,Test
+2011-10-31,22138,Gradient boosting,51.0,Test
+2011-11-07,22138,Gradient boosting,41.9,Test
+2011-11-14,22138,Gradient boosting,44.0,Test
+2011-11-21,22138,Gradient boosting,41.9,Test
+2011-11-28,22138,Gradient boosting,56.3,Test
+2011-09-05,15056N,Gradient boosting,33.7,Test
+2011-09-12,15056N,Gradient boosting,21.2,Test
+2011-09-19,15056N,Gradient boosting,57.3,Test
+2011-09-26,15056N,Gradient boosting,119.3,Test
+2011-10-03,15056N,Gradient boosting,96.2,Test
+2011-10-10,15056N,Gradient boosting,72.9,Test
+2011-10-17,15056N,Gradient boosting,105.9,Test
+2011-10-24,15056N,Gradient boosting,133.7,Test
+2011-10-31,15056N,Gradient boosting,80.6,Test
+2011-11-07,15056N,Gradient boosting,181.7,Test
+2011-11-14,15056N,Gradient boosting,64.0,Test
+2011-11-21,15056N,Gradient boosting,26.1,Test
+2011-11-28,15056N,Gradient boosting,97.1,Test
+2011-09-05,21929,Gradient boosting,300.6,Test
+2011-09-12,21929,Gradient boosting,250.5,Test
+2011-09-19,21929,Gradient boosting,113.8,Test
+2011-09-26,21929,Gradient boosting,84.0,Test
+2011-10-03,21929,Gradient boosting,179.9,Test
+2011-10-10,21929,Gradient boosting,169.0,Test
+2011-10-17,21929,Gradient boosting,68.4,Test
+2011-10-24,21929,Gradient boosting,84.1,Test
+2011-10-31,21929,Gradient boosting,114.6,Test
+2011-11-07,21929,Gradient boosting,94.9,Test
+2011-11-14,21929,Gradient boosting,109.3,Test
+2011-11-21,21929,Gradient boosting,86.9,Test
+2011-11-28,21929,Gradient boosting,179.1,Test
+2011-12-05,85123A,Naive (last week),731.0,Future
+2011-12-12,85123A,Naive (last week),731.0,Future
+2011-12-19,85123A,Naive (last week),731.0,Future
+2011-12-26,85123A,Naive (last week),731.0,Future
+2012-01-02,85123A,Naive (last week),731.0,Future
+2012-01-09,85123A,Naive (last week),731.0,Future
+2012-01-16,85123A,Naive (last week),731.0,Future
+2012-01-23,85123A,Naive (last week),731.0,Future
+2011-12-05,85123A,Seasonal naive,1974.0,Future
+2011-12-12,85123A,Seasonal naive,1529.0,Future
+2011-12-19,85123A,Seasonal naive,198.0,Future
+2011-12-26,85123A,Seasonal naive,0.0,Future
+2012-01-02,85123A,Seasonal naive,973.0,Future
+2012-01-09,85123A,Seasonal naive,1399.0,Future
+2012-01-16,85123A,Seasonal naive,662.0,Future
+2012-01-23,85123A,Seasonal naive,546.0,Future
+2011-12-05,85123A,Moving average (8 weeks),828.2,Future
+2011-12-12,85123A,Moving average (8 weeks),828.2,Future
+2011-12-19,85123A,Moving average (8 weeks),828.2,Future
+2011-12-26,85123A,Moving average (8 weeks),828.2,Future
+2012-01-02,85123A,Moving average (8 weeks),828.2,Future
+2012-01-09,85123A,Moving average (8 weeks),828.2,Future
+2012-01-16,85123A,Moving average (8 weeks),828.2,Future
+2012-01-23,85123A,Moving average (8 weeks),828.2,Future
+2011-12-05,85123A,Exponential smoothing,860.5,Future
+2011-12-12,85123A,Exponential smoothing,860.5,Future
+2011-12-19,85123A,Exponential smoothing,860.5,Future
+2011-12-26,85123A,Exponential smoothing,860.5,Future
+2012-01-02,85123A,Exponential smoothing,860.5,Future
+2012-01-09,85123A,Exponential smoothing,860.5,Future
+2012-01-16,85123A,Exponential smoothing,860.5,Future
+2012-01-23,85123A,Exponential smoothing,860.5,Future
+2011-12-05,85123A,Gradient boosting,1180.8,Future
+2011-12-12,85123A,Gradient boosting,722.5,Future
+2011-12-19,85123A,Gradient boosting,653.2,Future
+2011-12-26,85123A,Gradient boosting,1299.0,Future
+2012-01-02,85123A,Gradient boosting,956.7,Future
+2012-01-09,85123A,Gradient boosting,884.5,Future
+2012-01-16,85123A,Gradient boosting,664.0,Future
+2012-01-23,85123A,Gradient boosting,775.2,Future
+2011-12-05,47566,Naive (last week),105.0,Future
+2011-12-12,47566,Naive (last week),105.0,Future
+2011-12-19,47566,Naive (last week),105.0,Future
+2011-12-26,47566,Naive (last week),105.0,Future
+2012-01-02,47566,Naive (last week),105.0,Future
+2012-01-09,47566,Naive (last week),105.0,Future
+2012-01-16,47566,Naive (last week),105.0,Future
+2012-01-23,47566,Naive (last week),105.0,Future
+2011-12-05,47566,Seasonal naive,308.0,Future
+2011-12-12,47566,Seasonal naive,29.0,Future
+2011-12-19,47566,Seasonal naive,24.0,Future
+2011-12-26,47566,Seasonal naive,0.0,Future
+2012-01-02,47566,Seasonal naive,145.0,Future
+2012-01-09,47566,Seasonal naive,85.0,Future
+2012-01-16,47566,Seasonal naive,69.0,Future
+2012-01-23,47566,Seasonal naive,170.0,Future
+2011-12-05,47566,Moving average (8 weeks),176.2,Future
+2011-12-12,47566,Moving average (8 weeks),176.2,Future
+2011-12-19,47566,Moving average (8 weeks),176.2,Future
+2011-12-26,47566,Moving average (8 weeks),176.2,Future
+2012-01-02,47566,Moving average (8 weeks),176.2,Future
+2012-01-09,47566,Moving average (8 weeks),176.2,Future
+2012-01-16,47566,Moving average (8 weeks),176.2,Future
+2012-01-23,47566,Moving average (8 weeks),176.2,Future
+2011-12-05,47566,Exponential smoothing,204.4,Future
+2011-12-12,47566,Exponential smoothing,205.4,Future
+2011-12-19,47566,Exponential smoothing,206.2,Future
+2011-12-26,47566,Exponential smoothing,206.9,Future
+2012-01-02,47566,Exponential smoothing,207.4,Future
+2012-01-09,47566,Exponential smoothing,207.8,Future
+2012-01-16,47566,Exponential smoothing,208.2,Future
+2012-01-23,47566,Exponential smoothing,208.4,Future
+2011-12-05,47566,Gradient boosting,306.8,Future
+2011-12-12,47566,Gradient boosting,141.4,Future
+2011-12-19,47566,Gradient boosting,250.2,Future
+2011-12-26,47566,Gradient boosting,164.4,Future
+2012-01-02,47566,Gradient boosting,138.5,Future
+2012-01-09,47566,Gradient boosting,98.8,Future
+2012-01-16,47566,Gradient boosting,110.5,Future
+2012-01-23,47566,Gradient boosting,263.2,Future
+2011-12-05,85099B,Naive (last week),1040.0,Future
+2011-12-12,85099B,Naive (last week),1040.0,Future
+2011-12-19,85099B,Naive (last week),1040.0,Future
+2011-12-26,85099B,Naive (last week),1040.0,Future
+2012-01-02,85099B,Naive (last week),1040.0,Future
+2012-01-09,85099B,Naive (last week),1040.0,Future
+2012-01-16,85099B,Naive (last week),1040.0,Future
+2012-01-23,85099B,Naive (last week),1040.0,Future
+2011-12-05,85099B,Seasonal naive,1578.0,Future
+2011-12-12,85099B,Seasonal naive,427.0,Future
+2011-12-19,85099B,Seasonal naive,180.0,Future
+2011-12-26,85099B,Seasonal naive,0.0,Future
+2012-01-02,85099B,Seasonal naive,1274.0,Future
+2012-01-09,85099B,Seasonal naive,225.0,Future
+2012-01-16,85099B,Seasonal naive,594.0,Future
+2012-01-23,85099B,Seasonal naive,502.0,Future
+2011-12-05,85099B,Moving average (8 weeks),1156.2,Future
+2011-12-12,85099B,Moving average (8 weeks),1156.2,Future
+2011-12-19,85099B,Moving average (8 weeks),1156.2,Future
+2011-12-26,85099B,Moving average (8 weeks),1156.2,Future
+2012-01-02,85099B,Moving average (8 weeks),1156.2,Future
+2012-01-09,85099B,Moving average (8 weeks),1156.2,Future
+2012-01-16,85099B,Moving average (8 weeks),1156.2,Future
+2012-01-23,85099B,Moving average (8 weeks),1156.2,Future
+2011-12-05,85099B,Exponential smoothing,1154.4,Future
+2011-12-12,85099B,Exponential smoothing,1154.4,Future
+2011-12-19,85099B,Exponential smoothing,1154.4,Future
+2011-12-26,85099B,Exponential smoothing,1154.4,Future
+2012-01-02,85099B,Exponential smoothing,1154.4,Future
+2012-01-09,85099B,Exponential smoothing,1154.4,Future
+2012-01-16,85099B,Exponential smoothing,1154.4,Future
+2012-01-23,85099B,Exponential smoothing,1154.4,Future
+2011-12-05,85099B,Gradient boosting,1216.9,Future
+2011-12-12,85099B,Gradient boosting,833.6,Future
+2011-12-19,85099B,Gradient boosting,1384.2,Future
+2011-12-26,85099B,Gradient boosting,1091.7,Future
+2012-01-02,85099B,Gradient boosting,742.4,Future
+2012-01-09,85099B,Gradient boosting,592.7,Future
+2012-01-16,85099B,Gradient boosting,664.8,Future
+2012-01-23,85099B,Gradient boosting,586.4,Future
+2011-12-05,84879,Naive (last week),953.0,Future
+2011-12-12,84879,Naive (last week),953.0,Future
+2011-12-19,84879,Naive (last week),953.0,Future
+2011-12-26,84879,Naive (last week),953.0,Future
+2012-01-02,84879,Naive (last week),953.0,Future
+2012-01-09,84879,Naive (last week),953.0,Future
+2012-01-16,84879,Naive (last week),953.0,Future
+2012-01-23,84879,Naive (last week),953.0,Future
+2011-12-05,84879,Seasonal naive,1401.0,Future
+2011-12-12,84879,Seasonal naive,638.0,Future
+2011-12-19,84879,Seasonal naive,40.0,Future
+2011-12-26,84879,Seasonal naive,0.0,Future
+2012-01-02,84879,Seasonal naive,480.0,Future
+2012-01-09,84879,Seasonal naive,442.0,Future
+2012-01-16,84879,Seasonal naive,139.0,Future
+2012-01-23,84879,Seasonal naive,344.0,Future
+2011-12-05,84879,Moving average (8 weeks),1007.4,Future
+2011-12-12,84879,Moving average (8 weeks),1007.4,Future
+2011-12-19,84879,Moving average (8 weeks),1007.4,Future
+2011-12-26,84879,Moving average (8 weeks),1007.4,Future
+2012-01-02,84879,Moving average (8 weeks),1007.4,Future
+2012-01-09,84879,Moving average (8 weeks),1007.4,Future
+2012-01-16,84879,Moving average (8 weeks),1007.4,Future
+2012-01-23,84879,Moving average (8 weeks),1007.4,Future
+2011-12-05,84879,Exponential smoothing,1068.0,Future
+2011-12-12,84879,Exponential smoothing,1068.0,Future
+2011-12-19,84879,Exponential smoothing,1068.0,Future
+2011-12-26,84879,Exponential smoothing,1068.0,Future
+2012-01-02,84879,Exponential smoothing,1068.0,Future
+2012-01-09,84879,Exponential smoothing,1068.0,Future
+2012-01-16,84879,Exponential smoothing,1068.0,Future
+2012-01-23,84879,Exponential smoothing,1068.0,Future
+2011-12-05,84879,Gradient boosting,861.7,Future
+2011-12-12,84879,Gradient boosting,752.7,Future
+2011-12-19,84879,Gradient boosting,853.0,Future
+2011-12-26,84879,Gradient boosting,1343.5,Future
+2012-01-02,84879,Gradient boosting,523.0,Future
+2012-01-09,84879,Gradient boosting,491.6,Future
+2012-01-16,84879,Gradient boosting,482.5,Future
+2012-01-23,84879,Gradient boosting,519.4,Future
+2011-12-05,79321,Naive (last week),314.0,Future
+2011-12-12,79321,Naive (last week),314.0,Future
+2011-12-19,79321,Naive (last week),314.0,Future
+2011-12-26,79321,Naive (last week),314.0,Future
+2012-01-02,79321,Naive (last week),314.0,Future
+2012-01-09,79321,Naive (last week),314.0,Future
+2012-01-16,79321,Naive (last week),314.0,Future
+2012-01-23,79321,Naive (last week),314.0,Future
+2011-12-05,79321,Seasonal naive,655.0,Future
+2011-12-12,79321,Seasonal naive,589.0,Future
+2011-12-19,79321,Seasonal naive,60.0,Future
+2011-12-26,79321,Seasonal naive,0.0,Future
+2012-01-02,79321,Seasonal naive,861.0,Future
+2012-01-09,79321,Seasonal naive,175.0,Future
+2012-01-16,79321,Seasonal naive,165.0,Future
+2012-01-23,79321,Seasonal naive,105.0,Future
+2011-12-05,79321,Moving average (8 weeks),375.0,Future
+2011-12-12,79321,Moving average (8 weeks),375.0,Future
+2011-12-19,79321,Moving average (8 weeks),375.0,Future
+2011-12-26,79321,Moving average (8 weeks),375.0,Future
+2012-01-02,79321,Moving average (8 weeks),375.0,Future
+2012-01-09,79321,Moving average (8 weeks),375.0,Future
+2012-01-16,79321,Moving average (8 weeks),375.0,Future
+2012-01-23,79321,Moving average (8 weeks),375.0,Future
+2011-12-05,79321,Exponential smoothing,450.1,Future
+2011-12-12,79321,Exponential smoothing,450.1,Future
+2011-12-19,79321,Exponential smoothing,450.1,Future
+2011-12-26,79321,Exponential smoothing,450.1,Future
+2012-01-02,79321,Exponential smoothing,450.1,Future
+2012-01-09,79321,Exponential smoothing,450.1,Future
+2012-01-16,79321,Exponential smoothing,450.1,Future
+2012-01-23,79321,Exponential smoothing,450.1,Future
+2011-12-05,79321,Gradient boosting,310.9,Future
+2011-12-12,79321,Gradient boosting,324.9,Future
+2011-12-19,79321,Gradient boosting,206.7,Future
+2011-12-26,79321,Gradient boosting,299.3,Future
+2012-01-02,79321,Gradient boosting,0.0,Future
+2012-01-09,79321,Gradient boosting,0.0,Future
+2012-01-16,79321,Gradient boosting,7.8,Future
+2012-01-23,79321,Gradient boosting,11.0,Future
+2011-12-05,22197,Naive (last week),3275.0,Future
+2011-12-12,22197,Naive (last week),3275.0,Future
+2011-12-19,22197,Naive (last week),3275.0,Future
+2011-12-26,22197,Naive (last week),3275.0,Future
+2012-01-02,22197,Naive (last week),3275.0,Future
+2012-01-09,22197,Naive (last week),3275.0,Future
+2012-01-16,22197,Naive (last week),3275.0,Future
+2012-01-23,22197,Naive (last week),3275.0,Future
+2011-12-05,22197,Seasonal naive,1880.0,Future
+2011-12-12,22197,Seasonal naive,981.0,Future
+2011-12-19,22197,Seasonal naive,252.0,Future
+2011-12-26,22197,Seasonal naive,0.0,Future
+2012-01-02,22197,Seasonal naive,797.0,Future
+2012-01-09,22197,Seasonal naive,344.0,Future
+2012-01-16,22197,Seasonal naive,261.0,Future
+2012-01-23,22197,Seasonal naive,351.0,Future
+2011-12-05,22197,Moving average (8 weeks),2381.4,Future
+2011-12-12,22197,Moving average (8 weeks),2381.4,Future
+2011-12-19,22197,Moving average (8 weeks),2381.4,Future
+2011-12-26,22197,Moving average (8 weeks),2381.4,Future
+2012-01-02,22197,Moving average (8 weeks),2381.4,Future
+2012-01-09,22197,Moving average (8 weeks),2381.4,Future
+2012-01-16,22197,Moving average (8 weeks),2381.4,Future
+2012-01-23,22197,Moving average (8 weeks),2381.4,Future
+2011-12-05,22197,Exponential smoothing,2766.0,Future
+2011-12-12,22197,Exponential smoothing,2766.0,Future
+2011-12-19,22197,Exponential smoothing,2766.0,Future
+2011-12-26,22197,Exponential smoothing,2766.0,Future
+2012-01-02,22197,Exponential smoothing,2766.0,Future
+2012-01-09,22197,Exponential smoothing,2766.0,Future
+2012-01-16,22197,Exponential smoothing,2766.0,Future
+2012-01-23,22197,Exponential smoothing,2766.0,Future
+2011-12-05,22197,Gradient boosting,1800.5,Future
+2011-12-12,22197,Gradient boosting,1679.1,Future
+2011-12-19,22197,Gradient boosting,1290.8,Future
+2011-12-26,22197,Gradient boosting,1256.1,Future
+2012-01-02,22197,Gradient boosting,379.8,Future
+2012-01-09,22197,Gradient boosting,155.7,Future
+2012-01-16,22197,Gradient boosting,110.8,Future
+2012-01-23,22197,Gradient boosting,35.5,Future
+2011-12-05,22386,Naive (last week),436.0,Future
+2011-12-12,22386,Naive (last week),436.0,Future
+2011-12-19,22386,Naive (last week),436.0,Future
+2011-12-26,22386,Naive (last week),436.0,Future
+2012-01-02,22386,Naive (last week),436.0,Future
+2012-01-09,22386,Naive (last week),436.0,Future
+2012-01-16,22386,Naive (last week),436.0,Future
+2012-01-23,22386,Naive (last week),436.0,Future
+2011-12-05,22386,Seasonal naive,535.0,Future
+2011-12-12,22386,Seasonal naive,107.0,Future
+2011-12-19,22386,Seasonal naive,9.0,Future
+2011-12-26,22386,Seasonal naive,0.0,Future
+2012-01-02,22386,Seasonal naive,523.0,Future
+2012-01-09,22386,Seasonal naive,123.0,Future
+2012-01-16,22386,Seasonal naive,73.0,Future
+2012-01-23,22386,Seasonal naive,199.0,Future
+2011-12-05,22386,Moving average (8 weeks),431.8,Future
+2011-12-12,22386,Moving average (8 weeks),431.8,Future
+2011-12-19,22386,Moving average (8 weeks),431.8,Future
+2011-12-26,22386,Moving average (8 weeks),431.8,Future
+2012-01-02,22386,Moving average (8 weeks),431.8,Future
+2012-01-09,22386,Moving average (8 weeks),431.8,Future
+2012-01-16,22386,Moving average (8 weeks),431.8,Future
+2012-01-23,22386,Moving average (8 weeks),431.8,Future
+2011-12-05,22386,Exponential smoothing,482.8,Future
+2011-12-12,22386,Exponential smoothing,482.8,Future
+2011-12-19,22386,Exponential smoothing,482.8,Future
+2011-12-26,22386,Exponential smoothing,482.8,Future
+2012-01-02,22386,Exponential smoothing,482.8,Future
+2012-01-09,22386,Exponential smoothing,482.8,Future
+2012-01-16,22386,Exponential smoothing,482.8,Future
+2012-01-23,22386,Exponential smoothing,482.8,Future
+2011-12-05,22386,Gradient boosting,397.5,Future
+2011-12-12,22386,Gradient boosting,337.3,Future
+2011-12-19,22386,Gradient boosting,521.3,Future
+2011-12-26,22386,Gradient boosting,395.2,Future
+2012-01-02,22386,Gradient boosting,318.3,Future
+2012-01-09,22386,Gradient boosting,325.0,Future
+2012-01-16,22386,Gradient boosting,244.3,Future
+2012-01-23,22386,Gradient boosting,275.6,Future
+2011-12-05,20725,Naive (last week),331.0,Future
+2011-12-12,20725,Naive (last week),331.0,Future
+2011-12-19,20725,Naive (last week),331.0,Future
+2011-12-26,20725,Naive (last week),331.0,Future
+2012-01-02,20725,Naive (last week),331.0,Future
+2012-01-09,20725,Naive (last week),331.0,Future
+2012-01-16,20725,Naive (last week),331.0,Future
+2012-01-23,20725,Naive (last week),331.0,Future
+2011-12-05,20725,Seasonal naive,501.0,Future
+2011-12-12,20725,Seasonal naive,187.0,Future
+2011-12-19,20725,Seasonal naive,44.0,Future
+2011-12-26,20725,Seasonal naive,0.0,Future
+2012-01-02,20725,Seasonal naive,362.0,Future
+2012-01-09,20725,Seasonal naive,642.0,Future
+2012-01-16,20725,Seasonal naive,128.0,Future
+2012-01-23,20725,Seasonal naive,171.0,Future
+2011-12-05,20725,Moving average (8 weeks),383.6,Future
+2011-12-12,20725,Moving average (8 weeks),383.6,Future
+2011-12-19,20725,Moving average (8 weeks),383.6,Future
+2011-12-26,20725,Moving average (8 weeks),383.6,Future
+2012-01-02,20725,Moving average (8 weeks),383.6,Future
+2012-01-09,20725,Moving average (8 weeks),383.6,Future
+2012-01-16,20725,Moving average (8 weeks),383.6,Future
+2012-01-23,20725,Moving average (8 weeks),383.6,Future
+2011-12-05,20725,Exponential smoothing,390.8,Future
+2011-12-12,20725,Exponential smoothing,390.4,Future
+2011-12-19,20725,Exponential smoothing,390.1,Future
+2011-12-26,20725,Exponential smoothing,389.9,Future
+2012-01-02,20725,Exponential smoothing,389.7,Future
+2012-01-09,20725,Exponential smoothing,389.6,Future
+2012-01-16,20725,Exponential smoothing,389.4,Future
+2012-01-23,20725,Exponential smoothing,389.3,Future
+2011-12-05,20725,Gradient boosting,420.4,Future
+2011-12-12,20725,Gradient boosting,268.6,Future
+2011-12-19,20725,Gradient boosting,534.9,Future
+2011-12-26,20725,Gradient boosting,408.2,Future
+2012-01-02,20725,Gradient boosting,327.8,Future
+2012-01-09,20725,Gradient boosting,340.1,Future
+2012-01-16,20725,Gradient boosting,317.4,Future
+2012-01-23,20725,Gradient boosting,267.5,Future
+2011-12-05,21137,Naive (last week),183.0,Future
+2011-12-12,21137,Naive (last week),183.0,Future
+2011-12-19,21137,Naive (last week),183.0,Future
+2011-12-26,21137,Naive (last week),183.0,Future
+2012-01-02,21137,Naive (last week),183.0,Future
+2012-01-09,21137,Naive (last week),183.0,Future
+2012-01-16,21137,Naive (last week),183.0,Future
+2012-01-23,21137,Naive (last week),183.0,Future
+2011-12-05,21137,Seasonal naive,1146.0,Future
+2011-12-12,21137,Seasonal naive,575.0,Future
+2011-12-19,21137,Seasonal naive,55.0,Future
+2011-12-26,21137,Seasonal naive,0.0,Future
+2012-01-02,21137,Seasonal naive,177.0,Future
+2012-01-09,21137,Seasonal naive,20.0,Future
+2012-01-16,21137,Seasonal naive,24.0,Future
+2012-01-23,21137,Seasonal naive,3.0,Future
+2011-12-05,21137,Moving average (8 weeks),327.0,Future
+2011-12-12,21137,Moving average (8 weeks),327.0,Future
+2011-12-19,21137,Moving average (8 weeks),327.0,Future
+2011-12-26,21137,Moving average (8 weeks),327.0,Future
+2012-01-02,21137,Moving average (8 weeks),327.0,Future
+2012-01-09,21137,Moving average (8 weeks),327.0,Future
+2012-01-16,21137,Moving average (8 weeks),327.0,Future
+2012-01-23,21137,Moving average (8 weeks),327.0,Future
+2011-12-05,21137,Exponential smoothing,332.1,Future
+2011-12-12,21137,Exponential smoothing,332.1,Future
+2011-12-19,21137,Exponential smoothing,332.1,Future
+2011-12-26,21137,Exponential smoothing,332.1,Future
+2012-01-02,21137,Exponential smoothing,332.1,Future
+2012-01-09,21137,Exponential smoothing,332.1,Future
+2012-01-16,21137,Exponential smoothing,332.1,Future
+2012-01-23,21137,Exponential smoothing,332.1,Future
+2011-12-05,21137,Gradient boosting,537.1,Future
+2011-12-12,21137,Gradient boosting,384.2,Future
+2011-12-19,21137,Gradient boosting,236.7,Future
+2011-12-26,21137,Gradient boosting,197.4,Future
+2012-01-02,21137,Gradient boosting,61.8,Future
+2012-01-09,21137,Gradient boosting,85.0,Future
+2012-01-16,21137,Gradient boosting,91.5,Future
+2012-01-23,21137,Gradient boosting,101.3,Future
+2011-12-05,85099F,Naive (last week),436.0,Future
+2011-12-12,85099F,Naive (last week),436.0,Future
+2011-12-19,85099F,Naive (last week),436.0,Future
+2011-12-26,85099F,Naive (last week),436.0,Future
+2012-01-02,85099F,Naive (last week),436.0,Future
+2012-01-09,85099F,Naive (last week),436.0,Future
+2012-01-16,85099F,Naive (last week),436.0,Future
+2012-01-23,85099F,Naive (last week),436.0,Future
+2011-12-05,85099F,Seasonal naive,315.0,Future
+2011-12-12,85099F,Seasonal naive,229.0,Future
+2011-12-19,85099F,Seasonal naive,11.0,Future
+2011-12-26,85099F,Seasonal naive,0.0,Future
+2012-01-02,85099F,Seasonal naive,703.0,Future
+2012-01-09,85099F,Seasonal naive,349.0,Future
+2012-01-16,85099F,Seasonal naive,269.0,Future
+2012-01-23,85099F,Seasonal naive,93.0,Future
+2011-12-05,85099F,Moving average (8 weeks),229.0,Future
+2011-12-12,85099F,Moving average (8 weeks),229.0,Future
+2011-12-19,85099F,Moving average (8 weeks),229.0,Future
+2011-12-26,85099F,Moving average (8 weeks),229.0,Future
+2012-01-02,85099F,Moving average (8 weeks),229.0,Future
+2012-01-09,85099F,Moving average (8 weeks),229.0,Future
+2012-01-16,85099F,Moving average (8 weeks),229.0,Future
+2012-01-23,85099F,Moving average (8 weeks),229.0,Future
+2011-12-05,85099F,Exponential smoothing,318.7,Future
+2011-12-12,85099F,Exponential smoothing,318.7,Future
+2011-12-19,85099F,Exponential smoothing,318.7,Future
+2011-12-26,85099F,Exponential smoothing,318.7,Future
+2012-01-02,85099F,Exponential smoothing,318.7,Future
+2012-01-09,85099F,Exponential smoothing,318.7,Future
+2012-01-16,85099F,Exponential smoothing,318.7,Future
+2012-01-23,85099F,Exponential smoothing,318.7,Future
+2011-12-05,85099F,Gradient boosting,237.5,Future
+2011-12-12,85099F,Gradient boosting,263.6,Future
+2011-12-19,85099F,Gradient boosting,498.8,Future
+2011-12-26,85099F,Gradient boosting,320.6,Future
+2012-01-02,85099F,Gradient boosting,262.2,Future
+2012-01-09,85099F,Gradient boosting,257.5,Future
+2012-01-16,85099F,Gradient boosting,227.7,Future
+2012-01-23,85099F,Gradient boosting,341.6,Future
+2011-12-05,22178,Naive (last week),755.0,Future
+2011-12-12,22178,Naive (last week),755.0,Future
+2011-12-19,22178,Naive (last week),755.0,Future
+2011-12-26,22178,Naive (last week),755.0,Future
+2012-01-02,22178,Naive (last week),755.0,Future
+2012-01-09,22178,Naive (last week),755.0,Future
+2012-01-16,22178,Naive (last week),755.0,Future
+2012-01-23,22178,Naive (last week),755.0,Future
+2011-12-05,22178,Seasonal naive,861.0,Future
+2011-12-12,22178,Seasonal naive,593.0,Future
+2011-12-19,22178,Seasonal naive,130.0,Future
+2011-12-26,22178,Seasonal naive,0.0,Future
+2012-01-02,22178,Seasonal naive,396.0,Future
+2012-01-09,22178,Seasonal naive,204.0,Future
+2012-01-16,22178,Seasonal naive,339.0,Future
+2012-01-23,22178,Seasonal naive,333.0,Future
+2011-12-05,22178,Moving average (8 weeks),498.0,Future
+2011-12-12,22178,Moving average (8 weeks),498.0,Future
+2011-12-19,22178,Moving average (8 weeks),498.0,Future
+2011-12-26,22178,Moving average (8 weeks),498.0,Future
+2012-01-02,22178,Moving average (8 weeks),498.0,Future
+2012-01-09,22178,Moving average (8 weeks),498.0,Future
+2012-01-16,22178,Moving average (8 weeks),498.0,Future
+2012-01-23,22178,Moving average (8 weeks),498.0,Future
+2011-12-05,22178,Exponential smoothing,525.3,Future
+2011-12-12,22178,Exponential smoothing,525.3,Future
+2011-12-19,22178,Exponential smoothing,525.3,Future
+2011-12-26,22178,Exponential smoothing,525.3,Future
+2012-01-02,22178,Exponential smoothing,525.3,Future
+2012-01-09,22178,Exponential smoothing,525.3,Future
+2012-01-16,22178,Exponential smoothing,525.3,Future
+2012-01-23,22178,Exponential smoothing,525.3,Future
+2011-12-05,22178,Gradient boosting,586.5,Future
+2011-12-12,22178,Gradient boosting,603.3,Future
+2011-12-19,22178,Gradient boosting,320.1,Future
+2011-12-26,22178,Gradient boosting,403.5,Future
+2012-01-02,22178,Gradient boosting,254.6,Future
+2012-01-09,22178,Gradient boosting,98.8,Future
+2012-01-16,22178,Gradient boosting,229.1,Future
+2012-01-23,22178,Gradient boosting,235.4,Future
+2011-12-05,22112,Naive (last week),450.0,Future
+2011-12-12,22112,Naive (last week),450.0,Future
+2011-12-19,22112,Naive (last week),450.0,Future
+2011-12-26,22112,Naive (last week),450.0,Future
+2012-01-02,22112,Naive (last week),450.0,Future
+2012-01-09,22112,Naive (last week),450.0,Future
+2012-01-16,22112,Naive (last week),450.0,Future
+2012-01-23,22112,Naive (last week),450.0,Future
+2011-12-05,22112,Seasonal naive,685.0,Future
+2011-12-12,22112,Seasonal naive,366.0,Future
+2011-12-19,22112,Seasonal naive,219.0,Future
+2011-12-26,22112,Seasonal naive,0.0,Future
+2012-01-02,22112,Seasonal naive,54.0,Future
+2012-01-09,22112,Seasonal naive,51.0,Future
+2012-01-16,22112,Seasonal naive,35.0,Future
+2012-01-23,22112,Seasonal naive,30.0,Future
+2011-12-05,22112,Moving average (8 weeks),319.9,Future
+2011-12-12,22112,Moving average (8 weeks),319.9,Future
+2011-12-19,22112,Moving average (8 weeks),319.9,Future
+2011-12-26,22112,Moving average (8 weeks),319.9,Future
+2012-01-02,22112,Moving average (8 weeks),319.9,Future
+2012-01-09,22112,Moving average (8 weeks),319.9,Future
+2012-01-16,22112,Moving average (8 weeks),319.9,Future
+2012-01-23,22112,Moving average (8 weeks),319.9,Future
+2011-12-05,22112,Exponential smoothing,430.2,Future
+2011-12-12,22112,Exponential smoothing,430.2,Future
+2011-12-19,22112,Exponential smoothing,430.2,Future
+2011-12-26,22112,Exponential smoothing,430.2,Future
+2012-01-02,22112,Exponential smoothing,430.2,Future
+2012-01-09,22112,Exponential smoothing,430.2,Future
+2012-01-16,22112,Exponential smoothing,430.2,Future
+2012-01-23,22112,Exponential smoothing,430.2,Future
+2011-12-05,22112,Gradient boosting,393.0,Future
+2011-12-12,22112,Gradient boosting,332.7,Future
+2011-12-19,22112,Gradient boosting,241.7,Future
+2011-12-26,22112,Gradient boosting,206.8,Future
+2012-01-02,22112,Gradient boosting,26.8,Future
+2012-01-09,22112,Gradient boosting,89.1,Future
+2012-01-16,22112,Gradient boosting,31.0,Future
+2012-01-23,22112,Gradient boosting,53.2,Future
+2011-12-05,21931,Naive (last week),258.0,Future
+2011-12-12,21931,Naive (last week),258.0,Future
+2011-12-19,21931,Naive (last week),258.0,Future
+2011-12-26,21931,Naive (last week),258.0,Future
+2012-01-02,21931,Naive (last week),258.0,Future
+2012-01-09,21931,Naive (last week),258.0,Future
+2012-01-16,21931,Naive (last week),258.0,Future
+2012-01-23,21931,Naive (last week),258.0,Future
+2011-12-05,21931,Seasonal naive,416.0,Future
+2011-12-12,21931,Seasonal naive,174.0,Future
+2011-12-19,21931,Seasonal naive,62.0,Future
+2011-12-26,21931,Seasonal naive,0.0,Future
+2012-01-02,21931,Seasonal naive,226.0,Future
+2012-01-09,21931,Seasonal naive,391.0,Future
+2012-01-16,21931,Seasonal naive,80.0,Future
+2012-01-23,21931,Seasonal naive,259.0,Future
+2011-12-05,21931,Moving average (8 weeks),273.2,Future
+2011-12-12,21931,Moving average (8 weeks),273.2,Future
+2011-12-19,21931,Moving average (8 weeks),273.2,Future
+2011-12-26,21931,Moving average (8 weeks),273.2,Future
+2012-01-02,21931,Moving average (8 weeks),273.2,Future
+2012-01-09,21931,Moving average (8 weeks),273.2,Future
+2012-01-16,21931,Moving average (8 weeks),273.2,Future
+2012-01-23,21931,Moving average (8 weeks),273.2,Future
+2011-12-05,21931,Exponential smoothing,285.9,Future
+2011-12-12,21931,Exponential smoothing,285.9,Future
+2011-12-19,21931,Exponential smoothing,285.9,Future
+2011-12-26,21931,Exponential smoothing,285.9,Future
+2012-01-02,21931,Exponential smoothing,285.9,Future
+2012-01-09,21931,Exponential smoothing,285.9,Future
+2012-01-16,21931,Exponential smoothing,285.9,Future
+2012-01-23,21931,Exponential smoothing,285.9,Future
+2011-12-05,21931,Gradient boosting,228.9,Future
+2011-12-12,21931,Gradient boosting,234.6,Future
+2011-12-19,21931,Gradient boosting,333.4,Future
+2011-12-26,21931,Gradient boosting,334.9,Future
+2012-01-02,21931,Gradient boosting,208.6,Future
+2012-01-09,21931,Gradient boosting,354.7,Future
+2012-01-16,21931,Gradient boosting,215.8,Future
+2012-01-23,21931,Gradient boosting,197.0,Future
+2011-12-05,21623,Naive (last week),7.0,Future
+2011-12-12,21623,Naive (last week),7.0,Future
+2011-12-19,21623,Naive (last week),7.0,Future
+2011-12-26,21623,Naive (last week),7.0,Future
+2012-01-02,21623,Naive (last week),7.0,Future
+2012-01-09,21623,Naive (last week),7.0,Future
+2012-01-16,21623,Naive (last week),7.0,Future
+2012-01-23,21623,Naive (last week),7.0,Future
+2011-12-05,21623,Seasonal naive,2033.0,Future
+2011-12-12,21623,Seasonal naive,26.0,Future
+2011-12-19,21623,Seasonal naive,2.0,Future
+2011-12-26,21623,Seasonal naive,0.0,Future
+2012-01-02,21623,Seasonal naive,5.0,Future
+2012-01-09,21623,Seasonal naive,6.0,Future
+2012-01-16,21623,Seasonal naive,3.0,Future
+2012-01-23,21623,Seasonal naive,10.0,Future
+2011-12-05,21623,Moving average (8 weeks),24.4,Future
+2011-12-12,21623,Moving average (8 weeks),24.4,Future
+2011-12-19,21623,Moving average (8 weeks),24.4,Future
+2011-12-26,21623,Moving average (8 weeks),24.4,Future
+2012-01-02,21623,Moving average (8 weeks),24.4,Future
+2012-01-09,21623,Moving average (8 weeks),24.4,Future
+2012-01-16,21623,Moving average (8 weeks),24.4,Future
+2012-01-23,21623,Moving average (8 weeks),24.4,Future
+2011-12-05,21623,Exponential smoothing,23.0,Future
+2011-12-12,21623,Exponential smoothing,23.0,Future
+2011-12-19,21623,Exponential smoothing,23.0,Future
+2011-12-26,21623,Exponential smoothing,23.0,Future
+2012-01-02,21623,Exponential smoothing,23.0,Future
+2012-01-09,21623,Exponential smoothing,23.0,Future
+2012-01-16,21623,Exponential smoothing,23.0,Future
+2012-01-23,21623,Exponential smoothing,23.0,Future
+2011-12-05,21623,Gradient boosting,86.7,Future
+2011-12-12,21623,Gradient boosting,15.8,Future
+2011-12-19,21623,Gradient boosting,70.4,Future
+2011-12-26,21623,Gradient boosting,148.7,Future
+2012-01-02,21623,Gradient boosting,36.8,Future
+2012-01-09,21623,Gradient boosting,37.1,Future
+2012-01-16,21623,Gradient boosting,37.1,Future
+2012-01-23,21623,Gradient boosting,37.1,Future
+2011-12-05,22355,Naive (last week),712.0,Future
+2011-12-12,22355,Naive (last week),712.0,Future
+2011-12-19,22355,Naive (last week),712.0,Future
+2011-12-26,22355,Naive (last week),712.0,Future
+2012-01-02,22355,Naive (last week),712.0,Future
+2012-01-09,22355,Naive (last week),712.0,Future
+2012-01-16,22355,Naive (last week),712.0,Future
+2012-01-23,22355,Naive (last week),712.0,Future
+2011-12-05,22355,Seasonal naive,1017.0,Future
+2011-12-12,22355,Seasonal naive,462.0,Future
+2011-12-19,22355,Seasonal naive,567.0,Future
+2011-12-26,22355,Seasonal naive,0.0,Future
+2012-01-02,22355,Seasonal naive,172.0,Future
+2012-01-09,22355,Seasonal naive,463.0,Future
+2012-01-16,22355,Seasonal naive,191.0,Future
+2012-01-23,22355,Seasonal naive,457.0,Future
+2011-12-05,22355,Moving average (8 weeks),450.0,Future
+2011-12-12,22355,Moving average (8 weeks),450.0,Future
+2011-12-19,22355,Moving average (8 weeks),450.0,Future
+2011-12-26,22355,Moving average (8 weeks),450.0,Future
+2012-01-02,22355,Moving average (8 weeks),450.0,Future
+2012-01-09,22355,Moving average (8 weeks),450.0,Future
+2012-01-16,22355,Moving average (8 weeks),450.0,Future
+2012-01-23,22355,Moving average (8 weeks),450.0,Future
+2011-12-05,22355,Exponential smoothing,544.0,Future
+2011-12-12,22355,Exponential smoothing,544.0,Future
+2011-12-19,22355,Exponential smoothing,544.0,Future
+2011-12-26,22355,Exponential smoothing,544.0,Future
+2012-01-02,22355,Exponential smoothing,544.0,Future
+2012-01-09,22355,Exponential smoothing,544.0,Future
+2012-01-16,22355,Exponential smoothing,544.0,Future
+2012-01-23,22355,Exponential smoothing,544.0,Future
+2011-12-05,22355,Gradient boosting,665.0,Future
+2011-12-12,22355,Gradient boosting,530.1,Future
+2011-12-19,22355,Gradient boosting,330.3,Future
+2011-12-26,22355,Gradient boosting,323.8,Future
+2012-01-02,22355,Gradient boosting,311.5,Future
+2012-01-09,22355,Gradient boosting,257.9,Future
+2012-01-16,22355,Gradient boosting,308.3,Future
+2012-01-23,22355,Gradient boosting,269.6,Future
+2011-12-05,22411,Naive (last week),340.0,Future
+2011-12-12,22411,Naive (last week),340.0,Future
+2011-12-19,22411,Naive (last week),340.0,Future
+2011-12-26,22411,Naive (last week),340.0,Future
+2012-01-02,22411,Naive (last week),340.0,Future
+2012-01-09,22411,Naive (last week),340.0,Future
+2012-01-16,22411,Naive (last week),340.0,Future
+2012-01-23,22411,Naive (last week),340.0,Future
+2011-12-05,22411,Seasonal naive,502.0,Future
+2011-12-12,22411,Seasonal naive,244.0,Future
+2011-12-19,22411,Seasonal naive,57.0,Future
+2011-12-26,22411,Seasonal naive,0.0,Future
+2012-01-02,22411,Seasonal naive,108.0,Future
+2012-01-09,22411,Seasonal naive,168.0,Future
+2012-01-16,22411,Seasonal naive,106.0,Future
+2012-01-23,22411,Seasonal naive,136.0,Future
+2011-12-05,22411,Moving average (8 weeks),275.1,Future
+2011-12-12,22411,Moving average (8 weeks),275.1,Future
+2011-12-19,22411,Moving average (8 weeks),275.1,Future
+2011-12-26,22411,Moving average (8 weeks),275.1,Future
+2012-01-02,22411,Moving average (8 weeks),275.1,Future
+2012-01-09,22411,Moving average (8 weeks),275.1,Future
+2012-01-16,22411,Moving average (8 weeks),275.1,Future
+2012-01-23,22411,Moving average (8 weeks),275.1,Future
+2011-12-05,22411,Exponential smoothing,325.3,Future
+2011-12-12,22411,Exponential smoothing,325.3,Future
+2011-12-19,22411,Exponential smoothing,325.3,Future
+2011-12-26,22411,Exponential smoothing,325.3,Future
+2012-01-02,22411,Exponential smoothing,325.3,Future
+2012-01-09,22411,Exponential smoothing,325.3,Future
+2012-01-16,22411,Exponential smoothing,325.3,Future
+2012-01-23,22411,Exponential smoothing,325.3,Future
+2011-12-05,22411,Gradient boosting,244.6,Future
+2011-12-12,22411,Gradient boosting,249.4,Future
+2011-12-19,22411,Gradient boosting,290.6,Future
+2011-12-26,22411,Gradient boosting,449.6,Future
+2012-01-02,22411,Gradient boosting,175.5,Future
+2012-01-09,22411,Gradient boosting,199.4,Future
+2012-01-16,22411,Gradient boosting,218.8,Future
+2012-01-23,22411,Gradient boosting,161.6,Future
+2011-12-05,85099C,Naive (last week),414.0,Future
+2011-12-12,85099C,Naive (last week),414.0,Future
+2011-12-19,85099C,Naive (last week),414.0,Future
+2011-12-26,85099C,Naive (last week),414.0,Future
+2012-01-02,85099C,Naive (last week),414.0,Future
+2012-01-09,85099C,Naive (last week),414.0,Future
+2012-01-16,85099C,Naive (last week),414.0,Future
+2012-01-23,85099C,Naive (last week),414.0,Future
+2011-12-05,85099C,Seasonal naive,758.0,Future
+2011-12-12,85099C,Seasonal naive,137.0,Future
+2011-12-19,85099C,Seasonal naive,117.0,Future
+2011-12-26,85099C,Seasonal naive,0.0,Future
+2012-01-02,85099C,Seasonal naive,477.0,Future
+2012-01-09,85099C,Seasonal naive,76.0,Future
+2012-01-16,85099C,Seasonal naive,68.0,Future
+2012-01-23,85099C,Seasonal naive,211.0,Future
+2011-12-05,85099C,Moving average (8 weeks),311.4,Future
+2011-12-12,85099C,Moving average (8 weeks),311.4,Future
+2011-12-19,85099C,Moving average (8 weeks),311.4,Future
+2011-12-26,85099C,Moving average (8 weeks),311.4,Future
+2012-01-02,85099C,Moving average (8 weeks),311.4,Future
+2012-01-09,85099C,Moving average (8 weeks),311.4,Future
+2012-01-16,85099C,Moving average (8 weeks),311.4,Future
+2012-01-23,85099C,Moving average (8 weeks),311.4,Future
+2011-12-05,85099C,Exponential smoothing,327.0,Future
+2011-12-12,85099C,Exponential smoothing,327.0,Future
+2011-12-19,85099C,Exponential smoothing,327.0,Future
+2011-12-26,85099C,Exponential smoothing,327.0,Future
+2012-01-02,85099C,Exponential smoothing,327.0,Future
+2012-01-09,85099C,Exponential smoothing,327.0,Future
+2012-01-16,85099C,Exponential smoothing,327.0,Future
+2012-01-23,85099C,Exponential smoothing,327.0,Future
+2011-12-05,85099C,Gradient boosting,304.9,Future
+2011-12-12,85099C,Gradient boosting,246.7,Future
+2011-12-19,85099C,Gradient boosting,436.8,Future
+2011-12-26,85099C,Gradient boosting,317.1,Future
+2012-01-02,85099C,Gradient boosting,239.6,Future
+2012-01-09,85099C,Gradient boosting,295.6,Future
+2012-01-16,85099C,Gradient boosting,229.7,Future
+2012-01-23,85099C,Gradient boosting,193.0,Future
+2011-12-05,20685,Naive (last week),97.0,Future
+2011-12-12,20685,Naive (last week),97.0,Future
+2011-12-19,20685,Naive (last week),97.0,Future
+2011-12-26,20685,Naive (last week),97.0,Future
+2012-01-02,20685,Naive (last week),97.0,Future
+2012-01-09,20685,Naive (last week),97.0,Future
+2012-01-16,20685,Naive (last week),97.0,Future
+2012-01-23,20685,Naive (last week),97.0,Future
+2011-12-05,20685,Seasonal naive,258.0,Future
+2011-12-12,20685,Seasonal naive,92.0,Future
+2011-12-19,20685,Seasonal naive,20.0,Future
+2011-12-26,20685,Seasonal naive,0.0,Future
+2012-01-02,20685,Seasonal naive,56.0,Future
+2012-01-09,20685,Seasonal naive,22.0,Future
+2012-01-16,20685,Seasonal naive,86.0,Future
+2012-01-23,20685,Seasonal naive,137.0,Future
+2011-12-05,20685,Moving average (8 weeks),59.2,Future
+2011-12-12,20685,Moving average (8 weeks),59.2,Future
+2011-12-19,20685,Moving average (8 weeks),59.2,Future
+2011-12-26,20685,Moving average (8 weeks),59.2,Future
+2012-01-02,20685,Moving average (8 weeks),59.2,Future
+2012-01-09,20685,Moving average (8 weeks),59.2,Future
+2012-01-16,20685,Moving average (8 weeks),59.2,Future
+2012-01-23,20685,Moving average (8 weeks),59.2,Future
+2011-12-05,20685,Exponential smoothing,66.2,Future
+2011-12-12,20685,Exponential smoothing,66.2,Future
+2011-12-19,20685,Exponential smoothing,66.2,Future
+2011-12-26,20685,Exponential smoothing,66.2,Future
+2012-01-02,20685,Exponential smoothing,66.2,Future
+2012-01-09,20685,Exponential smoothing,66.2,Future
+2012-01-16,20685,Exponential smoothing,66.2,Future
+2012-01-23,20685,Exponential smoothing,66.2,Future
+2011-12-05,20685,Gradient boosting,74.1,Future
+2011-12-12,20685,Gradient boosting,55.6,Future
+2011-12-19,20685,Gradient boosting,58.2,Future
+2011-12-26,20685,Gradient boosting,118.5,Future
+2012-01-02,20685,Gradient boosting,68.0,Future
+2012-01-09,20685,Gradient boosting,50.7,Future
+2012-01-16,20685,Gradient boosting,121.5,Future
+2012-01-23,20685,Gradient boosting,68.3,Future
+2011-12-05,22189,Naive (last week),55.0,Future
+2011-12-12,22189,Naive (last week),55.0,Future
+2011-12-19,22189,Naive (last week),55.0,Future
+2011-12-26,22189,Naive (last week),55.0,Future
+2012-01-02,22189,Naive (last week),55.0,Future
+2012-01-09,22189,Naive (last week),55.0,Future
+2012-01-16,22189,Naive (last week),55.0,Future
+2012-01-23,22189,Naive (last week),55.0,Future
+2011-12-05,22189,Seasonal naive,4144.0,Future
+2011-12-12,22189,Seasonal naive,104.0,Future
+2011-12-19,22189,Seasonal naive,6.0,Future
+2011-12-26,22189,Seasonal naive,0.0,Future
+2012-01-02,22189,Seasonal naive,55.0,Future
+2012-01-09,22189,Seasonal naive,28.0,Future
+2012-01-16,22189,Seasonal naive,43.0,Future
+2012-01-23,22189,Seasonal naive,36.0,Future
+2011-12-05,22189,Moving average (8 weeks),97.8,Future
+2011-12-12,22189,Moving average (8 weeks),97.8,Future
+2011-12-19,22189,Moving average (8 weeks),97.8,Future
+2011-12-26,22189,Moving average (8 weeks),97.8,Future
+2012-01-02,22189,Moving average (8 weeks),97.8,Future
+2012-01-09,22189,Moving average (8 weeks),97.8,Future
+2012-01-16,22189,Moving average (8 weeks),97.8,Future
+2012-01-23,22189,Moving average (8 weeks),97.8,Future
+2011-12-05,22189,Exponential smoothing,105.9,Future
+2011-12-12,22189,Exponential smoothing,105.9,Future
+2011-12-19,22189,Exponential smoothing,105.9,Future
+2011-12-26,22189,Exponential smoothing,105.9,Future
+2012-01-02,22189,Exponential smoothing,105.9,Future
+2012-01-09,22189,Exponential smoothing,105.9,Future
+2012-01-16,22189,Exponential smoothing,105.9,Future
+2012-01-23,22189,Exponential smoothing,105.9,Future
+2011-12-05,22189,Gradient boosting,251.6,Future
+2011-12-12,22189,Gradient boosting,99.4,Future
+2011-12-19,22189,Gradient boosting,209.8,Future
+2011-12-26,22189,Gradient boosting,231.3,Future
+2012-01-02,22189,Gradient boosting,124.1,Future
+2012-01-09,22189,Gradient boosting,128.0,Future
+2012-01-16,22189,Gradient boosting,147.1,Future
+2012-01-23,22189,Gradient boosting,129.5,Future
+2011-12-05,84946,Naive (last week),489.0,Future
+2011-12-12,84946,Naive (last week),489.0,Future
+2011-12-19,84946,Naive (last week),489.0,Future
+2011-12-26,84946,Naive (last week),489.0,Future
+2012-01-02,84946,Naive (last week),489.0,Future
+2012-01-09,84946,Naive (last week),489.0,Future
+2012-01-16,84946,Naive (last week),489.0,Future
+2012-01-23,84946,Naive (last week),489.0,Future
+2011-12-05,84946,Seasonal naive,1610.0,Future
+2011-12-12,84946,Seasonal naive,634.0,Future
+2011-12-19,84946,Seasonal naive,85.0,Future
+2011-12-26,84946,Seasonal naive,0.0,Future
+2012-01-02,84946,Seasonal naive,328.0,Future
+2012-01-09,84946,Seasonal naive,97.0,Future
+2012-01-16,84946,Seasonal naive,237.0,Future
+2012-01-23,84946,Seasonal naive,129.0,Future
+2011-12-05,84946,Moving average (8 weeks),604.0,Future
+2011-12-12,84946,Moving average (8 weeks),604.0,Future
+2011-12-19,84946,Moving average (8 weeks),604.0,Future
+2011-12-26,84946,Moving average (8 weeks),604.0,Future
+2012-01-02,84946,Moving average (8 weeks),604.0,Future
+2012-01-09,84946,Moving average (8 weeks),604.0,Future
+2012-01-16,84946,Moving average (8 weeks),604.0,Future
+2012-01-23,84946,Moving average (8 weeks),604.0,Future
+2011-12-05,84946,Exponential smoothing,586.3,Future
+2011-12-12,84946,Exponential smoothing,586.3,Future
+2011-12-19,84946,Exponential smoothing,586.3,Future
+2011-12-26,84946,Exponential smoothing,586.3,Future
+2012-01-02,84946,Exponential smoothing,586.3,Future
+2012-01-09,84946,Exponential smoothing,586.3,Future
+2012-01-16,84946,Exponential smoothing,586.3,Future
+2012-01-23,84946,Exponential smoothing,586.3,Future
+2011-12-05,84946,Gradient boosting,971.1,Future
+2011-12-12,84946,Gradient boosting,673.6,Future
+2011-12-19,84946,Gradient boosting,389.1,Future
+2011-12-26,84946,Gradient boosting,416.5,Future
+2012-01-02,84946,Gradient boosting,134.9,Future
+2012-01-09,84946,Gradient boosting,91.3,Future
+2012-01-16,84946,Gradient boosting,155.9,Future
+2012-01-23,84946,Gradient boosting,112.3,Future
+2011-12-05,48138,Naive (last week),35.0,Future
+2011-12-12,48138,Naive (last week),35.0,Future
+2011-12-19,48138,Naive (last week),35.0,Future
+2011-12-26,48138,Naive (last week),35.0,Future
+2012-01-02,48138,Naive (last week),35.0,Future
+2012-01-09,48138,Naive (last week),35.0,Future
+2012-01-16,48138,Naive (last week),35.0,Future
+2012-01-23,48138,Naive (last week),35.0,Future
+2011-12-05,48138,Seasonal naive,152.0,Future
+2011-12-12,48138,Seasonal naive,71.0,Future
+2011-12-19,48138,Seasonal naive,9.0,Future
+2011-12-26,48138,Seasonal naive,0.0,Future
+2012-01-02,48138,Seasonal naive,44.0,Future
+2012-01-09,48138,Seasonal naive,13.0,Future
+2012-01-16,48138,Seasonal naive,44.0,Future
+2012-01-23,48138,Seasonal naive,111.0,Future
+2011-12-05,48138,Moving average (8 weeks),42.4,Future
+2011-12-12,48138,Moving average (8 weeks),42.4,Future
+2011-12-19,48138,Moving average (8 weeks),42.4,Future
+2011-12-26,48138,Moving average (8 weeks),42.4,Future
+2012-01-02,48138,Moving average (8 weeks),42.4,Future
+2012-01-09,48138,Moving average (8 weeks),42.4,Future
+2012-01-16,48138,Moving average (8 weeks),42.4,Future
+2012-01-23,48138,Moving average (8 weeks),42.4,Future
+2011-12-05,48138,Exponential smoothing,63.8,Future
+2011-12-12,48138,Exponential smoothing,63.1,Future
+2011-12-19,48138,Exponential smoothing,62.7,Future
+2011-12-26,48138,Exponential smoothing,62.3,Future
+2012-01-02,48138,Exponential smoothing,61.9,Future
+2012-01-09,48138,Exponential smoothing,61.7,Future
+2012-01-16,48138,Exponential smoothing,61.5,Future
+2012-01-23,48138,Exponential smoothing,61.3,Future
+2011-12-05,48138,Gradient boosting,61.6,Future
+2011-12-12,48138,Gradient boosting,47.5,Future
+2011-12-19,48138,Gradient boosting,108.7,Future
+2011-12-26,48138,Gradient boosting,194.6,Future
+2012-01-02,48138,Gradient boosting,78.3,Future
+2012-01-09,48138,Gradient boosting,36.7,Future
+2012-01-16,48138,Gradient boosting,58.1,Future
+2012-01-23,48138,Gradient boosting,67.4,Future
+2011-12-05,21915,Naive (last week),1120.0,Future
+2011-12-12,21915,Naive (last week),1120.0,Future
+2011-12-19,21915,Naive (last week),1120.0,Future
+2011-12-26,21915,Naive (last week),1120.0,Future
+2012-01-02,21915,Naive (last week),1120.0,Future
+2012-01-09,21915,Naive (last week),1120.0,Future
+2012-01-16,21915,Naive (last week),1120.0,Future
+2012-01-23,21915,Naive (last week),1120.0,Future
+2011-12-05,21915,Seasonal naive,387.0,Future
+2011-12-12,21915,Seasonal naive,314.0,Future
+2011-12-19,21915,Seasonal naive,13.0,Future
+2011-12-26,21915,Seasonal naive,0.0,Future
+2012-01-02,21915,Seasonal naive,285.0,Future
+2012-01-09,21915,Seasonal naive,72.0,Future
+2012-01-16,21915,Seasonal naive,116.0,Future
+2012-01-23,21915,Seasonal naive,84.0,Future
+2011-12-05,21915,Moving average (8 weeks),778.4,Future
+2011-12-12,21915,Moving average (8 weeks),778.4,Future
+2011-12-19,21915,Moving average (8 weeks),778.4,Future
+2011-12-26,21915,Moving average (8 weeks),778.4,Future
+2012-01-02,21915,Moving average (8 weeks),778.4,Future
+2012-01-09,21915,Moving average (8 weeks),778.4,Future
+2012-01-16,21915,Moving average (8 weeks),778.4,Future
+2012-01-23,21915,Moving average (8 weeks),778.4,Future
+2011-12-05,21915,Exponential smoothing,746.2,Future
+2011-12-12,21915,Exponential smoothing,749.4,Future
+2011-12-19,21915,Exponential smoothing,751.9,Future
+2011-12-26,21915,Exponential smoothing,753.9,Future
+2012-01-02,21915,Exponential smoothing,755.5,Future
+2012-01-09,21915,Exponential smoothing,756.8,Future
+2012-01-16,21915,Exponential smoothing,757.9,Future
+2012-01-23,21915,Exponential smoothing,758.7,Future
+2011-12-05,21915,Gradient boosting,445.3,Future
+2011-12-12,21915,Gradient boosting,495.8,Future
+2011-12-19,21915,Gradient boosting,531.2,Future
+2011-12-26,21915,Gradient boosting,485.9,Future
+2012-01-02,21915,Gradient boosting,163.5,Future
+2012-01-09,21915,Gradient boosting,256.6,Future
+2012-01-16,21915,Gradient boosting,166.2,Future
+2012-01-23,21915,Gradient boosting,217.7,Future
+2011-12-05,21621,Naive (last week),33.0,Future
+2011-12-12,21621,Naive (last week),33.0,Future
+2011-12-19,21621,Naive (last week),33.0,Future
+2011-12-26,21621,Naive (last week),33.0,Future
+2012-01-02,21621,Naive (last week),33.0,Future
+2012-01-09,21621,Naive (last week),33.0,Future
+2012-01-16,21621,Naive (last week),33.0,Future
+2012-01-23,21621,Naive (last week),33.0,Future
+2011-12-05,21621,Seasonal naive,46.0,Future
+2011-12-12,21621,Seasonal naive,21.0,Future
+2011-12-19,21621,Seasonal naive,15.0,Future
+2011-12-26,21621,Seasonal naive,0.0,Future
+2012-01-02,21621,Seasonal naive,40.0,Future
+2012-01-09,21621,Seasonal naive,338.0,Future
+2012-01-16,21621,Seasonal naive,18.0,Future
+2012-01-23,21621,Seasonal naive,39.0,Future
+2011-12-05,21621,Moving average (8 weeks),26.0,Future
+2011-12-12,21621,Moving average (8 weeks),26.0,Future
+2011-12-19,21621,Moving average (8 weeks),26.0,Future
+2011-12-26,21621,Moving average (8 weeks),26.0,Future
+2012-01-02,21621,Moving average (8 weeks),26.0,Future
+2012-01-09,21621,Moving average (8 weeks),26.0,Future
+2012-01-16,21621,Moving average (8 weeks),26.0,Future
+2012-01-23,21621,Moving average (8 weeks),26.0,Future
+2011-12-05,21621,Exponential smoothing,32.8,Future
+2011-12-12,21621,Exponential smoothing,32.8,Future
+2011-12-19,21621,Exponential smoothing,32.8,Future
+2011-12-26,21621,Exponential smoothing,32.8,Future
+2012-01-02,21621,Exponential smoothing,32.8,Future
+2012-01-09,21621,Exponential smoothing,32.8,Future
+2012-01-16,21621,Exponential smoothing,32.8,Future
+2012-01-23,21621,Exponential smoothing,32.8,Future
+2011-12-05,21621,Gradient boosting,29.1,Future
+2011-12-12,21621,Gradient boosting,36.3,Future
+2011-12-19,21621,Gradient boosting,80.1,Future
+2011-12-26,21621,Gradient boosting,85.1,Future
+2012-01-02,21621,Gradient boosting,202.0,Future
+2012-01-09,21621,Gradient boosting,111.3,Future
+2012-01-16,21621,Gradient boosting,252.8,Future
+2012-01-23,21621,Gradient boosting,47.9,Future
+2011-12-05,48187,Naive (last week),81.0,Future
+2011-12-12,48187,Naive (last week),81.0,Future
+2011-12-19,48187,Naive (last week),81.0,Future
+2011-12-26,48187,Naive (last week),81.0,Future
+2012-01-02,48187,Naive (last week),81.0,Future
+2012-01-09,48187,Naive (last week),81.0,Future
+2012-01-16,48187,Naive (last week),81.0,Future
+2012-01-23,48187,Naive (last week),81.0,Future
+2011-12-05,48187,Seasonal naive,104.0,Future
+2011-12-12,48187,Seasonal naive,25.0,Future
+2011-12-19,48187,Seasonal naive,8.0,Future
+2011-12-26,48187,Seasonal naive,0.0,Future
+2012-01-02,48187,Seasonal naive,74.0,Future
+2012-01-09,48187,Seasonal naive,33.0,Future
+2012-01-16,48187,Seasonal naive,19.0,Future
+2012-01-23,48187,Seasonal naive,114.0,Future
+2011-12-05,48187,Moving average (8 weeks),40.8,Future
+2011-12-12,48187,Moving average (8 weeks),40.8,Future
+2011-12-19,48187,Moving average (8 weeks),40.8,Future
+2011-12-26,48187,Moving average (8 weeks),40.8,Future
+2012-01-02,48187,Moving average (8 weeks),40.8,Future
+2012-01-09,48187,Moving average (8 weeks),40.8,Future
+2012-01-16,48187,Moving average (8 weeks),40.8,Future
+2012-01-23,48187,Moving average (8 weeks),40.8,Future
+2011-12-05,48187,Exponential smoothing,71.6,Future
+2011-12-12,48187,Exponential smoothing,71.6,Future
+2011-12-19,48187,Exponential smoothing,71.6,Future
+2011-12-26,48187,Exponential smoothing,71.6,Future
+2012-01-02,48187,Exponential smoothing,71.6,Future
+2012-01-09,48187,Exponential smoothing,71.6,Future
+2012-01-16,48187,Exponential smoothing,71.6,Future
+2012-01-23,48187,Exponential smoothing,71.6,Future
+2011-12-05,48187,Gradient boosting,66.6,Future
+2011-12-12,48187,Gradient boosting,52.2,Future
+2011-12-19,48187,Gradient boosting,83.6,Future
+2011-12-26,48187,Gradient boosting,67.2,Future
+2012-01-02,48187,Gradient boosting,44.2,Future
+2012-01-09,48187,Gradient boosting,51.2,Future
+2012-01-16,48187,Gradient boosting,63.5,Future
+2012-01-23,48187,Gradient boosting,61.5,Future
+2011-12-05,22326,Naive (last week),145.0,Future
+2011-12-12,22326,Naive (last week),145.0,Future
+2011-12-19,22326,Naive (last week),145.0,Future
+2011-12-26,22326,Naive (last week),145.0,Future
+2012-01-02,22326,Naive (last week),145.0,Future
+2012-01-09,22326,Naive (last week),145.0,Future
+2012-01-16,22326,Naive (last week),145.0,Future
+2012-01-23,22326,Naive (last week),145.0,Future
+2011-12-05,22326,Seasonal naive,234.0,Future
+2011-12-12,22326,Seasonal naive,81.0,Future
+2011-12-19,22326,Seasonal naive,211.0,Future
+2011-12-26,22326,Seasonal naive,0.0,Future
+2012-01-02,22326,Seasonal naive,79.0,Future
+2012-01-09,22326,Seasonal naive,197.0,Future
+2012-01-16,22326,Seasonal naive,369.0,Future
+2012-01-23,22326,Seasonal naive,159.0,Future
+2011-12-05,22326,Moving average (8 weeks),225.1,Future
+2011-12-12,22326,Moving average (8 weeks),225.1,Future
+2011-12-19,22326,Moving average (8 weeks),225.1,Future
+2011-12-26,22326,Moving average (8 weeks),225.1,Future
+2012-01-02,22326,Moving average (8 weeks),225.1,Future
+2012-01-09,22326,Moving average (8 weeks),225.1,Future
+2012-01-16,22326,Moving average (8 weeks),225.1,Future
+2012-01-23,22326,Moving average (8 weeks),225.1,Future
+2011-12-05,22326,Exponential smoothing,202.2,Future
+2011-12-12,22326,Exponential smoothing,202.2,Future
+2011-12-19,22326,Exponential smoothing,202.2,Future
+2011-12-26,22326,Exponential smoothing,202.2,Future
+2012-01-02,22326,Exponential smoothing,202.2,Future
+2012-01-09,22326,Exponential smoothing,202.2,Future
+2012-01-16,22326,Exponential smoothing,202.2,Future
+2012-01-23,22326,Exponential smoothing,202.2,Future
+2011-12-05,22326,Gradient boosting,292.7,Future
+2011-12-12,22326,Gradient boosting,183.2,Future
+2011-12-19,22326,Gradient boosting,152.2,Future
+2011-12-26,22326,Gradient boosting,179.4,Future
+2012-01-02,22326,Gradient boosting,106.6,Future
+2012-01-09,22326,Gradient boosting,93.7,Future
+2012-01-16,22326,Gradient boosting,100.8,Future
+2012-01-23,22326,Gradient boosting,106.9,Future
+2011-12-05,21175,Naive (last week),390.0,Future
+2011-12-12,21175,Naive (last week),390.0,Future
+2011-12-19,21175,Naive (last week),390.0,Future
+2011-12-26,21175,Naive (last week),390.0,Future
+2012-01-02,21175,Naive (last week),390.0,Future
+2012-01-09,21175,Naive (last week),390.0,Future
+2012-01-16,21175,Naive (last week),390.0,Future
+2012-01-23,21175,Naive (last week),390.0,Future
+2011-12-05,21175,Seasonal naive,360.0,Future
+2011-12-12,21175,Seasonal naive,72.0,Future
+2011-12-19,21175,Seasonal naive,46.0,Future
+2011-12-26,21175,Seasonal naive,0.0,Future
+2012-01-02,21175,Seasonal naive,182.0,Future
+2012-01-09,21175,Seasonal naive,127.0,Future
+2012-01-16,21175,Seasonal naive,18.0,Future
+2012-01-23,21175,Seasonal naive,82.0,Future
+2011-12-05,21175,Moving average (8 weeks),282.8,Future
+2011-12-12,21175,Moving average (8 weeks),282.8,Future
+2011-12-19,21175,Moving average (8 weeks),282.8,Future
+2011-12-26,21175,Moving average (8 weeks),282.8,Future
+2012-01-02,21175,Moving average (8 weeks),282.8,Future
+2012-01-09,21175,Moving average (8 weeks),282.8,Future
+2012-01-16,21175,Moving average (8 weeks),282.8,Future
+2012-01-23,21175,Moving average (8 weeks),282.8,Future
+2011-12-05,21175,Exponential smoothing,252.7,Future
+2011-12-12,21175,Exponential smoothing,252.7,Future
+2011-12-19,21175,Exponential smoothing,252.7,Future
+2011-12-26,21175,Exponential smoothing,252.7,Future
+2012-01-02,21175,Exponential smoothing,252.7,Future
+2012-01-09,21175,Exponential smoothing,252.7,Future
+2012-01-16,21175,Exponential smoothing,252.7,Future
+2012-01-23,21175,Exponential smoothing,252.7,Future
+2011-12-05,21175,Gradient boosting,223.1,Future
+2011-12-12,21175,Gradient boosting,191.5,Future
+2011-12-19,21175,Gradient boosting,337.7,Future
+2011-12-26,21175,Gradient boosting,200.3,Future
+2012-01-02,21175,Gradient boosting,91.0,Future
+2012-01-09,21175,Gradient boosting,85.9,Future
+2012-01-16,21175,Gradient boosting,86.3,Future
+2012-01-23,21175,Gradient boosting,99.7,Future
+2011-12-05,22111,Naive (last week),249.0,Future
+2011-12-12,22111,Naive (last week),249.0,Future
+2011-12-19,22111,Naive (last week),249.0,Future
+2011-12-26,22111,Naive (last week),249.0,Future
+2012-01-02,22111,Naive (last week),249.0,Future
+2012-01-09,22111,Naive (last week),249.0,Future
+2012-01-16,22111,Naive (last week),249.0,Future
+2012-01-23,22111,Naive (last week),249.0,Future
+2011-12-05,22111,Seasonal naive,489.0,Future
+2011-12-12,22111,Seasonal naive,311.0,Future
+2011-12-19,22111,Seasonal naive,191.0,Future
+2011-12-26,22111,Seasonal naive,0.0,Future
+2012-01-02,22111,Seasonal naive,118.0,Future
+2012-01-09,22111,Seasonal naive,92.0,Future
+2012-01-16,22111,Seasonal naive,66.0,Future
+2012-01-23,22111,Seasonal naive,43.0,Future
+2011-12-05,22111,Moving average (8 weeks),180.1,Future
+2011-12-12,22111,Moving average (8 weeks),180.1,Future
+2011-12-19,22111,Moving average (8 weeks),180.1,Future
+2011-12-26,22111,Moving average (8 weeks),180.1,Future
+2012-01-02,22111,Moving average (8 weeks),180.1,Future
+2012-01-09,22111,Moving average (8 weeks),180.1,Future
+2012-01-16,22111,Moving average (8 weeks),180.1,Future
+2012-01-23,22111,Moving average (8 weeks),180.1,Future
+2011-12-05,22111,Exponential smoothing,233.0,Future
+2011-12-12,22111,Exponential smoothing,233.0,Future
+2011-12-19,22111,Exponential smoothing,233.0,Future
+2011-12-26,22111,Exponential smoothing,233.0,Future
+2012-01-02,22111,Exponential smoothing,233.0,Future
+2012-01-09,22111,Exponential smoothing,233.0,Future
+2012-01-16,22111,Exponential smoothing,233.0,Future
+2012-01-23,22111,Exponential smoothing,233.0,Future
+2011-12-05,22111,Gradient boosting,272.7,Future
+2011-12-12,22111,Gradient boosting,198.2,Future
+2011-12-19,22111,Gradient boosting,133.0,Future
+2011-12-26,22111,Gradient boosting,111.4,Future
+2012-01-02,22111,Gradient boosting,49.1,Future
+2012-01-09,22111,Gradient boosting,43.3,Future
+2012-01-16,22111,Gradient boosting,38.5,Future
+2012-01-23,22111,Gradient boosting,51.9,Future
+2011-12-05,22138,Naive (last week),190.0,Future
+2011-12-12,22138,Naive (last week),190.0,Future
+2011-12-19,22138,Naive (last week),190.0,Future
+2011-12-26,22138,Naive (last week),190.0,Future
+2012-01-02,22138,Naive (last week),190.0,Future
+2012-01-09,22138,Naive (last week),190.0,Future
+2012-01-16,22138,Naive (last week),190.0,Future
+2012-01-23,22138,Naive (last week),190.0,Future
+2011-12-05,22138,Seasonal naive,0.0,Future
+2011-12-12,22138,Seasonal naive,0.0,Future
+2011-12-19,22138,Seasonal naive,15.0,Future
+2011-12-26,22138,Seasonal naive,0.0,Future
+2012-01-02,22138,Seasonal naive,41.0,Future
+2012-01-09,22138,Seasonal naive,21.0,Future
+2012-01-16,22138,Seasonal naive,102.0,Future
+2012-01-23,22138,Seasonal naive,40.0,Future
+2011-12-05,22138,Moving average (8 weeks),217.0,Future
+2011-12-12,22138,Moving average (8 weeks),217.0,Future
+2011-12-19,22138,Moving average (8 weeks),217.0,Future
+2011-12-26,22138,Moving average (8 weeks),217.0,Future
+2012-01-02,22138,Moving average (8 weeks),217.0,Future
+2012-01-09,22138,Moving average (8 weeks),217.0,Future
+2012-01-16,22138,Moving average (8 weeks),217.0,Future
+2012-01-23,22138,Moving average (8 weeks),217.0,Future
+2011-12-05,22138,Exponential smoothing,227.5,Future
+2011-12-12,22138,Exponential smoothing,227.5,Future
+2011-12-19,22138,Exponential smoothing,227.5,Future
+2011-12-26,22138,Exponential smoothing,227.5,Future
+2012-01-02,22138,Exponential smoothing,227.5,Future
+2012-01-09,22138,Exponential smoothing,227.5,Future
+2012-01-16,22138,Exponential smoothing,227.5,Future
+2012-01-23,22138,Exponential smoothing,227.5,Future
+2011-12-05,22138,Gradient boosting,284.2,Future
+2011-12-12,22138,Gradient boosting,272.3,Future
+2011-12-19,22138,Gradient boosting,231.1,Future
+2011-12-26,22138,Gradient boosting,159.5,Future
+2012-01-02,22138,Gradient boosting,42.4,Future
+2012-01-09,22138,Gradient boosting,58.2,Future
+2012-01-16,22138,Gradient boosting,64.3,Future
+2012-01-23,22138,Gradient boosting,43.7,Future
+2011-12-05,15056N,Naive (last week),36.0,Future
+2011-12-12,15056N,Naive (last week),36.0,Future
+2011-12-19,15056N,Naive (last week),36.0,Future
+2011-12-26,15056N,Naive (last week),36.0,Future
+2012-01-02,15056N,Naive (last week),36.0,Future
+2012-01-09,15056N,Naive (last week),36.0,Future
+2012-01-16,15056N,Naive (last week),36.0,Future
+2012-01-23,15056N,Naive (last week),36.0,Future
+2011-12-05,15056N,Seasonal naive,51.0,Future
+2011-12-12,15056N,Seasonal naive,20.0,Future
+2011-12-19,15056N,Seasonal naive,38.0,Future
+2011-12-26,15056N,Seasonal naive,0.0,Future
+2012-01-02,15056N,Seasonal naive,24.0,Future
+2012-01-09,15056N,Seasonal naive,55.0,Future
+2012-01-16,15056N,Seasonal naive,23.0,Future
+2012-01-23,15056N,Seasonal naive,36.0,Future
+2011-12-05,15056N,Moving average (8 weeks),48.9,Future
+2011-12-12,15056N,Moving average (8 weeks),48.9,Future
+2011-12-19,15056N,Moving average (8 weeks),48.9,Future
+2011-12-26,15056N,Moving average (8 weeks),48.9,Future
+2012-01-02,15056N,Moving average (8 weeks),48.9,Future
+2012-01-09,15056N,Moving average (8 weeks),48.9,Future
+2012-01-16,15056N,Moving average (8 weeks),48.9,Future
+2012-01-23,15056N,Moving average (8 weeks),48.9,Future
+2011-12-05,15056N,Exponential smoothing,39.0,Future
+2011-12-12,15056N,Exponential smoothing,37.6,Future
+2011-12-19,15056N,Exponential smoothing,36.5,Future
+2011-12-26,15056N,Exponential smoothing,35.7,Future
+2012-01-02,15056N,Exponential smoothing,35.0,Future
+2012-01-09,15056N,Exponential smoothing,34.4,Future
+2012-01-16,15056N,Exponential smoothing,33.9,Future
+2012-01-23,15056N,Exponential smoothing,33.6,Future
+2011-12-05,15056N,Gradient boosting,170.6,Future
+2011-12-12,15056N,Gradient boosting,191.4,Future
+2011-12-19,15056N,Gradient boosting,270.4,Future
+2011-12-26,15056N,Gradient boosting,267.3,Future
+2012-01-02,15056N,Gradient boosting,76.9,Future
+2012-01-09,15056N,Gradient boosting,47.7,Future
+2012-01-16,15056N,Gradient boosting,43.7,Future
+2012-01-23,15056N,Gradient boosting,90.0,Future
+2011-12-05,21929,Naive (last week),108.0,Future
+2011-12-12,21929,Naive (last week),108.0,Future
+2011-12-19,21929,Naive (last week),108.0,Future
+2011-12-26,21929,Naive (last week),108.0,Future
+2012-01-02,21929,Naive (last week),108.0,Future
+2012-01-09,21929,Naive (last week),108.0,Future
+2012-01-16,21929,Naive (last week),108.0,Future
+2012-01-23,21929,Naive (last week),108.0,Future
+2011-12-05,21929,Seasonal naive,390.0,Future
+2011-12-12,21929,Seasonal naive,183.0,Future
+2011-12-19,21929,Seasonal naive,13.0,Future
+2011-12-26,21929,Seasonal naive,0.0,Future
+2012-01-02,21929,Seasonal naive,410.0,Future
+2012-01-09,21929,Seasonal naive,82.0,Future
+2012-01-16,21929,Seasonal naive,151.0,Future
+2012-01-23,21929,Seasonal naive,201.0,Future
+2011-12-05,21929,Moving average (8 weeks),123.9,Future
+2011-12-12,21929,Moving average (8 weeks),123.9,Future
+2011-12-19,21929,Moving average (8 weeks),123.9,Future
+2011-12-26,21929,Moving average (8 weeks),123.9,Future
+2012-01-02,21929,Moving average (8 weeks),123.9,Future
+2012-01-09,21929,Moving average (8 weeks),123.9,Future
+2012-01-16,21929,Moving average (8 weeks),123.9,Future
+2012-01-23,21929,Moving average (8 weeks),123.9,Future
+2011-12-05,21929,Exponential smoothing,147.9,Future
+2011-12-12,21929,Exponential smoothing,147.9,Future
+2011-12-19,21929,Exponential smoothing,147.9,Future
+2011-12-26,21929,Exponential smoothing,147.9,Future
+2012-01-02,21929,Exponential smoothing,147.9,Future
+2012-01-09,21929,Exponential smoothing,147.9,Future
+2012-01-16,21929,Exponential smoothing,147.9,Future
+2012-01-23,21929,Exponential smoothing,147.9,Future
+2011-12-05,21929,Gradient boosting,165.1,Future
+2011-12-12,21929,Gradient boosting,128.6,Future
+2011-12-19,21929,Gradient boosting,200.4,Future
+2011-12-26,21929,Gradient boosting,233.6,Future
+2012-01-02,21929,Gradient boosting,195.4,Future
+2012-01-09,21929,Gradient boosting,251.8,Future
+2012-01-16,21929,Gradient boosting,141.8,Future
+2012-01-23,21929,Gradient boosting,247.8,Future

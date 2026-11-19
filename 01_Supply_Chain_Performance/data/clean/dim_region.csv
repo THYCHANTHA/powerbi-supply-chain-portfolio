@@ -1,0 +1,24 @@
+Region Id,Market,Region
+1,Africa,Central Africa
+2,Africa,East Africa
+3,Africa,North Africa
+4,Africa,Southern Africa
+5,Africa,West Africa
+6,Europe,Eastern Europe
+7,Europe,Northern Europe
+8,Europe,Southern Europe
+9,Europe,Western Europe
+10,LATAM,Caribbean
+11,LATAM,Central America
+12,LATAM,South America
+13,Pacific Asia,Central Asia
+14,Pacific Asia,Eastern Asia
+15,Pacific Asia,Oceania
+16,Pacific Asia,South Asia
+17,Pacific Asia,Southeast Asia
+18,Pacific Asia,West Asia
+19,USCA,Canada
+20,USCA,East of USA
+21,USCA,South of  USA 
+22,USCA,US Center 
+23,USCA,West of USA 

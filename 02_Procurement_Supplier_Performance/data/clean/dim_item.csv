@@ -1,0 +1,185 @@
+Item Id,Item,Product Group,Sub Classification,Molecule or Test,Brand,Dosage Form,First Line Drug
+1,"HIV, Reveal G3 Rapid HIV-1 Antibody Test, 30 Tests",HIV rapid test,HIV test,"HIV, Reveal G3 Rapid HIV-1 Antibody Test",Reveal,Test kit,Yes
+2,"Nevirapine 10mg/ml, oral suspension, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Nevirapine,Generic,Oral suspension,Yes
+3,"HIV 1/2, Determine Complete HIV Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, Determine Complete HIV Kit",Determine,Test kit,Yes
+4,"Lamivudine 150mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine,Generic,Tablet,Yes
+5,"Stavudine 30mg, capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Generic,Capsule,Yes
+6,"Zidovudine 10mg/ml, oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Zidovudine,Generic,Oral solution,Yes
+7,"Efavirenz 200mg [Stocrin/Sustiva], capsule, 90 Caps",Antiretroviral (ARV),Pediatric,Efavirenz,Stocrin/Sustiva,Capsule,Yes
+8,"Nevirapine 200mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Nevirapine,Generic,Tablet,Yes
+9,"Lopinavir/Ritonavir 200/50mg [Aluvia], tablets, 120 Tabs",Antiretroviral (ARV),Adult,Lopinavir/Ritonavir,Aluvia,Tablet,Yes
+10,"HIV 1/2, Uni-Gold HIV Kit, 20 Tests",HIV rapid test,HIV test,"HIV 1/2, Uni-Gold HIV Kit",Uni-Gold,Test kit,Yes
+11,"HIV 1/2, InstantChek HIV 1+2 Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, InstantChek HIV 1+2 Kit",InstantCHEK,Test kit,Yes
+12,"Lamivudine/Zidovudine 150/300mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Zidovudine,Generic,Tablet - FDC,Yes
+13,"#102198**Didanosine 200mg [Videx], tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Videx,Tablet,Yes
+14,"HIV 1/2/O, First Response HIV 1-2.0, v.3.0 Cards Kit, 30 Tests",HIV rapid test,HIV test,"HIV 1/2/O, First Response HIV 1-2.0, v.3.0 Cards Kit",First Response,Test kit,Yes
+15,"Didanosine 2g [Videx], powder for oral solution 10mg/ml, reconstitute to 200 ml",Antiretroviral (ARV),Pediatric,Didanosine,Videx,Powder for oral solution,Yes
+16,"HIV 1/2, Stat-Pak HIV, Kit, 20 Tests",HIV rapid test,HIV test,"HIV 1/2, Stat-Pak HIV, Kit",Stat-Pak,Test kit,Yes
+17,"HIV 1/2, Determine HIV Kit, without Lancets, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, Determine HIV Kit, without Lancets",Determine,Test kit,Yes
+18,"HIV 1/2, OraQuick Advance HIV Rapid Antibody Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, OraQuick Advance HIV Rapid Antibody Kit",OraQuick,Test kit,Yes
+19,"HIV 1/2, Bioline 3.0 Kit, Lancets, Capillary pipets, Alcohol swabs included, 25 Tests",HIV rapid test,HIV test,"HIV 1/2, Bioline 3.0 Kit, Lancets, Capillary pipets, Alcohol swabs included",Bioline,Test kit,Yes
+20,"Zidovudine 10mg/ml [Retrovir], oral solution, Bottle, 200 ml",Antiretroviral (ARV),Pediatric,Zidovudine,Retrovir,Oral solution,Yes
+21,"Tenofovir Disoproxil Fumarate 300mg [Viread], tablets, 30 Tabs",Antiretroviral (ARV),Adult,Tenofovir Disoproxil Fumarate,Viread,Tablet,Yes
+22,"Zidovudine 300mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Zidovudine,Generic,Tablet,Yes
+23,"HIV, Lancet, Safety, for HIV Test kits, 100 Pcs",HIV rapid test,HIV test - Ancillary,"HIV, Lancet, Safety, for HIV Test kits, 100 Pcs",Generic,Test kit - Ancillary,Yes
+24,"Stavudine 1mg/ml [Zerit], powder for oral solution, Bottle, 200 ml",Antiretroviral (ARV),Pediatric,Stavudine,Zerit,Powder for oral solution,Yes
+25,"HIV 1/2, Capillus HIV Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, Capillus HIV Kit",Capillus,Test kit,Yes
+26,"#108853** HIV, Genie II HIV-1/HIV-2 Kit, 40 Tests",HIV rapid test,HIV test,"HIV, Genie II HIV-1/HIV-2 Kit",Genie,Test kit,Yes
+27,"Efavirenz 600mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Efavirenz,Generic,Tablet,Yes
+28,"Saquinavir 200mg [Invirase], capsules, 270 Caps",Antiretroviral (ARV),Adult,Saquinavir,Invirase,Capsule,Yes
+29,"Didanosine 25mg [Videx], chewable tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Videx,Chewable/dispersible tablet,Yes
+30,"Tenofovir Disoproxil Fumarate 300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Tenofovir Disoproxil Fumarate,Generic,Tablet,Yes
+31,"Stavudine 20mg [Zerit], capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Zerit,Capsule,Yes
+32,"Didanosine EC 250mg [Videx EC], delayed-release capsules, Blister 3 x 10 Caps",Antiretroviral (ARV),Adult,Didanosine EC,Videx EC,Delayed-release capsules - blister,Yes
+33,"Didanosine EC 400mg [Videx EC], delayed-release capsules, Blister 3 x 10 Caps",Antiretroviral (ARV),Adult,Didanosine EC,Videx EC,Delayed-release capsules - blister,Yes
+34,"Abacavir 300mg [Ziagen], tablets, Blister 6 x 10 Tabs",Antiretroviral (ARV),Adult,Abacavir,Ziagen,Tablet - blister,Yes
+35,"Artemether/Lumefantrine 20/120mg [Coartem], scored tablets, Blister 30 x 18 Tabs",Artemisinin therapy (ACT),ACT,Artemether/Lumefantrine,Coartem,Tablet - FDC + blister,Yes
+36,"Nevirapine 10mg/ml [Viramune], oral suspension, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Nevirapine,Viramune,Oral suspension,Yes
+37,"Malaria Paramax-3 Kit, 25 Tests",Malaria rapid test,Malaria,Malaria Paramax-3 Kit,Paramax,Test kit,Yes
+38,"Artesunate+Amodiaquine 50+153mg, tablets, co-blister 6+6 Tabs",Artemisinin therapy (ACT),ACT,Artesunate+Amodiaquine,Generic,Tablet - FDC + co-blister,Yes
+39,"Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate 600/200/300mg [Atripla], tablets, 30 Tabs",Antiretroviral (ARV),Adult,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate,Atripla,Tablet - FDC,Yes
+40,"#109436**HIV 1, Uni-Gold Recombigen HIV Control, Vial 2 x 0.5 ml",HIV rapid test,HIV test - Ancillary,"HIV 1, Uni-Gold Recombigen HIV Control, Vial 2 x 0.5 ml",Uni-Gold,Test kit - Ancillary,Yes
+41,"Didanosine 100mg [Videx],chewable tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Videx,Chewable/dispersible tablet,No
+42,"Lopinavir/Ritonavir 80/20mg/ml [Kaletra], oral solution, cool, Bottle 5 x 60 ml",Antiretroviral (ARV),Pediatric,Lopinavir/Ritonavir,Kaletra,Oral solution,No
+43,"Quinine 600mg/2ml (as dihydrochloride), injection, 2ml x 100 Ampules",Antimalarial,Malaria,Quinine (as dihydrochloride),Generic,Injection,Yes
+44,"Lamivudine/Nevirapine/Stavudine 150/200/30mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Nevirapine/Stavudine,Generic,Tablet - FDC,Yes
+45,"Lopinavir/Ritonavir 100/25mg [Aluvia], tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lopinavir/Ritonavir,Generic,Tablet,Yes
+46,"Didanosine 50mg [Videx], chewable tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Videx,Chewable/dispersible tablet,Yes
+47,"Lamivudine 10mg/ml [Epivir], oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Lamivudine,Epivir,Oral solution,Yes
+48,"Lamivudine 10mg/ml, oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Lamivudine,Generic,Oral solution,Yes
+49,"Efavirenz 50mg, capsule, 30 Caps",Antiretroviral (ARV),Pediatric,Efavirenz,Generic,Capsule,Yes
+50,"Stavudine 15mg [Zerit], capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Zerit,Capsule,Yes
+51,"Zidovudine 300mg [Retrovir], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Zidovudine,Retrovir,Tablet,Yes
+52,"Ritonavir 100mg [Norvir], capsules, cool, 4 x 84 Caps",Antiretroviral (ARV),Adult,Ritonavir,Norvir,Capsule,Yes
+53,"Emtricitabine/Tenofovir Disoproxil Fumarate 200/300mg [Truvada], tablets, 30 Tabs",Antiretroviral (ARV),Adult,Emtricitabine/Tenofovir Disoproxil Fumarate,Truvada,Tablet - FDC,Yes
+54,"Lamivudine/Nevirapine/Zidovudine 150/200/300mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Nevirapine/Zidovudine,Generic,Tablet - FDC,Yes
+55,"HIV 1/2, Clearview Complete Kit, 25 Tests",HIV rapid test,HIV test,"HIV 1/2, Clearview Complete Kit",Clearview,Test kit,Yes
+56,"Ritonavir 100mg [Norvir], capsules, cool, 84 Caps",Antiretroviral (ARV),Adult,Ritonavir,Norvir,Capsule,Yes
+57,"Lopinavir/Ritonavir 133.3/33.3mg [Kaletra], capsules, cool, 2 x 90 Caps",Antiretroviral (ARV),Adult,Lopinavir/Ritonavir,Kaletra,Capsule,Yes
+58,"Abacavir 300mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Abacavir,Generic,Tablet,No
+59,"Stavudine 20mg, capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Generic,Capsule,Yes
+60,"Ritonavir 80mg/ml [Norvir], oral solution, cool, Bottle, 90 ml",Antiretroviral (ARV),Pediatric,Ritonavir,Norvir,Oral solution,No
+61,"Lamivudine 150mg [Epivir], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine,Epivir,Tablet,Yes
+62,"Efavirenz 50mg [Stocrin/Sustiva], capsule, 30 Caps",Antiretroviral (ARV),Pediatric,Efavirenz,Stocrin/Sustiva,Capsule,No
+63,"HIV 1/2, SKB Colloidal Gold, Diagnostic Kit, Antibody, 50 Tests",HIV rapid test,HIV test,"HIV 1/2, Colloidal Gold, Diagnostic Kit, Antibody",Colloidal Gold,Test kit,Yes
+64,"#109440**HIV 1/2, INSTI HIV Antibody Individual POC, 1 Test",HIV rapid test,HIV test,"HIV 1/2, INSTI HIV Antibody Individual POC, 1 Test",INSTi,Test kit,Yes
+65,"Zidovudine 100mg, capsules, 100 Caps",Antiretroviral (ARV),Pediatric,Zidovudine,Generic,Capsule,Yes
+66,"Efavirenz 200mg, capsule, 90 Caps",Antiretroviral (ARV),Pediatric,Efavirenz,Generic,Capsule,Yes
+67,"Nevirapine 200mg [Viramune], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Nevirapine,Viramune,Tablet,No
+68,"Zidovudine 10mg/ml [Retrovir], solution for IV infusion injection, Vial 5 x 20 ml",Antiretroviral (ARV),Pediatric,Zidovudine,Retrovir,Injection,No
+69,"Didanosine 250mg, delayed-release capsules, 30 Caps",Antiretroviral (ARV),Adult,Didanosine,Generic,Delayed-release capsules,Yes
+70,"Lamivudine/Stavudine 30/6mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Stavudine,Generic,Chewable/dispersible tablet - FDC,Yes
+71,"Abacavir 20mg/ml, oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Abacavir,Generic,Oral solution,Yes
+72,"Stavudine 40mg, capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Generic,Capsule,No
+73,"Stavudine 15mg, capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Generic,Capsule,Yes
+74,"Efavirenz 600mg [Stocrin/Sustiva], tablets, 30 Tabs",Antiretroviral (ARV),Adult,Efavirenz,Stocrin/Sustiva,Tablet,No
+75,"Stavudine 30mg [Zerit], capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Zerit,Capsule,No
+76,"Stavudine 40mg [Zerit], capsules, 60 Caps",Antiretroviral (ARV),Adult,Stavudine,Zerit,Capsule,No
+77,"Stavudine 1mg/ml, powder for oral solution, 200 ml",Antiretroviral (ARV),Pediatric,Stavudine,Generic,Oral solution,Yes
+78,"Zidovudine 100mg [Retrovir], capsules, 100 Caps",Antiretroviral (ARV),Pediatric,Zidovudine,Retrovir,Capsule,Yes
+79,"Abacavir/Lamivudine/Zidovudine 300/150/300mg [Trizivir], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Abacavir/Lamivudine/Zidovudine,Trizivir,Tablet - FDC,Yes
+80,"HIV 1/2, Visitect Kit, 25 Tests",HIV rapid test,HIV test,"HIV 1/2, Visitect Kit",Visitect,Test kit,Yes
+81,"Nelfinavir (as mesilate) 250mg [Viracept], tablets, 270 Tabs",Antiretroviral (ARV),Adult,Nelfinavir (as mesilate),Viracept,Tablet,Yes
+82,"HIV 1/2, DoubleCheck II Kit, 40 Tests",HIV rapid test,HIV test,"HIV 1/2, DoubleCheck II Kit",DoubleCheck,Test kit,Yes
+83,"Didanosine 100mg, chewable/dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Generic,Chewable/dispersible tablet,No
+84,"HIV 1/2, Bundi Rapid HIV Kit, 25 Tests",HIV rapid test,HIV test,"HIV 1/2, Bundi Rapid HIV Kit",Bundi,Test kit,Yes
+85,"Capillary Tubes, for Determine, EDTA, 50uL,100 Pcs",HIV rapid test,HIV test - Ancillary,"HIV, Capillary Tubes, for Determine, EDTA, 50uL,100 Pcs",Determine,Test kit - Ancillary,Yes
+86,"HIV 1/2, ImmunoComb TriSpot Ag - Ab Kit, 36 Tests",HIV rapid test,HIV test,"HIV 1/2, ImmunoComb TriSpot Ag - Ab Kit",ImmunoComb,Test kit,Yes
+87,"HIV 1/2, Bioline 3.0 Kit, (no accessories), 30 Tests",HIV rapid test,HIV test,"HIV 1/2, Bioline 3.0 Kit (no accessories)",Bioline,Test kit,Yes
+88,"Abacavir 20mg/ml [Ziagen], oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Abacavir,Ziagen,Oral solution,Yes
+89,"Sulfadoxine/Pyrimethamine 500/25mg, tablets, 1000 Tabs",Antimalarial,Malaria,Sulfadoxine/Pyrimethamine,Generic,Tablet - FDC,Yes
+90,"Chloroquine 150mg base (as phosphate), [DON] tablets, 1000 Tabs",Antimalarial,Malaria,Chloroquine base (as phosphate),Generic,Tablet,Yes
+91,"Quinine 300mg (as sulfate), tablets, Blister 100 x 10 Tabs",Antimalarial,Malaria,Quinine (as sulfate),Generic,Tablet - blister,Yes
+92,"Artesunate+Amodiaquine 50+153mg, tablets, co-blister 12+12 Tabs",Artemisinin therapy (ACT),ACT,Artesunate+Amodiaquine,Generic,Tablet - FDC + co-blister,Yes
+93,"Didanosine 200mg, chewable/dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Didanosine,Generic,Chewable/dispersible tablet,No
+94,"Lamivudine/Nevirapine/Stavudine 30/50/6mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Nevirapine/Stavudine,Generic,Chewable/dispersible tablet - FDC,No
+95,"Indinavir 400mg [Crixivan], capsules, 180 Caps",Antiretroviral (ARV),Adult,Indinavir,Crixivan,Capsule,No
+96,"Lamivudine/Zidovudine+Nevirapine 150/300+200mg, tablets, co-blister, 60+60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Zidovudine+Nevirapine,Generic,Tablet - FDC + co-blister,Yes
+97,"#109435**HIV, OraQuick Controls Kit, 3 Vials",HIV rapid test,HIV test - Ancillary,"HIV, OraQuick Controls Kit, 3 Vials",OraQuick,Test kit - Ancillary,Yes
+98,"Primaquine 15mg base (as diphosphate), tablets, 1000 Tabs",Antimalarial,Malaria,Primaquine base (as diphosphate),Generic,Tablet,Yes
+99,"Lamivudine/Stavudine 150/30mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Stavudine,Generic,Tablet - FDC,Yes
+100,"Lamivudine/Nevirapine/Stavudine 150/200/40mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Nevirapine/Stavudine,Generic,Tablet - FDC,No
+101,"HIV 2, New LAV Blot 2 HIV Kit, 18 Tests",HIV rapid test,HIV test,"HIV 2, New LAV Blot 2 HIV Kit",LAV,Test kit,Yes
+102,"HIV, Bioline HIV 1/2 3.0 Kit, [DON] 25 Tests",HIV rapid test,HIV test,"HIV, Bioline HIV 1/2 3.0 Kit",Bioline,Test kit,Yes
+103,"Efavirenz 30mg/ml [Stocrin/Sustiva], oral solution, Bottle, 180 ml",Antiretroviral (ARV),Pediatric,Efavirenz,Stocrin/Sustiva,Oral solution,No
+104,"Abacavir 20mg/ml, [DON] oral solution, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Abacavir,Generic,Oral solution,Yes
+105,"Lamivudine/Stavudine 150/30mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Stavudine,Generic,Tablet - FDC,Yes
+106,"Emtricitabine/Tenofovir Disoproxil Fumarate 200/300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Emtricitabine/Tenofovir Disoproxil Fumarate,Generic,Tablet - FDC,Yes
+107,"Lamivudine/Zidovudine+Abacavir 150/300+300mg, tablets, co-blister, 60+60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Zidovudine+Abacavir,Generic,Tablet - FDC + co-blister,No
+108,"Lamivudine/Tenofovir Disoproxil Fumarate 300/300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Tenofovir Disoproxil Fumarate,Generic,Tablet - FDC,Yes
+109,"Lamivudine/Nevirapine/Stavudine 60/100/12mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Nevirapine/Stavudine,Generic,Chewable/dispersible tablet - FDC,No
+110,"HIV, Pepti-LAV 1|2 (HIV-1|2 Ab differenciation, Immuno-Blot)",HIV rapid test,HIV test - Ancillary,"HIV, Pepti-LAV 1|2 (HIV-1|2 Ab differenciation, Immuno-Blot)",Pepti-LAV,Test kit - Ancillary,Yes
+111,"Ritonavir 100mg [Norvir], film coated tablets, 60 Tabs",Antiretroviral (ARV),Adult,Ritonavir,Norvir,Tablet,Yes
+112,"HIV 1/2, Stat-Pak Dipstick Assay Kit, 30 Tests",HIV rapid test,HIV test,"HIV 1/2, Stat-Pak Dipstick Assay Kit",Stat-Pak,Test kit,Yes
+113,"Malaria Antigen P.f Kit, 30 x 1 Test",Malaria rapid test,Malaria,"Malaria Antigen P.f Kit, 30 x 1 Test",Generic,Test kit,Yes
+114,"Efavirenz/Lamivudine/Tenofovir Disoproxil Fumarate 600/300/300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Efavirenz/Lamivudine/Tenofovir Disoproxil Fumarate,Generic,Tablet - FDC,Yes
+115,"Lopinavir/Ritonavir 80/20mg/ml [Kaletra], oral solution, cool, Bottle, 160 ml",Antiretroviral (ARV),Pediatric,Lopinavir/Ritonavir,Kaletra,Oral solution,Yes
+116,"Etravirine 100mg [Intelence], tablets, 120 Tabs",Antiretroviral (ARV),Adult,Etravirine,Intelence,Tablet,Yes
+117,"HIV 1/2, Bioline 3.0 Diluent, 25 Tests, Bottle x 5 ml",HIV rapid test,HIV test - Ancillary,"HIV 1/2, Bioline 3.0 Diluent, 25 Tests",Bioline,Test kit - Ancillary,Yes
+118,"Zidovudine 10mg/ml, oral solution w/syringe, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Zidovudine,Generic,Oral solution,Yes
+119,"Ritonavir 100mg [Norvir], film coated tablets, 30 Tabs",Antiretroviral (ARV),Adult,Ritonavir,Norvir,Tablet,Yes
+120,"Atazanavir/Ritonavir 300/100mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Atazanavir/Ritonavir,Generic,Tablet,Yes
+121,"Nevirapine 50mg, dispersible tablets (tablets for oral suspension), 30 Tabs",Antiretroviral (ARV),Pediatric,Nevirapine,Generic,Chewable/dispersible tablet,Yes
+122,"Darunavir 600mg [Prezista], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Darunavir,Prezista,Tablet,Yes
+123,"HIV 1/2, Determine Kit without Lancets, Buffer or Caplillary Tubes, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, Determine Kit without Lancets, Buffer or Capillary Tubes, 100 Tests",Determine,Test kit,Yes
+124,"HIV 1/2, OraQuick Rapid Antibody Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, OraQuick Rapid Antibody Kit",OraQuick,Test kit,Yes
+125,"Lamivudine/Zidovudine 30/60mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Zidovudine,Generic,Chewable/dispersible tablet - FDC,Yes
+126,"Abacavir/Lamivudine/Zidovudine 300/150/300mg, tablets, 60 Tabs",Antiretroviral (ARV),Adult,Abacavir/Lamivudine/Zidovudine,Generic,Tablet - FDC,Yes
+127,"Nevirapine 10mg/ml, oral suspension w/syringe, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Nevirapine,Generic,Oral suspension,Yes
+128,"HIV 1/2, Bioline 3.0 Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, Bioline 3.0 Kit",Bioline,Test kit,No
+129,"Artemether/Lumefantrine 20/120mg [Coartem], scored tablets, Blister 30 x 24 Tabs",Artemisinin therapy (ACT),ACT,Artemether/Lumefantrine,Coartem,Tablet - FDC + blister,Yes
+130,"Raltegravir 400mg [Isentress], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Raltegravir,Isentress,Tablet,Yes
+131,"Lamivudine 10mg/ml, oral solution w/syringe, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Lamivudine,Generic,Oral solution,Yes
+132,"Lamivudine/Zidovudine 30/60mg, tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Zidovudine,Generic,Tablet - FDC,Yes
+133,"Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate 600/200/300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate,Generic,Tablet - FDC,Yes
+134,"Atazanavir 200mg [Reyataz], capsules, 60 Caps",Antiretroviral (ARV),Pediatric,Atazanavir,Reyataz,Capsule,Yes
+135,"Didanosine 400mg, delayed-release capsules, 30 Caps",Antiretroviral (ARV),Adult,Didanosine,Generic,Delayed-release capsules,No
+136,"Lopinavir/Ritonavir 200/50mg, tablets, 120 Tabs",Antiretroviral (ARV),Adult,Lopinavir/Ritonavir,Generic,Tablet,Yes
+137,"Chase Buffer, Determine, 100 Tests, 2.5ml x 1 Vial",HIV rapid test,HIV test - Ancillary,"Chase Buffer, Determine, 100 Tests, 2.5ml x 1 Vial",Determine,Test kit - Ancillary,Yes
+138,"Mefloquine 250mg (as hydrochloride), tablets, 100 Tabs",Antimalarial,Malaria,Mefloquine (as hydrochloride),Generic,Tablet,Yes
+139,"Abacavir/Lamivudine 60/30mg, tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Abacavir/Lamivudine,Generic,Tablet - FDC,Yes
+140,"Darunavir 300mg [Prezista], tablets, 120 Tabs",Antiretroviral (ARV),Adult,Darunavir,Prezista,Tablet,Yes
+141,"Lamivudine/Nevirapine/Zidovudine 30/50/60mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Nevirapine/Zidovudine,Generic,Chewable/dispersible tablet - FDC,Yes
+142,"Saquinavir 500mg [Invirase], tablets, 120 Tabs",Antiretroviral (ARV),Adult,Saquinavir,Invirase,Tablet,Yes
+143,"Efavirenz 200mg, scored tablets, 90 Tabs",Antiretroviral (ARV),Pediatric,Efavirenz,Generic,Tablet,Yes
+144,"Atazanavir 150mg, capsules, 60 Caps",Antiretroviral (ARV),Pediatric,Atazanavir,Generic,Capsule,Yes
+145,"Atazanavir 150mg [Reyataz], capsules, 60 Caps",Antiretroviral (ARV),Pediatric,Atazanavir,Reyataz,Capsule,Yes
+146,"Abacavir 20mg/ml, oral solution w/syringe, Bottle, 240 ml",Antiretroviral (ARV),Pediatric,Abacavir,Generic,Oral solution,No
+147,"Nevirapine 10mg/ml, oral suspension w/syringe, Bottle, 100 ml",Antiretroviral (ARV),Pediatric,Nevirapine,Generic,Oral suspension,Yes
+148,"Didanosine 200mg, delayed-release capsules, 30 Caps",Antiretroviral (ARV),Pediatric,Didanosine,Generic,Delayed-release capsules,No
+149,"Didanosine 125mg, delayed-release capsules, 30 Caps",Antiretroviral (ARV),Pediatric,Didanosine,Generic,Delayed-release capsules,Yes
+150,"Atazanavir 200mg, capsules, 60 Caps",Antiretroviral (ARV),Pediatric,Atazanavir,Generic,Capsule,Yes
+151,"Lamivudine/Zidovudine 150/300mg [Combivir], tablets, 60 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Zidovudine,Combivir,Tablet - FDC,No
+152,"Sulfadoxine/Pyrimethamine 500/25mg, tablets, Blister 10 x 3 Tabs",Antimalarial,Malaria,Sulfadoxine/Pyrimethamine,Generic,Tablet - FDC + blister,Yes
+153,"Abacavir/Lamivudine 600/300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Abacavir/Lamivudine,Generic,Tablet - FDC,Yes
+154,"Ritonavir 100mg [Norvir], capsules, cool, 2 x 84 Caps",Antiretroviral (ARV),Adult,Ritonavir,Norvir,Capsule,Yes
+155,"Abacavir 60mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Abacavir,Generic,Chewable/dispersible tablet,Yes
+156,"Lopinavir/Ritonavir 100/25mg, tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lopinavir/Ritonavir,Generic,Tablet,Yes
+157,"HIV 1/2, Genie III Kit, 50 Tests",HIV rapid test,HIV test,"HIV 1/2, Genie III Kit",Genie,Test kit,Yes
+158,"Abacavir/Lamivudine 60/30mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Abacavir/Lamivudine,Generic,Chewable/dispersible tablet - FDC,Yes
+159,"HIV 1/2, ImmunoComb II BiSpot EIA Kit, 36 Tests",HIV rapid test,HIV test,"HIV 1/2, ImmunoComb II BiSpot EIA Kit",ImmunoComb,Test kit,Yes
+160,"Atazanavir 300mg, capsules, 30 Caps",Antiretroviral (ARV),Adult,Atazanavir,Generic,Capsule,Yes
+161,"HIV 1/2, DoubleCheck Gold Kit, 20 Tests",HIV rapid test,HIV test,"HIV 1/2, DoubleCheck Gold Kit",DoubleCheck,Test kit,Yes
+162,"HIV, OraQuick Controls Kit, 3 Vials",HIV rapid test,HIV test - Ancillary,"HIV, OraQuick Controls Kit, 3 Vials",OraQuick,Test kit - Ancillary,Yes
+163,"Abacavir/Lamivudine 600/300mg, scored tablets, 30 Tabs",Antiretroviral (ARV),Adult,Abacavir/Lamivudine,Generic,Tablet - FDC,Yes
+164,"HIV, Multispot HIV-1/HIV-2 Rapid Test Kit, 50 Tests",HIV rapid test,HIV test,"HIV, Multispot HIV-1/HIV-2 Rapid Test Kit",Multispot,Test kit,Yes
+165,"Chloroquine 150mg base (as phosphate), tablets, 1000 Tabs",Antimalarial,Malaria,Chloroquine base (as phosphate),Generic,Tablet,Yes
+166,"HIV 1/2, SKB Colloidal Gold, Diagnostic Kit Set, (includes lancet, transfer pipette & alcohol prep pad), 50 Tests",HIV rapid test,HIV test,"HIV 1/2, Colloidal Gold, Diagnostic Kit Set (includes lancet, transfer pipette & alcohol prep pad)",Colloidal Gold,Test kit,Yes
+167,"Lamivudine 300mg, tablets, 30 Tabs",Antiretroviral (ARV),Adult,Lamivudine,Generic,Tablet,Yes
+168,"HIV 1/2, Stat-Pak Buffer Only, 20 Tests",HIV rapid test,HIV test - Ancillary,"HIV 1/2, Stat-Pak Buffer Only",Stat-Pak,Test kit - Ancillary,Yes
+169,"HIV 1/2, INSTI HIV 1/2 Antibody Kit, 48 Tests",HIV rapid test,HIV test,"HIV 1/2, INSTI HIV 1/2 Antibody Kit",INSTi,Test kit,Yes
+170,"Lamivudine/Stavudine 60/12mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Stavudine,Generic,Chewable/dispersible tablet - FDC,Yes
+171,"Lamivudine/Zidovudine+Efavirenz 150/300mg+600mg, tablets, co-blister 60+30 Tabs",Antiretroviral (ARV),Adult,Lamivudine/Zidovudine+Efavirenz,Generic,Tablet - FDC + co-blister,Yes
+172,"Nevirapine 50mg, dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Nevirapine,Generic,Chewable/dispersible tablet,Yes
+173,"Malaria, Antigen P.f., HRP2 CareStart Kit, 60 Tests",Malaria rapid test,Malaria,"Malaria, Antigen P.f., HRP2 CareStart Kit",CareStart,Test kit,Yes
+174,"HIV 1/2, HEXAGON Rapid HIV Kit, 100 Tests",HIV rapid test,HIV test,"HIV 1/2, HEXAGON Rapid HIV Kit",Hexagon,Test kit,Yes
+175,"Stavudine 1mg/ml, powder for oral solution w/syringe, 200 ml",Antiretroviral (ARV),Pediatric,Stavudine,Generic,Powder for oral solution,No
+176,"Quinine sulphate 300mg, film coated tablet, 1000 Tabs",Antimalarial,Malaria,Quinine,Generic,Tablet,No
+177,"Efavirenz 200mg, tablets, 30 Tabs",Antiretroviral (ARV),Pediatric,Efavirenz,Generic,Tablet,Yes
+178,"HIV 1/2, INSTI HIV Antibody Individual POC, 1 Test",HIV rapid test,HIV test,"HIV 1/2, INSTI HIV Antibody Individual POC, 1 Test",INSTi,Test kit,Yes
+179,"Malaria Antigen P.f , HRP2, Kit, 25 Tests",Malaria rapid test,Malaria,"Malaria Antigen P.f , HRP2, Kit",Generic,Test kit,Yes
+180,"Nelfinavir 50mg/g [Viracept], oral powder, 144g",Antiretroviral (ARV),Pediatric,Nelfinavir,Viracept,Oral powder,Yes
+181,"Lamivudine/Nevirapine/Zidovudine 30/50/60mg, [DON] dispersible tablets, 60 Tabs",Antiretroviral (ARV),Pediatric,Lamivudine/Nevirapine/Zidovudine,Generic,Chewable/dispersible tablet - FDC,Yes
+182,"Abacavir/Lamivudine 60/30mg, tablets, 30 Tabs",Antiretroviral (ARV),Pediatric,Abacavir/Lamivudine,Generic,Tablet - FDC,Yes
+183,"Didanosine 200mg, [DON] delayed-release capsules, 30 Caps",Antiretroviral (ARV),Pediatric,Didanosine,Generic,Delayed-release capsules,Yes
+184,"Lopinavir/Ritonavir 200/50mg, [DON] tablets, 120 Tabs",Antiretroviral (ARV),Adult,Lopinavir/Ritonavir,Generic,Tablet,Yes

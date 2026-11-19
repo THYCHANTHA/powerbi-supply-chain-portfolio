@@ -1,0 +1,12 @@
+# Raw downloads are large; scripts and READMEs say where to get them
+**/data/raw/
+
+# Power BI local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Python
+__pycache__/
+
+# Schema cache used by the validator
+_tools/schemas/

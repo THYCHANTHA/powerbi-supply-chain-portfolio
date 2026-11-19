@@ -1,0 +1,185 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "d36ee0c50774cfdafe7b",
+  "position": {
+    "x": 944,
+    "y": 456,
+    "z": 10000,
+    "height": 248,
+    "width": 316,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Key findings",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12pt",
+                      "color": "#12355B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "■ Air costs $5.26/kg, ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "9.5pt",
+                      "color": "#1F2933"
+                    }
+                  },
+                  {
+                    "value": "about 3x truck ($1.59) and ocean ($1.85).",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#5C6B73"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "■ Most lines fly: ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "9.5pt",
+                      "color": "#1F2933"
+                    }
+                  },
+                  {
+                    "value": "about 65% go by air or air charter.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#5C6B73"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "■ Action: ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "9.5pt",
+                      "color": "#1F2933"
+                    }
+                  },
+                  {
+                    "value": "order earlier on stable items so more volume can move by ocean or truck.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#5C6B73"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0.0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E3E8EF'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8.0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,5 @@
+Shipping Mode,Mode Sort,Planned Ship Days
+Same Day,1,0.0
+First Class,2,1.0
+Second Class,3,2.0
+Standard Class,4,4.0

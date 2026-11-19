@@ -1,0 +1,41 @@
+table Model
+	lineageTag: f5c4e26c-26a9-595f-9429-03c9d65d7d40
+
+	column Model
+		dataType: string
+		lineageTag: 0f248fd4-3889-5518-9a0f-e2fd29629ff4
+		summarizeBy: none
+		sourceColumn: Model
+		sortByColumn: 'Model Sort'
+
+		annotation SummarizationSetBy = User
+
+	column 'Model Type'
+		dataType: string
+		lineageTag: bfed5f9c-ceba-5150-bc4d-027776c0a94b
+		summarizeBy: none
+		sourceColumn: Model Type
+
+		annotation SummarizationSetBy = User
+
+	column 'Model Sort'
+		dataType: int64
+		isHidden
+		lineageTag: b0ee9f09-ebdb-5950-92e2-d2ee9af472ee
+		summarizeBy: none
+		sourceColumn: Model Sort
+
+		annotation SummarizationSetBy = User
+
+	partition Model = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_model.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Model", type text}, {"Model Type", type text}, {"Model Sort", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

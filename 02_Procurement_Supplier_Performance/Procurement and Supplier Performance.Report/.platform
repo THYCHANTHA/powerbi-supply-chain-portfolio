@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Procurement and Supplier Performance"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "15c6fb0d-fe0c-52c7-9621-c80676588b02"
+  }
+}

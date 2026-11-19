@@ -1,0 +1,21 @@
+// Demand KPIs
+EVALUATE ROW("Revenue", [Revenue], "Units", [Units Sold], "Products", [Active Products], "Avg wk rev", [Avg Weekly Revenue])
+---
+// Forecast KPIs (python: ES WAPE 0.518, bias -0.243, vs seasonal naive 0.650 -> 20.3% reduction)
+EVALUATE ROW("Model", [Selected Model], "Accuracy", [Forecast Accuracy %], "WAPE", [WAPE (Selected Model)],
+ "Bias", [Bias %], "Reduction", [Less Error vs Baseline], "Products", [Products Forecasted])
+---
+// WAPE by model
+EVALUATE SUMMARIZECOLUMNS('Model'[Model], "WAPE", [WAPE])
+---
+// Inventory plan defaults (95%, 2 weeks), top 5 products
+EVALUATE TOPN(5, SUMMARIZECOLUMNS('Product'[Description], 'Product'[ABC-XYZ], "Avg fc", [Avg Weekly Forecast], "RMSE", [Forecast RMSE],
+ "SS", [Safety Stock], "ROP", [Reorder Point]), [ROP], DESC)
+---
+// Totals and what-if: 99% service, 4 weeks lead time
+EVALUATE ROW("SS default", [Safety Stock], "ROP default", [Reorder Point],
+ "SS 99% 4w", CALCULATE([Safety Stock], 'Service Level'[Service Level] = "99%", 'Lead Time'[Lead Time Weeks] = 4))
+---
+// Actual vs forecast for last weeks (total over 30 products)
+EVALUATE CALCULATETABLE(SUMMARIZECOLUMNS('Week'[Week Start], "Actual", [Actual Units], "Forecast", [Forecast Units]),
+ 'Product'[Is Forecasted] = "Yes", 'Week'[Week Start] >= DATE(2011,10,24))

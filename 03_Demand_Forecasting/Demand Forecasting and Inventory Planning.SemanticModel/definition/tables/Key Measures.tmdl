@@ -1,0 +1,152 @@
+/// All report measures live here.
+table 'Key Measures'
+	lineageTag: 81592687-fdec-5b3d-869f-599bb75f68a9
+
+	measure Revenue = SUM('Weekly Sales'[Revenue])
+		formatString: £#,0
+		displayFolder: 1. Demand
+		lineageTag: 53195043-634a-5d5e-b380-548584f2974d
+
+	measure 'Units Sold' = SUM('Weekly Sales'[Units])
+		formatString: #,0
+		displayFolder: 1. Demand
+		lineageTag: 4120cc22-b380-5806-bb68-77bd299f3317
+
+	/// Invoice lines per product-week (an invoice with 3 products counts 3).
+	measure Orders = SUM('Weekly Sales'[Orders])
+		formatString: #,0
+		displayFolder: 1. Demand
+		lineageTag: 14cc164c-d4fa-57ce-9856-5d50ec6b4949
+
+	measure 'Active Products' = DISTINCTCOUNT('Weekly Sales'[StockCode])
+		formatString: #,0
+		displayFolder: 1. Demand
+		lineageTag: 551d3667-04ff-559b-9730-789877197d5c
+
+	measure 'Avg Weekly Revenue' = AVERAGEX(VALUES('Week'[Week Start]), [Revenue])
+		formatString: £#,0
+		displayFolder: 1. Demand
+		lineageTag: 1bf14fb4-ea22-52de-82db-b2fc2078aac7
+
+	measure 'Revenue Share %' = DIVIDE([Revenue], CALCULATE([Revenue], ALLSELECTED('Product')))
+		formatString: 0.0%
+		displayFolder: 1. Demand
+		lineageTag: 8af088ff-95b7-533b-88eb-aeb931ee9c7c
+
+	measure 'Actual Units' = [Units Sold]
+		formatString: #,0
+		displayFolder: 2. Forecast accuracy
+		lineageTag: 6e10a7c2-52bd-5c9a-92be-bd9f2d07adfe
+
+	/// Model chosen for all products on the validation window.
+	measure 'Selected Model' = CALCULATE(MAX('Model Accuracy'[Model]), 'Model Accuracy'[Is Best] = 1, REMOVEFILTERS('Product'), REMOVEFILTERS('Model'))
+		displayFolder: 2. Forecast accuracy
+		lineageTag: f9b8dfdd-682a-539d-865d-a015a0e37359
+
+	/// Forecast of the model picked in the Model slicer, or of the selected model when none is picked.
+	measure 'Forecast Units' =
+			IF(HASONEVALUE('Model'[Model]), SUM('Forecast'[Forecast Units]),
+			    VAR sel = CALCULATE(MAX('Model Accuracy'[Model]), 'Model Accuracy'[Is Best] = 1, REMOVEFILTERS('Product'), REMOVEFILTERS('Model'))
+			    RETURN CALCULATE(SUM('Forecast'[Forecast Units]), 'Forecast'[Model] = sel))
+		formatString: #,0
+		displayFolder: 2. Forecast accuracy
+		lineageTag: 9a7a1959-180f-54c0-a57d-7c4a0ff282de
+
+	/// Weighted absolute percentage error on the 13 test weeks: sum of |forecast - actual| / sum of actual.
+	measure WAPE = DIVIDE(SUM('Model Accuracy'[Abs Error]), SUM('Model Accuracy'[Actual Units]))
+		formatString: 0.0%
+		displayFolder: 2. Forecast accuracy
+		lineageTag: 86fe2ed9-36c5-5008-b6ad-8e21f812fcab
+
+	measure 'WAPE (Selected Model)' = CALCULATE([WAPE], 'Model Accuracy'[Is Best] = 1)
+		formatString: 0.0%
+		displayFolder: 2. Forecast accuracy
+		lineageTag: be97642f-46c7-5fda-a4e5-49d8a23483c6
+
+	measure 'Forecast Accuracy %' = 1 - [WAPE (Selected Model)]
+		formatString: 0.0%
+		displayFolder: 2. Forecast accuracy
+		lineageTag: 25f6a084-563e-5efa-8bc7-0ad2e41fd78f
+
+	/// Negative = forecast too low (under-forecast).
+	measure 'Bias %' = CALCULATE(DIVIDE(SUM('Model Accuracy'[Error]), SUM('Model Accuracy'[Actual Units])), 'Model Accuracy'[Is Best] = 1)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2. Forecast accuracy
+		lineageTag: f5b01526-6996-5e5c-b7ee-e9904dd3e881
+
+	/// How much lower the WAPE is than the seasonal-naive baseline (same week last year).
+	measure 'Less Error vs Baseline' = 1 - DIVIDE([WAPE (Selected Model)], CALCULATE([WAPE], 'Model'[Model] = "Seasonal naive"))
+		formatString: 0.0%
+		displayFolder: 2. Forecast accuracy
+		lineageTag: 172538b7-6eae-5367-bafc-c262ad1b5b79
+
+	measure 'Products Forecasted' = DISTINCTCOUNT('Model Accuracy'[StockCode])
+		formatString: #,0
+		displayFolder: 2. Forecast accuracy
+		lineageTag: d3f63949-64ca-5433-b7d3-97bb6327e1a7
+
+	measure 'Service Level Z' = SELECTEDVALUE('Service Level'[Z], 1.6449)
+		formatString: 0.00
+		displayFolder: 3. Inventory plan
+		lineageTag: 569a7af8-b58f-552b-8ebf-7c1fb79cf71f
+
+	measure 'Service Level' = SELECTEDVALUE('Service Level'[Service Level], "95%")
+		displayFolder: 3. Inventory plan
+		lineageTag: 9dbfbec4-c015-5f2d-8170-c996988d2d47
+
+	measure 'Lead Time (Weeks)' = SELECTEDVALUE('Lead Time'[Lead Time Weeks], 2)
+		formatString: 0
+		displayFolder: 3. Inventory plan
+		lineageTag: 6cc4ca08-2920-55ac-bcbe-3d18bdad9b1b
+
+	/// Typical weekly forecast error (root mean squared error on the test weeks).
+	measure 'Forecast RMSE' = CALCULATE(SUM('Model Accuracy'[RMSE]), 'Model Accuracy'[Is Best] = 1)
+		formatString: #,0
+		displayFolder: 3. Inventory plan
+		lineageTag: 438a117e-386a-544b-9654-6911767e9174
+
+	/// Average of the next 8 weeks of forecast.
+	measure 'Avg Weekly Forecast' =
+			VAR sel = CALCULATE(MAX('Model Accuracy'[Model]), 'Model Accuracy'[Is Best] = 1, REMOVEFILTERS('Product'), REMOVEFILTERS('Model'))
+			RETURN SUMX(VALUES('Product'[StockCode]),
+			    CALCULATE(AVERAGE('Forecast'[Forecast Units]), 'Forecast'[Set] = "Future", 'Forecast'[Model] = sel, REMOVEFILTERS('Week')))
+		formatString: #,0
+		displayFolder: 3. Inventory plan
+		lineageTag: eb212c71-1707-57f4-b021-e560fd3ad270
+
+	/// Z x forecast RMSE x square root of lead time (weeks).
+	measure 'Safety Stock' =
+			VAR z = [Service Level Z]
+			VAR lt = [Lead Time (Weeks)]
+			RETURN SUMX(VALUES('Product'[StockCode]), z * [Forecast RMSE] * SQRT(lt))
+		formatString: #,0
+		displayFolder: 3. Inventory plan
+		lineageTag: 8dde7c1c-366b-5b1d-9c71-da00e50549e0
+
+	/// Order again when stock falls to this level: demand during lead time + safety stock.
+	measure 'Reorder Point' =
+			VAR lt = [Lead Time (Weeks)]
+			RETURN SUMX(VALUES('Product'[StockCode]), [Avg Weekly Forecast] * lt + [Safety Stock])
+		formatString: #,0
+		displayFolder: 3. Inventory plan
+		lineageTag: f4764eb1-4f68-5333-b47b-6d300a2664d6
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 909ed52e-f529-5c7a-a847-ca75b20b0e2a
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition 'Key Measures' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+

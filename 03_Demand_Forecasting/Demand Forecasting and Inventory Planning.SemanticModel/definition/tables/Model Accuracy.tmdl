@@ -1,0 +1,106 @@
+/// Test-window accuracy per product and model.
+table 'Model Accuracy'
+	lineageTag: 1af5ef01-fd05-5a1c-aae7-a1b906b94fa3
+
+	column StockCode
+		dataType: string
+		isHidden
+		lineageTag: 410ade55-31cc-55ad-a08d-383d82735efa
+		summarizeBy: none
+		sourceColumn: StockCode
+
+		annotation SummarizationSetBy = User
+
+	column Model
+		dataType: string
+		isHidden
+		lineageTag: e641ac02-42a0-52a8-b882-01b69db68d0d
+		summarizeBy: none
+		sourceColumn: Model
+
+		annotation SummarizationSetBy = User
+
+	column 'Actual Units'
+		dataType: double
+		isHidden
+		lineageTag: 336f2fd5-b317-556d-81cc-e2af95c32979
+		summarizeBy: none
+		sourceColumn: Actual Units
+
+		annotation SummarizationSetBy = User
+
+	column 'Abs Error'
+		dataType: double
+		isHidden
+		lineageTag: 548b02c6-825a-5e58-95f7-ea762eaf938a
+		summarizeBy: none
+		sourceColumn: Abs Error
+
+		annotation SummarizationSetBy = User
+
+	column Error
+		dataType: double
+		isHidden
+		lineageTag: 7fe5a47a-1602-5414-bec6-c952b25422d7
+		summarizeBy: none
+		sourceColumn: Error
+
+		annotation SummarizationSetBy = User
+
+	column WAPE
+		dataType: double
+		isHidden
+		lineageTag: b9f50625-5973-5bbc-afb8-16a199532ef6
+		summarizeBy: none
+		sourceColumn: WAPE
+
+		annotation SummarizationSetBy = User
+
+	column MAPE
+		dataType: double
+		isHidden
+		lineageTag: 17cb642e-ac0c-51a7-a2fb-6035916c062d
+		summarizeBy: none
+		sourceColumn: MAPE
+
+		annotation SummarizationSetBy = User
+
+	column RMSE
+		dataType: double
+		isHidden
+		lineageTag: 344693fa-2aac-50a9-94e7-fae07c84a8c3
+		summarizeBy: none
+		sourceColumn: RMSE
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Best'
+		dataType: int64
+		isHidden
+		lineageTag: db7ccbd6-e935-54b2-9553-ff675091d521
+		summarizeBy: none
+		sourceColumn: Is Best
+
+		annotation SummarizationSetBy = User
+
+	column 'Val WAPE'
+		dataType: double
+		isHidden
+		lineageTag: 8d535032-28a9-5195-8273-3657dce228e9
+		summarizeBy: none
+		sourceColumn: Val WAPE
+
+		annotation SummarizationSetBy = User
+
+	partition 'Model Accuracy' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_model_accuracy.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"StockCode", type text}, {"Model", type text}, {"Actual Units", type number}, {"Abs Error", type number}, {"Error", type number}, {"WAPE", type number}, {"MAPE", type number}, {"RMSE", type number}, {"Is Best", Int64.Type}, {"Val WAPE", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

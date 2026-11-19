@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Demand Forecasting and Inventory Planning"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2153e09c-8919-5562-bd2d-12af7d4015e9"
+  }
+}

@@ -1,0 +1,17 @@
+// Headline KPIs (pandas: spend 1627.6M, on-time 88.5%, top5 72.6%, above benchmark 35.9M)
+EVALUATE ROW("Total Spend", [Total Spend], "POs", [Purchase Orders], "Suppliers", [Active Suppliers],
+ "Top5", [Top 5 Supplier Share %], "On-Time", [On-Time Delivery %], "Above Bench", [Paid Above Benchmark],
+ "Price vs Bench", [Price vs Benchmark %], "Freight", [Freight Cost], "Freight %", [Freight % of Value],
+ "Freight/kg", [Freight per Kg], "Air %", [Air Share %], "Days late", [Avg Days Late], "PO->Del", [Avg PO to Delivery Days])
+---
+// Freight per kg by mode (pandas: Air 5.26, Charter 2.73, Ocean 1.85, Truck 1.59)
+EVALUATE SUMMARIZECOLUMNS('Shipment Lines'[Shipment Mode], "Freight/kg", [Freight per Kg], "Lines", [Shipment Lines])
+---
+// Channel on-time (pandas: Direct drop 94.7, From RDC 82.8)
+EVALUATE SUMMARIZECOLUMNS('Shipment Lines'[Fulfill Via], "On-Time", [On-Time Delivery %])
+---
+// Pareto top 8 suppliers
+EVALUATE TOPN(8, SUMMARIZECOLUMNS(Vendor[Supplier], "Spend", [Total Spend], "Cum %", [Cumulative Spend %], "Share", [Spend Share %]), [Spend], DESC)
+---
+// Year x product group
+EVALUATE TOPN(6, SUMMARIZECOLUMNS('Date'[Year], 'Item'[Product Group], "Spend", [Total Spend]), [Spend], DESC)

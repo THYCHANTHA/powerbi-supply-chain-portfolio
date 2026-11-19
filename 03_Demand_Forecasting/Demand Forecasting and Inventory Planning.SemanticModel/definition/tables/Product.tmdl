@@ -1,0 +1,79 @@
+table Product
+	lineageTag: cf257910-e856-5bd9-ba0d-b9a4afb63104
+
+	column StockCode
+		dataType: string
+		lineageTag: a30c8c37-c4f7-5756-9208-5aede49ea68b
+		summarizeBy: none
+		sourceColumn: StockCode
+
+		annotation SummarizationSetBy = User
+
+	column Description
+		dataType: string
+		lineageTag: 9c0a3b09-32ba-57da-9084-ea9d15f906a0
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = User
+
+	column 'ABC Class'
+		dataType: string
+		lineageTag: c2ce74b0-aa53-5ca7-bcc8-132611c50e0a
+		summarizeBy: none
+		sourceColumn: ABC Class
+
+		annotation SummarizationSetBy = User
+
+	column 'XYZ Class'
+		dataType: string
+		lineageTag: 0f953180-e673-54f3-8959-daaa1a023983
+		summarizeBy: none
+		sourceColumn: XYZ Class
+
+		annotation SummarizationSetBy = User
+
+	column ABC-XYZ
+		dataType: string
+		lineageTag: 2c5eb86d-c83c-5da7-a763-d336875dce85
+		summarizeBy: none
+		sourceColumn: ABC-XYZ
+
+		annotation SummarizationSetBy = User
+
+	column 'Revenue Rank'
+		dataType: int64
+		lineageTag: ee6b8d46-8306-590a-81b8-9b73fc251e8e
+		summarizeBy: none
+		sourceColumn: Revenue Rank
+
+		annotation SummarizationSetBy = User
+
+	column 'Weeks Selling'
+		dataType: int64
+		lineageTag: 3fc81e2f-f501-59d3-85a4-a65a0402f5a0
+		summarizeBy: none
+		sourceColumn: Weeks Selling
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Forecasted'
+		dataType: string
+		lineageTag: b3d47309-e4cc-5de6-abb6-416c8c934bec
+		summarizeBy: none
+		sourceColumn: Is Forecasted
+
+		annotation SummarizationSetBy = User
+
+	partition Product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_product.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"StockCode", type text}, {"Description", type text}, {"ABC Class", type text}, {"XYZ Class", type text}, {"ABC-XYZ", type text}, {"Revenue Rank", Int64.Type}, {"Weeks Selling", Int64.Type}, {"Is Forecasted", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

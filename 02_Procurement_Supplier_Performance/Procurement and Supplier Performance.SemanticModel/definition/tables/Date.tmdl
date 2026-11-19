@@ -1,0 +1,99 @@
+table Date
+	lineageTag: e4c959c6-219b-5b2f-a088-20ceca4c8624
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: 0e51aa9f-3062-597e-9162-32e171d85d99
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 314fd321-6c30-5f64-b821-f2204e0c45f7
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column Quarter
+		dataType: string
+		lineageTag: 7cf61feb-d69c-5b3f-b535-ff15144e1c8f
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Quarter'
+		dataType: string
+		lineageTag: c0dee1bb-48f7-5c98-a3bc-5babcf9849b3
+		summarizeBy: none
+		sourceColumn: Year Quarter
+		sortByColumn: 'Year Quarter Key'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Quarter Key'
+		dataType: int64
+		isHidden
+		lineageTag: 5461494d-e53b-5f55-811a-7564d9d62fd4
+		summarizeBy: none
+		sourceColumn: Year Quarter Key
+
+		annotation SummarizationSetBy = User
+
+	column 'Month Number'
+		dataType: int64
+		isHidden
+		lineageTag: f37c7b15-c876-552f-a392-9c5b4a70384f
+		summarizeBy: none
+		sourceColumn: Month Number
+
+		annotation SummarizationSetBy = User
+
+	column Month
+		dataType: string
+		lineageTag: 6524fb66-8683-53f6-ac3b-9c783fe93342
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 0fc87ef2-9e51-5868-a4fd-07019966e2a6
+		summarizeBy: none
+		sourceColumn: Year Month
+		sortByColumn: 'Year Month Key'
+
+		annotation SummarizationSetBy = User
+
+	column 'Year Month Key'
+		dataType: int64
+		isHidden
+		lineageTag: 47322fa3-02c3-5244-b1bf-0201714cced8
+		summarizeBy: none
+		sourceColumn: Year Month Key
+
+		annotation SummarizationSetBy = User
+
+	partition Date = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Date", type date}, {"Year", Int64.Type}, {"Quarter", type text}, {"Year Quarter", type text}, {"Year Quarter Key", Int64.Type}, {"Month Number", Int64.Type}, {"Month", type text}, {"Year Month", type text}, {"Year Month Key", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

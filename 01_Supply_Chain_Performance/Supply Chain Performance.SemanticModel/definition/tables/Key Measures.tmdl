@@ -1,0 +1,140 @@
+/// All report measures live here.
+table 'Key Measures'
+	lineageTag: 5e3b3076-6137-503e-bf86-f8643117aa5a
+
+	/// Sales after discount.
+	measure 'Net Sales' = SUM('Order Lines'[Net Sales])
+		formatString: \$#,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: 93a4f70b-a33d-5e63-8f86-33442f82fc72
+
+	measure 'Gross Sales' = SUM('Order Lines'[Gross Sales])
+		formatString: \$#,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: f2351bbb-23ae-5bfb-9ec3-cdc174d2544a
+
+	measure 'Discount %' = DIVIDE(SUM('Order Lines'[Discount]), [Gross Sales])
+		formatString: 0.0%
+		displayFolder: 1. Sales and Profit
+		lineageTag: e9fa5f8e-03f6-5ca0-abda-4dad546fbdcd
+
+	measure Profit = SUM('Order Lines'[Profit])
+		formatString: \$#,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: 1e54e9c9-9ea7-5fa5-b3ec-ebed7b1278b2
+
+	measure 'Profit Margin %' = DIVIDE([Profit], [Net Sales])
+		formatString: 0.0%
+		displayFolder: 1. Sales and Profit
+		lineageTag: ec24b368-5830-5467-984e-0bdfde5a64ca
+
+	measure Orders = DISTINCTCOUNT('Order Lines'[Order Id])
+		formatString: #,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: ba441552-e71c-59a1-b48b-6ffb0fe5d26b
+
+	measure Units = SUM('Order Lines'[Quantity])
+		formatString: #,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: e2be1e14-af74-58bf-af3d-e41c17dabdbb
+
+	measure 'Avg Order Value' = DIVIDE([Net Sales], [Orders])
+		formatString: \$#,0.00
+		displayFolder: 1. Sales and Profit
+		lineageTag: d7b9333e-b4e8-54d0-b1fe-1e3fed545bb8
+
+	measure 'Net Sales PY' = CALCULATE([Net Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+		formatString: \$#,0
+		displayFolder: 1. Sales and Profit
+		lineageTag: f8eabbaf-ca62-5c28-af5b-8f1746957f55
+
+	measure 'Net Sales YoY %' =
+			VAR PY = [Net Sales PY]
+			RETURN IF(NOT ISBLANK(PY), DIVIDE([Net Sales] - PY, PY))
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Sales and Profit
+		lineageTag: 96471859-d74c-54b8-8fda-447554c363b3
+
+	/// Orders that were not cancelled.
+	measure 'Shipped Orders' = CALCULATE([Orders], 'Order Lines'[Is Cancelled] = 0)
+		formatString: #,0
+		displayFolder: 2. Delivery Performance
+		lineageTag: f4dd769f-ab88-5335-925c-4a75c60efc60
+
+	measure 'Late Orders' = CALCULATE([Orders], 'Order Lines'[Is Late] = 1)
+		formatString: #,0
+		displayFolder: 2. Delivery Performance
+		lineageTag: de01b772-0c10-55c6-8278-653fbe438e63
+
+	measure 'On-Time Orders' = CALCULATE([Orders], 'Order Lines'[Is Late] = 0, 'Order Lines'[Is Cancelled] = 0)
+		formatString: #,0
+		displayFolder: 2. Delivery Performance
+		lineageTag: 23603ffe-1ce4-5b7c-9f11-0a055392e962
+
+	/// Share of shipped orders that shipped within the scheduled days.
+	measure 'On-Time Delivery %' = DIVIDE([On-Time Orders], [Shipped Orders])
+		formatString: 0.0%
+		displayFolder: 2. Delivery Performance
+		lineageTag: eefae94d-b7ae-5730-9c27-59c9e6c5a7dc
+
+	measure 'Late Delivery %' = DIVIDE([Late Orders], [Shipped Orders])
+		formatString: 0.0%
+		displayFolder: 2. Delivery Performance
+		lineageTag: 25cbd1a2-d35e-5d04-b605-b32734d009a0
+
+	measure 'Cancelled Orders %' = DIVIDE(CALCULATE([Orders], 'Order Lines'[Is Cancelled] = 1), [Orders])
+		formatString: 0.0%
+		displayFolder: 2. Delivery Performance
+		lineageTag: 34751088-80e3-5711-a9b6-197266ba8960
+
+	measure 'Avg Actual Ship Days' = CALCULATE(AVERAGE('Order Lines'[Actual Ship Days]), 'Order Lines'[Is Cancelled] = 0)
+		formatString: 0.0
+		displayFolder: 2. Delivery Performance
+		lineageTag: e40a6d75-8d51-5ed5-967a-bc26bf002875
+
+	measure 'Avg Scheduled Ship Days' = CALCULATE(AVERAGE('Order Lines'[Scheduled Ship Days]), 'Order Lines'[Is Cancelled] = 0)
+		formatString: 0.0
+		displayFolder: 2. Delivery Performance
+		lineageTag: 2404bc35-a7fc-59be-b4ca-b107ea493b73
+
+	/// Average days late (+) or early (-) compared with the promised shipping days.
+	measure 'Ship Days vs Plan' = [Avg Actual Ship Days] - [Avg Scheduled Ship Days]
+		formatString: +0.0;-0.0;0.0
+		displayFolder: 2. Delivery Performance
+		lineageTag: 639e4e28-503c-50ed-a872-0d0c494633ec
+
+	measure 'Avg Delay (Late Orders)' = CALCULATE(AVERAGE('Order Lines'[Delay Days]), 'Order Lines'[Is Late] = 1)
+		formatString: 0.0
+		displayFolder: 2. Delivery Performance
+		lineageTag: e0d5ef61-b0db-53c5-be79-218616191018
+
+	/// Revenue tied to orders that shipped late (customer experience at risk).
+	measure 'Net Sales of Late Orders' = CALCULATE([Net Sales], 'Order Lines'[Is Late] = 1)
+		formatString: \$#,0
+		displayFolder: 2. Delivery Performance
+		lineageTag: da666519-6cbe-5929-9219-880f540dadcd
+
+	measure 'Late Sales %' = DIVIDE([Net Sales of Late Orders], [Net Sales])
+		formatString: 0.0%
+		displayFolder: 2. Delivery Performance
+		lineageTag: 7cdbe781-6558-526d-b51e-49f19f708f94
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 3e018180-9083-54f7-828a-436a0a53921d
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition 'Key Measures' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+

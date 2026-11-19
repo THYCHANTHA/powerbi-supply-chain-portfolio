@@ -1,0 +1,206 @@
+/// One row per order line (DataCo, Jan 2015 - Sep 2017).
+table 'Order Lines'
+	lineageTag: 8ffce7b3-f278-580c-b913-b4cd3ef570f2
+
+	column 'Order Line Id'
+		dataType: int64
+		isHidden
+		lineageTag: 7b778b26-1504-5398-8ad5-358345c7468d
+		summarizeBy: none
+		sourceColumn: Order Line Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Order Id'
+		dataType: int64
+		formatString: 0
+		lineageTag: 1abbd3ce-ab84-545b-a1fa-d243d885eab9
+		summarizeBy: none
+		sourceColumn: Order Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Order Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 1209cf61-f1e5-57db-8e8f-382f01a580de
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Ship Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 3e662d23-4075-503e-972d-dcf8548d1e59
+		summarizeBy: none
+		sourceColumn: Ship Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Customer Id'
+		dataType: int64
+		isHidden
+		lineageTag: 5f2263d3-8808-500c-8f0a-e44889cea352
+		summarizeBy: none
+		sourceColumn: Customer Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Product Id'
+		dataType: int64
+		isHidden
+		lineageTag: 06d3a2c8-8a45-57eb-994c-f5a6710082c4
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Region Id'
+		dataType: int64
+		isHidden
+		lineageTag: f2c618fe-9e16-5553-b4a9-257486748324
+		summarizeBy: none
+		sourceColumn: Region Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Shipping Mode'
+		dataType: string
+		isHidden
+		lineageTag: d6a37815-3ef6-5995-b1b2-dfcd0549c0a2
+		summarizeBy: none
+		sourceColumn: Shipping Mode
+
+		annotation SummarizationSetBy = User
+
+	column 'Delivery Status'
+		dataType: string
+		lineageTag: 68159b67-bee3-5ca2-9abd-d61eeb530366
+		summarizeBy: none
+		sourceColumn: Delivery Status
+
+		annotation SummarizationSetBy = User
+
+	column 'Order Status'
+		dataType: string
+		lineageTag: 1dd501de-c31f-5e33-a39c-a0019a7e1b57
+		summarizeBy: none
+		sourceColumn: Order Status
+
+		annotation SummarizationSetBy = User
+
+	column 'Payment Type'
+		dataType: string
+		lineageTag: 8135d179-baa6-5d9b-adc6-a289289b668e
+		summarizeBy: none
+		sourceColumn: Payment Type
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Late'
+		dataType: int64
+		isHidden
+		lineageTag: feba2a50-de0b-5eca-9a61-a00caca1e19d
+		summarizeBy: none
+		sourceColumn: Is Late
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Cancelled'
+		dataType: int64
+		isHidden
+		lineageTag: 08b8f666-1ab0-5f2c-b925-129d3b719502
+		summarizeBy: none
+		sourceColumn: Is Cancelled
+
+		annotation SummarizationSetBy = User
+
+	column 'Actual Ship Days'
+		dataType: int64
+		isHidden
+		lineageTag: 07626fd2-cfbc-5b49-9a9e-5ca651746851
+		summarizeBy: none
+		sourceColumn: Actual Ship Days
+
+		annotation SummarizationSetBy = User
+
+	column 'Scheduled Ship Days'
+		dataType: int64
+		isHidden
+		lineageTag: 0dca940f-927f-546f-81e3-27415c6bc000
+		summarizeBy: none
+		sourceColumn: Scheduled Ship Days
+
+		annotation SummarizationSetBy = User
+
+	column Quantity
+		dataType: int64
+		isHidden
+		lineageTag: a69f61ea-865d-5ce7-81d7-b37f373b500f
+		summarizeBy: none
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = User
+
+	column 'Gross Sales'
+		dataType: double
+		isHidden
+		lineageTag: 86b51a60-6e06-5030-9db3-a38fcf7fb356
+		summarizeBy: none
+		sourceColumn: Gross Sales
+
+		annotation SummarizationSetBy = User
+
+	column Discount
+		dataType: double
+		isHidden
+		lineageTag: e2e4fac1-f66e-5034-ba56-549083997887
+		summarizeBy: none
+		sourceColumn: Discount
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Sales'
+		dataType: double
+		isHidden
+		lineageTag: a6b04f1f-8044-53c9-9114-4b2b2e543e09
+		summarizeBy: none
+		sourceColumn: Net Sales
+
+		annotation SummarizationSetBy = User
+
+	column Profit
+		dataType: double
+		isHidden
+		lineageTag: 6d9d46a2-98de-51e4-84c1-cecbde6cc765
+		summarizeBy: none
+		sourceColumn: Profit
+
+		annotation SummarizationSetBy = User
+
+	column 'Delay Days'
+		dataType: int64
+		isHidden
+		lineageTag: 2086fddd-6047-5d91-a8db-d68f03d6a5db
+		summarizeBy: none
+		sourceColumn: Delay Days
+
+		annotation SummarizationSetBy = User
+
+	partition 'Order Lines' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_order_lines.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Order Line Id", Int64.Type}, {"Order Id", Int64.Type}, {"Order Date", type date}, {"Ship Date", type date}, {"Customer Id", Int64.Type}, {"Product Id", Int64.Type}, {"Region Id", Int64.Type}, {"Shipping Mode", type text}, {"Delivery Status", type text}, {"Order Status", type text}, {"Payment Type", type text}, {"Is Late", Int64.Type}, {"Is Cancelled", Int64.Type}, {"Actual Ship Days", Int64.Type}, {"Scheduled Ship Days", Int64.Type}, {"Quantity", Int64.Type}, {"Gross Sales", type number}, {"Discount", type number}, {"Net Sales", type number}, {"Profit", type number}, {"Delay Days", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

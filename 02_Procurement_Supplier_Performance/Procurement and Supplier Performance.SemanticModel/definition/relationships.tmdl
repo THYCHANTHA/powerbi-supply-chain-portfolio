@@ -1,0 +1,16 @@
+relationship e9ab4a96-31d4-5dab-9063-c87624719810
+	fromColumn: 'Shipment Lines'.'Delivered Date'
+	toColumn: Date.Date
+
+relationship 6035eb3e-f7a2-5f1a-8bbd-2257976600ce
+	fromColumn: 'Shipment Lines'.Vendor
+	toColumn: Vendor.Vendor
+
+relationship c0595af6-5f13-519c-8d39-74120648aaa4
+	fromColumn: 'Shipment Lines'.'Item Id'
+	toColumn: Item.'Item Id'
+
+relationship a0f9b4d1-3a7d-5162-879d-84df6d18f542
+	fromColumn: 'Shipment Lines'.Country
+	toColumn: Country.Country
+

@@ -1,0 +1,42 @@
+/// What-if: target cycle service level.
+table 'Service Level'
+	lineageTag: 275f252d-ad66-5050-a253-52e9457b1d30
+
+	column 'Service Level'
+		dataType: string
+		lineageTag: ba0423f4-e83e-5afc-9ab8-817904d246e0
+		summarizeBy: none
+		sourceColumn: Service Level
+		sortByColumn: 'Service Level Value'
+
+		annotation SummarizationSetBy = User
+
+	column 'Service Level Value'
+		dataType: double
+		isHidden
+		lineageTag: 883fa82f-3296-54b2-b6a4-00d94b6b39c0
+		summarizeBy: none
+		sourceColumn: Service Level Value
+
+		annotation SummarizationSetBy = User
+
+	column Z
+		dataType: double
+		lineageTag: 341bec53-28ae-5321-b726-92ff64b3213a
+		summarizeBy: none
+		sourceColumn: Z
+
+		annotation SummarizationSetBy = User
+
+	partition 'Service Level' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_service_level.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Service Level", type text}, {"Service Level Value", type number}, {"Z", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

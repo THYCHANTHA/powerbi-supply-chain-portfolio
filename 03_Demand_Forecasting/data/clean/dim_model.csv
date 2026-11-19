@@ -1,0 +1,6 @@
+Model,Model Type,Model Sort
+Naive (last week),Baseline,1
+Seasonal naive,Baseline,2
+Moving average (8 weeks),Baseline,3
+Exponential smoothing,Statistical,4
+Gradient boosting,Machine learning,5

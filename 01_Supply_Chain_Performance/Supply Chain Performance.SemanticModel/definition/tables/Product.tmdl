@@ -1,0 +1,57 @@
+table Product
+	lineageTag: 35f368f3-a848-5f24-9d98-5500b31d839f
+
+	column 'Product Id'
+		dataType: int64
+		isHidden
+		lineageTag: fdd532d4-f273-5d47-8111-ebfa939059cd
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: 000578fe-4119-5b30-9f4d-6f2a126a986d
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = User
+
+	column Category
+		dataType: string
+		lineageTag: 1158749d-3f99-5147-807c-96254c733334
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = User
+
+	column Department
+		dataType: string
+		lineageTag: 5b30d1bb-db1c-522b-bf4e-bb43f4e40b02
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = User
+
+	column 'List Price'
+		dataType: double
+		formatString: \$#,0.00
+		lineageTag: 46b2d5c5-1f9a-5599-9383-057231849636
+		summarizeBy: none
+		sourceColumn: List Price
+
+		annotation SummarizationSetBy = User
+
+	partition Product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_product.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Product Id", Int64.Type}, {"Product Name", type text}, {"Category", type text}, {"Department", type text}, {"List Price", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,80 @@
+table Item
+	lineageTag: 3896fbc9-8440-52af-8829-74db9ca05337
+
+	column 'Item Id'
+		dataType: int64
+		isHidden
+		lineageTag: 3c188276-e753-55df-930b-4da2b0bb95e3
+		summarizeBy: none
+		sourceColumn: Item Id
+
+		annotation SummarizationSetBy = User
+
+	column Item
+		dataType: string
+		lineageTag: e6b6665d-0a32-5216-bde3-5dae497e8ca3
+		summarizeBy: none
+		sourceColumn: Item
+
+		annotation SummarizationSetBy = User
+
+	column 'Product Group'
+		dataType: string
+		lineageTag: 92e96630-bd65-53ff-9dc6-7f4705017a85
+		summarizeBy: none
+		sourceColumn: Product Group
+
+		annotation SummarizationSetBy = User
+
+	column 'Sub Classification'
+		dataType: string
+		lineageTag: fc4a7f20-a183-5bea-a130-e9e1e6dabdb6
+		summarizeBy: none
+		sourceColumn: Sub Classification
+
+		annotation SummarizationSetBy = User
+
+	column 'Molecule or Test'
+		dataType: string
+		lineageTag: 434291cc-2ccb-5b8b-9982-28f4a5bd51c3
+		summarizeBy: none
+		sourceColumn: Molecule or Test
+
+		annotation SummarizationSetBy = User
+
+	column Brand
+		dataType: string
+		lineageTag: e81ae1d1-3c23-54d6-8fd6-b36ac8b13be9
+		summarizeBy: none
+		sourceColumn: Brand
+
+		annotation SummarizationSetBy = User
+
+	column 'Dosage Form'
+		dataType: string
+		lineageTag: 9b172a0e-86f8-5ae4-8524-b6cacf588c3e
+		summarizeBy: none
+		sourceColumn: Dosage Form
+
+		annotation SummarizationSetBy = User
+
+	column 'First Line Drug'
+		dataType: string
+		lineageTag: c345ee92-fd9b-57ae-93b6-a599aafee41e
+		summarizeBy: none
+		sourceColumn: First Line Drug
+
+		annotation SummarizationSetBy = User
+
+	partition Item = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_item.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Item Id", Int64.Type}, {"Item", type text}, {"Product Group", type text}, {"Sub Classification", type text}, {"Molecule or Test", type text}, {"Brand", type text}, {"Dosage Form", type text}, {"First Line Drug", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,40 @@
+table Region
+	lineageTag: 02fadde0-e3de-5212-b641-dbf196410b8e
+
+	column 'Region Id'
+		dataType: int64
+		isHidden
+		lineageTag: 7c7f3b87-c847-5a8d-b293-b198a5b1542f
+		summarizeBy: none
+		sourceColumn: Region Id
+
+		annotation SummarizationSetBy = User
+
+	column Market
+		dataType: string
+		lineageTag: 97dabc3b-d60d-53e4-a37f-2e080976bdc0
+		summarizeBy: none
+		sourceColumn: Market
+
+		annotation SummarizationSetBy = User
+
+	column Region
+		dataType: string
+		lineageTag: 53951de2-240f-58b7-8369-ff71b2cfb583
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = User
+
+	partition Region = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_region.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Region Id", Int64.Type}, {"Market", type text}, {"Region", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

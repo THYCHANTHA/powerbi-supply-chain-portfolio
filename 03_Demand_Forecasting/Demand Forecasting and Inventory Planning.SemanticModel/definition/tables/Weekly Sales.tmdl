@@ -1,0 +1,64 @@
+/// Units and revenue per product per week (Mon start).
+table 'Weekly Sales'
+	lineageTag: e8b7fafc-51c7-507b-837d-e84213246c7d
+
+	column 'Week Start'
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		lineageTag: fba3b4e3-84c0-5a14-97d5-9114ff12036c
+		summarizeBy: none
+		sourceColumn: Week Start
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column StockCode
+		dataType: string
+		isHidden
+		lineageTag: d1aeca11-859f-502e-96a2-3c85f35ab623
+		summarizeBy: none
+		sourceColumn: StockCode
+
+		annotation SummarizationSetBy = User
+
+	column Units
+		dataType: int64
+		isHidden
+		lineageTag: 09a46500-0165-5050-9448-0987adf51da9
+		summarizeBy: none
+		sourceColumn: Units
+
+		annotation SummarizationSetBy = User
+
+	column Revenue
+		dataType: double
+		isHidden
+		lineageTag: a6fc17ed-be50-53e2-9175-bd1f5d619e34
+		summarizeBy: none
+		sourceColumn: Revenue
+
+		annotation SummarizationSetBy = User
+
+	column Orders
+		dataType: int64
+		isHidden
+		lineageTag: ed2de7ba-f2a0-5efc-ac8d-0cacc4bbed97
+		summarizeBy: none
+		sourceColumn: Orders
+
+		annotation SummarizationSetBy = User
+
+	partition 'Weekly Sales' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_weekly_sales.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Week Start", type date}, {"StockCode", type text}, {"Units", Int64.Type}, {"Revenue", type number}, {"Orders", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

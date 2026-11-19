@@ -1,0 +1,20 @@
+// All KPIs, whole period
+EVALUATE ROW(
+ "Net Sales", [Net Sales], "Orders", [Orders], "Profit Margin %", [Profit Margin %],
+ "On-Time Delivery %", [On-Time Delivery %], "Late Delivery %", [Late Delivery %],
+ "Avg Actual Ship Days", [Avg Actual Ship Days], "Net Sales of Late Orders", [Net Sales of Late Orders],
+ "Late Sales %", [Late Sales %], "Cancelled Orders %", [Cancelled Orders %], "Discount %", [Discount %],
+ "Avg Order Value", [Avg Order Value], "Units", [Units], "Avg Delay (Late Orders)", [Avg Delay (Late Orders)])
+---
+// By shipping mode (should match pandas: First 100, Second 79.9, Standard 39.9, Same Day 47.8)
+EVALUATE SUMMARIZECOLUMNS('Shipping Mode'[Shipping Mode],
+ "Late %", [Late Delivery %], "Sched", [Avg Scheduled Ship Days], "Actual", [Avg Actual Ship Days], "vs Plan", [Ship Days vs Plan])
+---
+// YoY by year
+EVALUATE SUMMARIZECOLUMNS('Date'[Year], "Net Sales", [Net Sales], "PY", [Net Sales PY], "YoY", [Net Sales YoY %])
+---
+// Market
+EVALUATE SUMMARIZECOLUMNS(Region[Market], "Net Sales", [Net Sales], "Late %", [Late Delivery %])
+---
+// Relationships work for product and customer
+EVALUATE TOPN(5, SUMMARIZECOLUMNS('Product'[Department], Customer[Segment], "Net Sales", [Net Sales]), [Net Sales])

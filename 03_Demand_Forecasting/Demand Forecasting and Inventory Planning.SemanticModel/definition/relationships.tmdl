@@ -1,0 +1,28 @@
+relationship 46b13fc7-ad41-5e2e-b36c-e27a3aa06d68
+	fromColumn: 'Weekly Sales'.'Week Start'
+	toColumn: Week.'Week Start'
+
+relationship 89d4b970-275b-50a0-bce9-09d56f514cbc
+	fromColumn: 'Weekly Sales'.StockCode
+	toColumn: Product.StockCode
+
+relationship a553731e-679a-5a34-870c-31e768eb7117
+	fromColumn: Forecast.'Week Start'
+	toColumn: Week.'Week Start'
+
+relationship 35f9856b-1ad0-5d63-b0c9-e3bf26b96df7
+	fromColumn: Forecast.StockCode
+	toColumn: Product.StockCode
+
+relationship 5eaa795c-6025-52d4-b36e-ed81ace47deb
+	fromColumn: Forecast.Model
+	toColumn: Model.Model
+
+relationship 5abe97b9-0ecf-526e-bdb9-80c49c07610d
+	fromColumn: 'Model Accuracy'.StockCode
+	toColumn: Product.StockCode
+
+relationship eec48302-e7b2-51b8-9527-9bdddf1aa9b0
+	fromColumn: 'Model Accuracy'.Model
+	toColumn: Model.Model
+

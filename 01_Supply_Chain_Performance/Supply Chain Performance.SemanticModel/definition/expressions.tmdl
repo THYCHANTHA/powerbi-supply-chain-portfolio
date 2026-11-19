@@ -1,0 +1,6 @@
+/// Folder that holds the cleaned CSV files. Change it if you move the project.
+expression DataFolder = "D:\Data Anlysis Remote Work\Portfolio\01_Supply_Chain_Performance\data\clean\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 6df1d2b8-d3a2-5de5-ac08-9aecabb19c19
+
+	annotation PBI_ResultType = Text
+

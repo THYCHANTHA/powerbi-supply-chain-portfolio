@@ -1,0 +1,49 @@
+table Customer
+	lineageTag: f30b9a5b-68b9-5ba4-abb0-6243483fab55
+
+	column 'Customer Id'
+		dataType: int64
+		isHidden
+		lineageTag: 87c99bad-149a-5eec-ac7c-2903f5d79036
+		summarizeBy: none
+		sourceColumn: Customer Id
+
+		annotation SummarizationSetBy = User
+
+	column Segment
+		dataType: string
+		lineageTag: bfc412e2-063e-59db-ba5b-4f928f31e6ba
+		summarizeBy: none
+		sourceColumn: Segment
+
+		annotation SummarizationSetBy = User
+
+	column State
+		dataType: string
+		lineageTag: e7ffec4f-f782-55f4-b9b1-b7011f884448
+		summarizeBy: none
+		sourceColumn: State
+
+		annotation SummarizationSetBy = User
+
+	column Country
+		dataType: string
+		lineageTag: 51529614-2ce7-5834-ac10-7743e1a5b479
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = User
+
+	partition Customer = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_customer.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Customer Id", Int64.Type}, {"Segment", type text}, {"State", type text}, {"Country", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

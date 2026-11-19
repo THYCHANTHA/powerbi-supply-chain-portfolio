@@ -1,0 +1,267 @@
+/// One row per shipment line (USAID SCMS health commodities, 2006-2015).
+table 'Shipment Lines'
+	lineageTag: 62edae83-5e0f-5c47-90a3-0bf79eb763fe
+
+	column 'Line Id'
+		dataType: int64
+		isHidden
+		lineageTag: 1e54bae8-7db9-5c30-b383-494e40a49aef
+		summarizeBy: none
+		sourceColumn: Line Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Project Code'
+		dataType: string
+		lineageTag: 3381fa4f-df46-552f-af19-fa7dc76166d6
+		summarizeBy: none
+		sourceColumn: Project Code
+
+		annotation SummarizationSetBy = User
+
+	column 'PO Number'
+		dataType: string
+		lineageTag: 212aac57-ffb6-5e85-b406-0e55761e24bd
+		summarizeBy: none
+		sourceColumn: PO Number
+
+		annotation SummarizationSetBy = User
+
+	column 'Shipment Number'
+		dataType: string
+		lineageTag: 7e876554-5841-53e7-9573-d3a30d6d6caa
+		summarizeBy: none
+		sourceColumn: Shipment Number
+
+		annotation SummarizationSetBy = User
+
+	column Country
+		dataType: string
+		isHidden
+		lineageTag: 104f1a2d-063e-52a0-a878-d793dd937311
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = User
+
+	column Vendor
+		dataType: string
+		isHidden
+		lineageTag: 6a264c04-823b-579c-bb2b-38426fdff2c3
+		summarizeBy: none
+		sourceColumn: Vendor
+
+		annotation SummarizationSetBy = User
+
+	column 'Item Id'
+		dataType: int64
+		isHidden
+		lineageTag: 251f9f1b-724e-5d32-8f75-81f460481d90
+		summarizeBy: none
+		sourceColumn: Item Id
+
+		annotation SummarizationSetBy = User
+
+	column 'Shipment Mode'
+		dataType: string
+		lineageTag: 3a7c8e96-4a1b-59ec-a120-99e2c441c094
+		summarizeBy: none
+		sourceColumn: Shipment Mode
+
+		annotation SummarizationSetBy = User
+
+	column 'Fulfill Via'
+		dataType: string
+		lineageTag: 2e29a9f7-6824-5948-a7d4-16458805de08
+		summarizeBy: none
+		sourceColumn: Fulfill Via
+
+		annotation SummarizationSetBy = User
+
+	column 'INCO Term'
+		dataType: string
+		lineageTag: 1b52a318-a9b6-50f2-b2eb-aee6f562f2ba
+		summarizeBy: none
+		sourceColumn: INCO Term
+
+		annotation SummarizationSetBy = User
+
+	column 'Scheduled Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 2ac1d4de-1360-56a8-9197-97cb45805cc4
+		summarizeBy: none
+		sourceColumn: Scheduled Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Delivered Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 96f4d934-3fd1-55f7-ad6a-0cb3170cfb33
+		summarizeBy: none
+		sourceColumn: Delivered Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'PO Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 1e44ea9a-f8db-54e5-ac3e-040df39da9b7
+		summarizeBy: none
+		sourceColumn: PO Date
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Quantity
+		dataType: int64
+		isHidden
+		lineageTag: c3034464-5c8c-55a9-a712-44657f7d96f4
+		summarizeBy: none
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = User
+
+	column 'Line Value'
+		dataType: double
+		isHidden
+		lineageTag: bae4497f-62e8-5ed0-854a-73feaeba2774
+		summarizeBy: none
+		sourceColumn: Line Value
+
+		annotation SummarizationSetBy = User
+
+	column 'Pack Price'
+		dataType: double
+		isHidden
+		lineageTag: 4d1915d5-de04-5521-828b-34a85c448afd
+		summarizeBy: none
+		sourceColumn: Pack Price
+
+		annotation SummarizationSetBy = User
+
+	column 'Benchmark Value'
+		dataType: double
+		isHidden
+		lineageTag: 4ecb5776-fa8e-5ea5-845c-9c85cff640f7
+		summarizeBy: none
+		sourceColumn: Benchmark Value
+
+		annotation SummarizationSetBy = User
+
+	column 'Price Variance'
+		dataType: double
+		isHidden
+		lineageTag: 3f3824f0-c14e-5126-bfd6-178cf69b42df
+		summarizeBy: none
+		sourceColumn: Price Variance
+
+		annotation SummarizationSetBy = User
+
+	column 'Weight Kg'
+		dataType: double
+		isHidden
+		lineageTag: c170294e-f6f4-5460-9cf0-7e7278648beb
+		summarizeBy: none
+		sourceColumn: Weight Kg
+
+		annotation SummarizationSetBy = User
+
+	column 'Freight USD'
+		dataType: double
+		isHidden
+		lineageTag: 82477ea5-5514-5a8a-8dbe-faa36e4ba2e2
+		summarizeBy: none
+		sourceColumn: Freight USD
+
+		annotation SummarizationSetBy = User
+
+	column 'Insurance USD'
+		dataType: double
+		isHidden
+		lineageTag: a2a8fa27-8d66-5be2-b0ff-b9c37ecabde0
+		summarizeBy: none
+		sourceColumn: Insurance USD
+
+		annotation SummarizationSetBy = User
+
+	column 'Freight Status'
+		dataType: string
+		lineageTag: 09843332-1030-5942-a32b-fd308738ce9f
+		summarizeBy: none
+		sourceColumn: Freight Status
+
+		annotation SummarizationSetBy = User
+
+	column 'Days Late'
+		dataType: int64
+		isHidden
+		lineageTag: 50c7d693-9163-5a36-bc80-d22ad0bcd774
+		summarizeBy: none
+		sourceColumn: Days Late
+
+		annotation SummarizationSetBy = User
+
+	column 'Is Late'
+		dataType: int64
+		isHidden
+		lineageTag: c5bfddb4-4f7a-50cd-9277-2399dac2afe2
+		summarizeBy: none
+		sourceColumn: Is Late
+
+		annotation SummarizationSetBy = User
+
+	column 'PO to Delivery Days'
+		dataType: int64
+		isHidden
+		lineageTag: 924a0910-744c-5b9e-b54a-2d65cb9d86d7
+		summarizeBy: none
+		sourceColumn: PO to Delivery Days
+
+		annotation SummarizationSetBy = User
+
+	column 'Freight For Rate'
+		dataType: double
+		isHidden
+		lineageTag: 438bf750-8f1f-55ba-b297-273cac637159
+		summarizeBy: none
+		sourceColumn: Freight For Rate
+
+		annotation SummarizationSetBy = User
+
+	column 'Weight For Rate'
+		dataType: double
+		isHidden
+		lineageTag: ce92d67f-f7cd-5f1f-bb8f-254c144b667b
+		summarizeBy: none
+		sourceColumn: Weight For Rate
+
+		annotation SummarizationSetBy = User
+
+	column 'Value With Freight'
+		dataType: double
+		isHidden
+		lineageTag: b16421b4-8f64-5e15-9c56-58aa96d67017
+		summarizeBy: none
+		sourceColumn: Value With Freight
+
+		annotation SummarizationSetBy = User
+
+	partition 'Shipment Lines' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_shipment_lines.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"Line Id", Int64.Type}, {"Project Code", type text}, {"PO Number", type text}, {"Shipment Number", type text}, {"Country", type text}, {"Vendor", type text}, {"Item Id", Int64.Type}, {"Shipment Mode", type text}, {"Fulfill Via", type text}, {"INCO Term", type text}, {"Scheduled Date", type date}, {"Delivered Date", type date}, {"PO Date", type date}, {"Quantity", Int64.Type}, {"Line Value", type number}, {"Pack Price", type number}, {"Benchmark Value", type number}, {"Price Variance", type number}, {"Weight Kg", type number}, {"Freight USD", type number}, {"Insurance USD", type number}, {"Freight Status", type text}, {"Days Late", Int64.Type}, {"Is Late", Int64.Type}, {"PO to Delivery Days", Int64.Type}, {"Freight For Rate", type number}, {"Weight For Rate", type number}, {"Value With Freight", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

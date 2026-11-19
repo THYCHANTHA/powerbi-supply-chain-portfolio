@@ -1,0 +1,20 @@
+relationship fbb8897a-03bf-541c-93c9-be041ffd030f
+	fromColumn: 'Order Lines'.'Order Date'
+	toColumn: Date.Date
+
+relationship fb7f8aec-703f-5737-b285-f1ddf6b4989f
+	fromColumn: 'Order Lines'.'Product Id'
+	toColumn: Product.'Product Id'
+
+relationship e48f0a64-3c46-5b2b-b101-5e04009787a1
+	fromColumn: 'Order Lines'.'Customer Id'
+	toColumn: Customer.'Customer Id'
+
+relationship 2404ddf0-ac66-50c8-9a5d-2beaf8ef5c4a
+	fromColumn: 'Order Lines'.'Region Id'
+	toColumn: Region.'Region Id'
+
+relationship 30ccd56f-44b5-5790-ad7f-dceefc20a146
+	fromColumn: 'Order Lines'.'Shipping Mode'
+	toColumn: 'Shipping Mode'.'Shipping Mode'
+
